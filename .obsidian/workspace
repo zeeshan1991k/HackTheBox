@@ -1,0 +1,100 @@
+{
+  "main": {
+    "id": "dfde84fb55ed7c99",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d8810b876b54048",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Crossfit/50 - Reverse Engineering.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d0e561e43ab32d49",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c00983742b23e63",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2856ab3e1a1075a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "aba0803ddb650b99",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fc126939635e0e87",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e1cad85fce9d2dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c5050cc1662824a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Crossfit/50 - Reverse Engineering.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Crossfit/50 - Reverse Engineering.md",
+    "Pasted image 20210402043447.png",
+    "Pasted image 20210402044024.png",
+    "Pasted image 20210402072602.png",
+    "Pasted image 20210402095500.png",
+    "Pasted image 20210402100022.png",
+    "Pasted image 20210403012944.png",
+    "Pasted image 20210401021706.png",
+    "Pasted image 20210401020308.png",
+    "Pasted image 20210401015213.png"
+  ]
+}
