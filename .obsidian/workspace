@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Crossfit/50 - Reverse Engineering.md",
+            "file": "TheNotebook/10 - Common Enumeration.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Crossfit/50 - Reverse Engineering.md",
+                "file": "TheNotebook/10 - Common Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,6 +86,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Untitled.md",
     "Crossfit/50 - Reverse Engineering.md",
     "Crossfit/45 - Issac.md",
     "Pasted image 20210402043447.png",
@@ -94,7 +95,6 @@
     "Pasted image 20210402095500.png",
     "Pasted image 20210402100022.png",
     "Pasted image 20210403012944.png",
-    "Pasted image 20210401021706.png",
-    "Pasted image 20210401020308.png"
+    "Pasted image 20210401021706.png"
   ]
 }
