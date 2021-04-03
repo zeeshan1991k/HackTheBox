@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TheNotebook/10 - Common Enumeration.md",
-            "mode": "source"
+            "file": "TheNotebook/15 - Websites.md",
+            "mode": "preview"
           }
         }
       }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheNotebook/10 - Common Enumeration.md",
+                "file": "TheNotebook/15 - Websites.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,6 +86,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "TheNotebook/15 - Websites.md",
     "TheNotebook/10 - Common Enumeration.md",
     "TheNotebook/5 - Loot.md",
     "Untitled.md",
@@ -94,7 +95,6 @@
     "Pasted image 20210402043447.png",
     "Pasted image 20210402044024.png",
     "Pasted image 20210402072602.png",
-    "Pasted image 20210402095500.png",
-    "Pasted image 20210402100022.png"
+    "Pasted image 20210402095500.png"
   ]
 }
