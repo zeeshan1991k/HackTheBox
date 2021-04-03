@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TheNotebook/15 - Websites.md",
+            "file": "TheNotebook/10 - Common Enumeration.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheNotebook/15 - Websites.md",
+                "file": "TheNotebook/10 - Common Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,6 +86,8 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "TheNotebook/10 - Common Enumeration.md",
+    "TheNotebook/5 - Loot.md",
     "Untitled.md",
     "Crossfit/50 - Reverse Engineering.md",
     "Crossfit/45 - Issac.md",
@@ -93,8 +95,6 @@
     "Pasted image 20210402044024.png",
     "Pasted image 20210402072602.png",
     "Pasted image 20210402095500.png",
-    "Pasted image 20210402100022.png",
-    "Pasted image 20210403012944.png",
-    "Pasted image 20210401021706.png"
+    "Pasted image 20210402100022.png"
   ]
 }

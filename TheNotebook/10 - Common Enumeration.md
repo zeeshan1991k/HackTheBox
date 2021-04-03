@@ -40,3 +40,18 @@ HOP RTT       ADDRESS
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 # Nmap done at Sat Apr  3 17:54:49 2021 -- 1 IP address (1 host up) scanned in 76.91 seconds
 ```
+
+## Gobuster 
+ http://10.10.10.230/
+ ```bash
+/admin                (Status: 403) [Size: 9]
+/logout               (Status: 302) [Size: 209] [--> http://10.10.10.230/]
+/login                (Status: 200) [Size: 1250]
+/register             (Status: 200) [Size: 1422]
+```
+http://10.10.10.230/admin
+```bash
+/notes                (Status: 200) [Size: 1713]
+/upload               (Status: 403) [Size: 9]
+```
+
