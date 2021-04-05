@@ -104,4 +104,6 @@ qv5YsS0JZFji1PtaJbLKA4sCAwEAAQ==
 ![[Pasted image 20210405090237.png]]
 ## Logged in as admin
 ![[Pasted image 20210405091027.png]]
+## Got reverse shell as www-data
+![[Pasted image 20210405091704.png]]
 
