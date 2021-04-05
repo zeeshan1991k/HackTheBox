@@ -101,5 +101,5 @@ qv5YsS0JZFji1PtaJbLKA4sCAwEAAQ==
 ```
 
 ## Changing JSON Web Token to log in as admin
-![[Pasted image 20210405085121.png]]
+![[Pasted image 20210405090237.png]]
 
