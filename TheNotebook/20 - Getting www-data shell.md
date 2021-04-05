@@ -8,3 +8,4 @@ Logged in as 'clarkey user'.
 ## Fetching JSON Web-token via burp
 ![[Pasted image 20210405081234.png]]
 ## Decoding JSON Web-token on https://jwt.io/
+![[Pasted image 20210405081847.png]]
