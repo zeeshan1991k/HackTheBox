@@ -102,6 +102,8 @@ qv5YsS0JZFji1PtaJbLKA4sCAwEAAQ==
 
 ## Changing JSON Web Token to log in as admin
 ![[Pasted image 20210405090237.png]]
+## Changed JSON Web Token in firefox plugin Cookie editor
+![[Pasted image 20210407101513.png]]
 ## Logged in as admin
 ![[Pasted image 20210405091027.png]]
 ## Got reverse shell as www-data

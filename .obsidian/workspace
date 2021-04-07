@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TheNotebook/5 - Loot.md",
+            "file": "TheNotebook/20 - Getting www-data shell.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheNotebook/5 - Loot.md",
+                "file": "TheNotebook/20 - Getting www-data shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "1d8810b876b54048",
   "lastOpenFiles": [
-    "TheNotebook/5 - Loot.md",
-    "TheNotebook/Untitled.md",
-    "TheNotebook/25 - www-data to Noah User.md",
-    "Untitled.md",
     "TheNotebook/20 - Getting www-data shell.md",
     "TheNotebook/15 - Websites.md",
     "TheNotebook/10 - Common Enumeration.md",
+    "TheNotebook/5 - Loot.md",
+    "TheNotebook/25 - www-data to Noah User.md",
+    "TheNotebook/30 - Noah user to Root.md",
+    "TheNotebook/Untitled.md",
+    "Untitled.md",
     "Crossfit/50 - Reverse Engineering.md",
-    "Crossfit/45 - Issac.md",
-    "Pasted image 20210402043447.png"
+    "Crossfit/45 - Issac.md"
   ]
 }
