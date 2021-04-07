@@ -24,3 +24,7 @@ total 688
 ...[snip]...
 ```
 ![[Pasted image 20210407061517.png]]
+## Copied home.tar.gz to local kali vm
+![[Pasted image 20210407062137.png]]
+## ssh logged in as noah user via private key and got user flag
+![[Pasted image 20210407062533.png]]
