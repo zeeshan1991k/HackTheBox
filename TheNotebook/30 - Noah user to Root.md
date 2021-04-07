@@ -109,3 +109,4 @@ func main() {
 ## Downloaded , edited and transferred exploit to victim docker container
 ![[Pasted image 20210407091837.png]]
 ## Ran exploit and got shell as root and got root flag
+![[Pasted image 20210407100629.png]]
