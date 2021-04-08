@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TheNotebook/30 - Noah user to Root.md",
-            "mode": "preview"
+            "file": "Ready/15 - Web-pages.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheNotebook/30 - Noah user to Root.md",
+                "file": "Ready/15 - Web-pages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "1d8810b876b54048",
   "lastOpenFiles": [
+    "Ready/Untitled.md",
     "TheNotebook/30 - Noah user to Root.md",
     "TheNotebook/25 - www-data to Noah User.md",
     "TheNotebook/20 - Getting www-data shell.md",
@@ -96,7 +97,6 @@
     "TheNotebook/5 - Loot.md",
     "TheNotebook/Untitled.md",
     "Untitled.md",
-    "Crossfit/50 - Reverse Engineering.md",
-    "Crossfit/45 - Issac.md"
+    "Crossfit/50 - Reverse Engineering.md"
   ]
 }
