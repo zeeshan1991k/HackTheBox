@@ -1,6 +1,6 @@
 # Loot
 ## Drupal database credentials
-Drupal database credentials got from 
+Drupal database credentials got from gitlab community edition 'dude' user.
 ```php
 $databases = array (
   'default' => 
