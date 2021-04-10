@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Ready/15 - Web-pages.md",
+            "file": "Ready/5 - Loot.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ready/15 - Web-pages.md",
+                "file": "Ready/5 - Loot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "1d8810b876b54048",
   "lastOpenFiles": [
+    "Ready/5 - Loot.md",
     "Ready/Untitled.md",
     "TheNotebook/30 - Noah user to Root.md",
     "TheNotebook/25 - www-data to Noah User.md",
@@ -96,7 +97,6 @@
     "TheNotebook/10 - Common Enumeration.md",
     "TheNotebook/5 - Loot.md",
     "TheNotebook/Untitled.md",
-    "Untitled.md",
-    "Crossfit/50 - Reverse Engineering.md"
+    "Untitled.md"
   ]
 }
