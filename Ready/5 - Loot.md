@@ -1,20 +1,9 @@
 # Loot
-## Drupal database credentials
-Drupal database credentials got from gitlab community edition 'dude' user.
-```php
-$databases = array (
-  'default' => 
-  array (
-    'default' => 
-    array (
-      'database' => 'drupal',
-      'username' => 'drupaluser',
-      'password' => '%%cHzhNC=k9yYN!T',
-      'host' => 'localhost',
-      'port' => '',
-      'driver' => 'mysql',
-      'prefix' => '',
-    ),
-  ),
-);
+## Got root@gitlab password
+Got gitlab@root password using linpeas script.
+```bash
+...[snip]...
+/opt/backup/gitlab.rb:gitlab_rails['smtp_password'] = "wW59U!ZKMbG9+*#h"
+...[snip]...
 ```
+root@gitlab:wW59U!ZKMbG9+*#h
