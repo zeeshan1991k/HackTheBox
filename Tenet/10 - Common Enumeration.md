@@ -48,3 +48,27 @@ HOP RTT       ADDRESS
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 15.44 seconds
 ```
+## Gobuster
+```bash
+~/Dropbox/Documents/htb/boxes/tenet ❯ gobuster dir -u http://10.10.10.223 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt  -o gobuster/http-root.log -t 100
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.10.223
+[+] Method:                  GET
+[+] Threads:                 100
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2021/04/12 12:19:29 Starting gobuster in directory enumeration mode
+===============================================================
+/wordpress            (Status: 301) [Size: 316] [--> http://10.10.10.223/wordpress/]
+/server-status        (Status: 403) [Size: 277]
+
+===============================================================
+2021/04/12 12:24:27 Finished
+===============================================================
+```
