@@ -49,3 +49,16 @@ HOP RTT       ADDRESS
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 20.45 seconds
 ```
+## Gobuster
+```bash
+ ❯ cat gobuster/http-root.log
+/search               (Status: 200) [Size: 12402]
+/help                 (Status: 200) [Size: 37682]
+/public               (Status: 200) [Size: 14374]
+/test                 (Status: 200) [Size: 15463]
+/root                 (Status: 200) [Size: 15504]
+/explore              (Status: 200) [Size: 13052]
+/ci                   (Status: 301) [Size: 91] [--> http://10.10.10.220:5080/]
+/dude                 (Status: 200) [Size: 15459]
+/health_check         (Status: 404) [Size: 3108]
+```
