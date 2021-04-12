@@ -5,7 +5,7 @@
 ![[Pasted image 20210412035257.png]]
 ## Found exploit related to Gitlab community edition version
 [exploit](https://www.exploit-db.com/exploits/49334)
-Exploit 
+Exploit code
 ```python
 # Exploit Title: GitLab 11.4.7 RCE (POC)
 # Date: 24th December 2020
