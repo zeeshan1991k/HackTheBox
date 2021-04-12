@@ -73,7 +73,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 2021/04/12 12:24:27 Finished
 ===============================================================
 ```
-gobuster for tenet.htb
+gobuster for tenet.htb.
 ```bash
 ~/Dropbox/Documents/htb/boxes/tenet 1m 46s ❯ gobuster dir -u http://tenet.htb/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt  -o gobuster/http-tenet.log -t 100
 ===============================================================
