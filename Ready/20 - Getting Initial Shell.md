@@ -1,6 +1,8 @@
 # Getting Initial Shell
 ## Making account on http://10.10.10.220:5080/users/sign_in
 ![[Pasted image 20210412035116.png]]
+## Signing in with that account
+![[Pasted image 20210412041602.png]]
 ## Finding version of Gitlab Community Edition
 ![[Pasted image 20210412035257.png]]
 ## Found exploit related to Gitlab community edition version
@@ -110,3 +112,5 @@ if "The change you requested was rejected." in r.text:
 
 print('[+] Exploit completed successfully!')
 ```
+## Got initial shell as git@gitlab
+![[Pasted image 20210412042021.png]]
