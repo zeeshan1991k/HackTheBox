@@ -49,6 +49,7 @@ OS and Service detection performed. Please report any incorrect results at https
 Nmap done: 1 IP address (1 host up) scanned in 15.44 seconds
 ```
 ## Gobuster
+gobuster for http://10.10.10.223
 ```bash
 ~/Dropbox/Documents/htb/boxes/tenet ❯ gobuster dir -u http://10.10.10.223 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt  -o gobuster/http-root.log -t 100
 ===============================================================
@@ -70,5 +71,31 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 
 ===============================================================
 2021/04/12 12:24:27 Finished
+===============================================================
+```
+gobuster for tenet.htb
+```bash
+~/Dropbox/Documents/htb/boxes/tenet 1m 46s ❯ gobuster dir -u http://tenet.htb/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt  -o gobuster/http-tenet.log -t 100
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://tenet.htb/
+[+] Method:                  GET
+[+] Threads:                 100
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2021/04/12 12:51:39 Starting gobuster in directory enumeration mode
+===============================================================
+/wp-content           (Status: 301) [Size: 311] [--> http://tenet.htb/wp-content/]
+/wp-includes          (Status: 301) [Size: 312] [--> http://tenet.htb/wp-includes/]
+/wp-admin             (Status: 301) [Size: 309] [--> http://tenet.htb/wp-admin/]
+/server-status        (Status: 403) [Size: 274]
+
+===============================================================
+2021/04/12 12:56:54 Finished
 ===============================================================
 ```

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Tenet/15 - Webpages.md",
+            "file": "Tenet/10 - Common Enumeration.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tenet/15 - Webpages.md",
+                "file": "Tenet/10 - Common Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "1d8810b876b54048",
   "lastOpenFiles": [
+    "Tenet/10 - Common Enumeration.md",
     "Tenet/Untitled.md",
     "Ready/5 - Loot.md",
     "Ready/30 - Breaking out of docker container.md",
@@ -96,7 +97,6 @@
     "Ready/15 - Web-pages.md",
     "Ready/10 - Common Enumeration.md",
     "Ready/Untitled.md",
-    "Ready/25 - Got root@gitlab shell.md",
-    "Pasted image 20210401012503.png"
+    "Ready/25 - Got root@gitlab shell.md"
   ]
 }
