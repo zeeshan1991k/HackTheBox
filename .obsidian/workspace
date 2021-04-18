@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Tenet/15 - Webpages.md",
-            "mode": "preview"
+            "file": "Tenet/20 - tenet.htb.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tenet/15 - Webpages.md",
+                "file": "Tenet/20 - tenet.htb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "1d8810b876b54048",
   "lastOpenFiles": [
+    "Tenet/15 - tenet.htb.md",
     "Tenet/15 - Webpages.md",
-    "Tenet/10 - Common Enumeration.md",
     "Tenet/Untitled.md",
+    "Tenet/10 - Common Enumeration.md",
     "Ready/5 - Loot.md",
     "Ready/30 - Breaking out of docker container.md",
     "Ready/25 - Privileged shell.md",
     "Ready/20 - Getting Initial Shell.md",
     "Ready/15 - Web-pages.md",
-    "Ready/10 - Common Enumeration.md",
-    "Ready/Untitled.md"
+    "Ready/10 - Common Enumeration.md"
   ]
 }
