@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Tenet/20 - tenet.htb.md",
+            "file": "TheNotebook/30 - Noah user to Root.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tenet/20 - tenet.htb.md",
+                "file": "TheNotebook/30 - Noah user to Root.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "1d8810b876b54048",
   "lastOpenFiles": [
+    "TheNotebook/30 - Noah user to Root.md",
+    "Pasted image 20210401013825.png",
+    "Pasted image 20210401012503.png",
     "Tenet/20 - tenet.htb.md",
     "Tenet/15 - tenet.htb.md",
     "Tenet/15 - Webpages.md",
     "Tenet/Untitled.md",
     "Tenet/10 - Common Enumeration.md",
     "Ready/5 - Loot.md",
-    "Ready/30 - Breaking out of docker container.md",
-    "Ready/25 - Privileged shell.md",
-    "Ready/20 - Getting Initial Shell.md",
-    "Ready/15 - Web-pages.md"
+    "Ready/30 - Breaking out of docker container.md"
   ]
 }
