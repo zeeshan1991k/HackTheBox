@@ -3,6 +3,7 @@
 All ports scan without service version and os detection.
 ```bash
 ❯ sudo nmap -p- --min-rate 10000 -oA nmap/ready 10.10.10.220
+
 Starting Nmap 7.91 ( https://nmap.org ) at 2021-04-08 15:17 PKT
 Warning: 10.10.10.220 giving up on port because retransmission cap hit (10).
 Nmap scan report for ready.htb (10.10.10.220)
@@ -15,6 +16,7 @@ PORT     STATE SERVICE
 Detected ports scan with service version and os detection.
 ```bash
 ❯ sudo nmap -p22,5080 --min-rate 10000 -A  -oA nmap/ready_version 10.10.10.220
+
 Starting Nmap 7.91 ( https://nmap.org ) at 2021-04-08 15:25 PKT
 Stats: 0:00:07 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
 Service scan Timing: About 50.00% done; ETC: 15:25 (0:00:06 remaining)
