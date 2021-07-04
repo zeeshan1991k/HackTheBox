@@ -12,7 +12,7 @@ PORT     STATE SERVICE
 22/tcp   open  ssh
 5080/tcp open  onscreen
 ```
-Detected ports' scan with service version and os detection.
+Detected ports scan with service version and os detection.
 ```bash
 ❯ sudo nmap -p22,5080 --min-rate 10000 -A  -oA nmap/ready_version 10.10.10.220
 Starting Nmap 7.91 ( https://nmap.org ) at 2021-04-08 15:25 PKT
