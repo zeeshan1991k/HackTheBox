@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TheNotebook/30 - Noah user to Root.md",
+            "file": "TheNotebook/5 - Loot.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheNotebook/30 - Noah user to Root.md",
+                "file": "TheNotebook/5 - Loot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "1d8810b876b54048",
   "lastOpenFiles": [
+    "TheNotebook/5 - Loot.md",
     "TheNotebook/30 - Noah user to Root.md",
     "Untitled.md",
     "Untitled 1.md",
@@ -96,7 +97,6 @@
     "Tenet/20 - tenet.htb.md",
     "Tenet/15 - tenet.htb.md",
     "Tenet/15 - Webpages.md",
-    "Tenet/Untitled.md",
-    "Tenet/10 - Common Enumeration.md"
+    "Tenet/Untitled.md"
   ]
 }
