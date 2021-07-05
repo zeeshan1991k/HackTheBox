@@ -43,6 +43,8 @@ HOP RTT       ADDRESS
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 20.33 seconds
 ```
-
+## Gobuster
+```bash
+ gobuster dir -u http://10.10.10.171/ -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt  -o gobuster/http-root.out -t 100  
 
 
