@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Shocker_Retired/35 - Got root flag.md",
-            "mode": "preview"
+            "file": "OpenAdmin_Retired/Untitled.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Shocker_Retired/35 - Got root flag.md",
+                "file": "OpenAdmin_Retired/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "1d8810b876b54048",
   "lastOpenFiles": [
+    "OpenAdmin_Retired/Untitled.md",
     "Shocker_Retired/35 - Got root flag.md",
     "Shocker_Retired/30 - Privilege Escalation to root.md",
     "Shocker_Retired/25 - Got User Flag.md",
@@ -96,7 +97,6 @@
     "Shocker_Retired/10 - Common Enumration.md",
     "Shocker_Retired/5 - Loot.md",
     "Shocker_Retired/Untitled.md",
-    "Ready/20 - Getting Initial Shell.md",
-    "Ready/30 - Breaking out of docker container and getting ssh shell as root on ready machine.md"
+    "Ready/20 - Getting Initial Shell.md"
   ]
 }
