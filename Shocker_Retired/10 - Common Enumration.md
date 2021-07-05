@@ -80,3 +80,43 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 2021/07/04 17:02:54 Finished
 ===============================================================
 ```
+Found user.sh
+```bash
+ gobuster dir -u http://10.10.10.56/cgi-bin/ -w /usr/share/wordlists/dirb/big.txt -x cgi,js,txt,php,sh,pl -o gobuster/http-big.out -t 100            
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.10.56/cgi-bin/
+[+] Method:                  GET
+[+] Threads:                 100
+[+] Wordlist:                /usr/share/wordlists/dirb/big.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Extensions:              txt,php,sh,pl,cgi,js
+[+] Timeout:                 10s
+===============================================================
+2021/07/05 11:15:18 Starting gobuster in directory enumeration mode
+===============================================================
+/.htaccess.pl         (Status: 403) [Size: 306]
+/.htpasswd.pl         (Status: 403) [Size: 306]
+/.htpasswd.cgi        (Status: 403) [Size: 307]
+/.htaccess.cgi        (Status: 403) [Size: 307]
+/.htpasswd            (Status: 403) [Size: 303]
+/.htaccess.js         (Status: 403) [Size: 306]
+/.htpasswd.js         (Status: 403) [Size: 306]
+/.htaccess.txt        (Status: 403) [Size: 307]
+/.htpasswd.txt        (Status: 403) [Size: 307]
+/.htaccess.php        (Status: 403) [Size: 307]
+/.htpasswd.php        (Status: 403) [Size: 307]
+/.htaccess.sh         (Status: 403) [Size: 306]
+/.htpasswd.sh         (Status: 403) [Size: 306]
+/.htaccess            (Status: 403) [Size: 303]
+/user.sh              (Status: 200) [Size: 118]
+Progress: 134036 / 143290 (93.54%)            [ERROR] 2021/07/05 11:18:03 [!] Get "http://10.10.10.56/cgi-bin/translations.cgi": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Progress: 143283 / 143290 (100.00%)           [ERROR] 2021/07/05 11:18:26 [!] Get "http://10.10.10.56/cgi-bin/xmllogs": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+
+===============================================================
+2021/07/05 11:18:27 Finished
+===============================================================
+```
