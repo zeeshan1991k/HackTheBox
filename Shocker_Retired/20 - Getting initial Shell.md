@@ -151,3 +151,6 @@ while True:
 			pass
 ```
 Got initial shell as `shelly` user by running above exploit.
+![[Pasted image 20210705095815.png]]
+## Got tty shell using python
+![[Pasted image 20210705100539.png]]
