@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Shocker_Retired/25 - Got User Flag.md",
+            "file": "Shocker_Retired/30 - Privilege Escalation to root.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Shocker_Retired/25 - Got User Flag.md",
+                "file": "Shocker_Retired/30 - Privilege Escalation to root.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
