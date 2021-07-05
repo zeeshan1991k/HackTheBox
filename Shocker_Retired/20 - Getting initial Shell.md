@@ -150,3 +150,4 @@ while True:
 		except:
 			pass
 ```
+Got initial shell as `shelly` user by running above exploit.
