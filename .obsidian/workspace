@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Shocker_Retired/35 - Got root flag.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -88,15 +88,15 @@
   },
   "active": "1d8810b876b54048",
   "lastOpenFiles": [
-    "Shocker_Retired/Untitled.md",
+    "Shocker_Retired/35 - Got root flag.md",
+    "Shocker_Retired/30 - Privilege Escalation to root.md",
+    "Shocker_Retired/25 - Got User Flag.md",
     "Shocker_Retired/20 - Getting initial Shell.md",
+    "Shocker_Retired/15 - Webpages.md",
     "Shocker_Retired/10 - Common Enumration.md",
     "Shocker_Retired/5 - Loot.md",
-    "Shocker_Retired/15 - Webpages.md",
+    "Shocker_Retired/Untitled.md",
     "Ready/20 - Getting Initial Shell.md",
-    "Ready/30 - Breaking out of docker container and getting ssh shell as root on ready machine.md",
-    "Ready/15 - Web-pages.md",
-    "Ready/10 - Common Enumeration.md",
-    "Ready/5 - Loot.md"
+    "Ready/30 - Breaking out of docker container and getting ssh shell as root on ready machine.md"
   ]
 }
