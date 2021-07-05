@@ -48,3 +48,35 @@ OS and Service detection performed. Please report any incorrect results at https
 Nmap done: 1 IP address (1 host up) scanned in 16.01 seconds
 ```
 
+## Gobuster
+```bash
+gobuster dir -u http://10.10.10.56 -w /usr/share/seclists/Discovery/Web-Content/raft-small-files.txt -o ffuf/http-root.out -t 100    
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.10.56
+[+] Method:                  GET
+[+] Threads:                 100
+[+] Wordlist:                /usr/share/seclists/Discovery/Web-Content/raft-small-files.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2021/07/04 17:02:40 Starting gobuster in directory enumeration mode
+===============================================================
+/index.html           (Status: 200) [Size: 137]
+/.htaccess            (Status: 403) [Size: 295]
+/.                    (Status: 200) [Size: 137]
+/.html                (Status: 403) [Size: 291]
+/.htpasswd            (Status: 403) [Size: 295]
+/.htm                 (Status: 403) [Size: 290]
+/.htpasswds           (Status: 403) [Size: 296]
+/.htgroup             (Status: 403) [Size: 294]
+/.htaccess.bak        (Status: 403) [Size: 299]
+/.htuser              (Status: 403) [Size: 293]
+
+===============================================================
+2021/07/04 17:02:54 Finished
+===============================================================
+```

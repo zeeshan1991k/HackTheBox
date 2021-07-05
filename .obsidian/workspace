@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Shocker_Retired/10 - Common Enumration.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -89,14 +89,14 @@
   "active": "1d8810b876b54048",
   "lastOpenFiles": [
     "Shocker_Retired/10 - Common Enumration.md",
+    "Shocker_Retired/15 - Webpages.md",
+    "Ready/30 - Breaking out of docker container and getting ssh shell as root on ready machine.md",
+    "Ready/15 - Web-pages.md",
+    "Shocker_Retired/Untitled.md",
     "Ready/10 - Common Enumeration.md",
     "Ready/5 - Loot.md",
-    "Shocker_Retired/Untitled.md",
     "TheNotebook/5 - Loot.md",
     "TheNotebook/30 - Noah user to Root.md",
-    "Untitled.md",
-    "Untitled 1.md",
-    "Pasted image 20210401013825.png",
-    "Pasted image 20210401012503.png"
+    "Untitled.md"
   ]
 }
