@@ -53,3 +53,8 @@ Nmap done: 1 IP address (1 host up) scanned in 20.33 seconds
 /server-status        (Status: 403) [Size: 277]
 
 ```
+## Found another subdomain
+Found another subdomain openadmin.htb
+![[Pasted image 20210706005845.png]]
+## Added new subdomain to hosts file
+![[Pasted image 20210706010123.png]]
