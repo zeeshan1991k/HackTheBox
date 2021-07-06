@@ -45,6 +45,11 @@ Nmap done: 1 IP address (1 host up) scanned in 20.33 seconds
 ```
 ## Gobuster
 ```bash
- gobuster dir -u http://10.10.10.171/ -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt  -o gobuster/http-root.out -t 100  
+❯ gobuster dir -u http://10.10.10.171/ -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt  -o gobuster/http-root.out -t 100
 
+/music                (Status: 301) [Size: 312] [--> http://10.10.10.171/music/]
+/artwork              (Status: 301) [Size: 314] [--> http://10.10.10.171/artwork/]
+/sierra               (Status: 301) [Size: 313] [--> http://10.10.10.171/sierra/]
+/server-status        (Status: 403) [Size: 277]
 
+```
