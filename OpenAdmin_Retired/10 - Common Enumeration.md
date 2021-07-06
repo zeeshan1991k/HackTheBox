@@ -54,7 +54,9 @@ Nmap done: 1 IP address (1 host up) scanned in 20.33 seconds
 
 ```
 ## Found another subdomain
-Found another subdomain openadmin.htb
+Found another subdomain openadmin.htb.
 ![[Pasted image 20210706005845.png]]
 ## Added new subdomain to hosts file
 ![[Pasted image 20210706010123.png]]
+This domain is same as 10.10.10.171 page.
+![[Pasted image 20210706010352.png]]
