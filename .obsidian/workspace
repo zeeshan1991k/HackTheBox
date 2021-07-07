@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeup_Retired/10 - Common Enumeration.md",
+            "file": "Crossfit_Retired/15 - Web-Pages.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:Crossfit_Retired hosts",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeup_Retired/10 - Common Enumeration.md",
+                "file": "Crossfit_Retired/15 - Web-Pages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +89,15 @@
   },
   "active": "c270dd0b51a1c9db",
   "lastOpenFiles": [
+    "Crossfit_Retired/15 - Web-Pages.md",
+    "OpenAdmin_Retired/10 - Common Enumeration.md",
+    "Writeup_Retired/5 - Loot.md",
     "Writeup_Retired/10 - Common Enumeration.md",
     "Writeup_Retired/15 - Webpages.md",
-    "OpenAdmin_Retired/5 - Loot.md",
     "Writeup_Retired/Untitled.md",
-    "OpenAdmin_Retired/10 - Common Enumeration.md",
-    "OpenAdmin_Retired/45 - Got root flag.md",
-    "OpenAdmin_Retired/40 - Privilege Escalation to root.md",
-    "OpenAdmin_Retired/Untitled.md",
-    "OpenAdmin_Retired/35 - Got user flag.md",
-    "Shocker_Retired/30 - Privilege Escalation to root.md"
+    "Crossfit_Retired/35 - WWW-DATA  to  HANK.md",
+    "Crossfit_Retired/30 - FTP.md",
+    "Crossfit_Retired/25 - Gym-Club XSS.md",
+    "Crossfit_Retired/20 - Gym-Club.md"
   ]
 }
