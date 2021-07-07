@@ -60,7 +60,3 @@ Found another subdomain openadmin.htb.
 ![[Pasted image 20210706010123.png]]
 This domain is same as 10.10.10.171 webpage.
 ![[Pasted image 20210706010352.png]]
-## Found another subdomain in www directory
-Found another subdomain in www directory named internal which contained three
-php files
-![[Pasted image 20210707024051.png]]
