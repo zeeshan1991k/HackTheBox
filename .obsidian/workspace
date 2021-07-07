@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OpenAdmin_Retired/25 - Privilege escalation to jimmy user.md",
+            "file": "OpenAdmin_Retired/5 - Loot.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenAdmin_Retired/25 - Privilege escalation to jimmy user.md",
+                "file": "OpenAdmin_Retired/5 - Loot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,9 @@
   },
   "active": "1d8810b876b54048",
   "lastOpenFiles": [
+    "OpenAdmin_Retired/5 - Loot.md",
     "OpenAdmin_Retired/25 - Privilege escalation to jimmy user.md",
     "OpenAdmin_Retired/10 - Common Enumeration.md",
-    "OpenAdmin_Retired/5 - Loot.md",
     "OpenAdmin_Retired/20 - Getting initial shell as www-data.md",
     "OpenAdmin_Retired/Untitled.md",
     "Shocker_Retired/20 - Getting initial Shell.md",
