@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeup_Retired/10 - Common Enumeration.md",
+            "file": "Writeup_Retired/15 - Webpages.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeup_Retired/10 - Common Enumeration.md",
+                "file": "Writeup_Retired/15 - Webpages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,9 @@
   },
   "active": "1d8810b876b54048",
   "lastOpenFiles": [
+    "Writeup_Retired/Untitled.md",
     "Writeup_Retired/10 - Common Enumeration.md",
     "OpenAdmin_Retired/10 - Common Enumeration.md",
-    "Writeup_Retired/Untitled.md",
     "OpenAdmin_Retired/5 - Loot.md",
     "OpenAdmin_Retired/45 - Got root flag.md",
     "OpenAdmin_Retired/40 - Privilege Escalation to root.md",
