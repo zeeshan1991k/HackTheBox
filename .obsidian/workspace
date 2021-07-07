@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeup_Retired/5 - Loot.md",
+            "file": "Writeup_Retired/20 - Getting shell as jkr user.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeup_Retired/5 - Loot.md",
+                "file": "Writeup_Retired/20 - Getting shell as jkr user.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,8 +88,8 @@
   },
   "active": "c270dd0b51a1c9db",
   "lastOpenFiles": [
-    "Writeup_Retired/5 - Loot.md",
     "Writeup_Retired/20 - Getting shell as jkr user.md",
+    "Writeup_Retired/5 - Loot.md",
     "Writeup_Retired/15 - Webpages.md",
     "Writeup_Retired/Untitled.md",
     "Crossfit_Retired/15 - Web-Pages.md",
