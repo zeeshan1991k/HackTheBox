@@ -5,3 +5,6 @@ Used mysqli database password  got in [[OpenAdmin_Retired/5 - Loot]] to ssg log 
 Found another subdomain in www directory named internal which contained three
 php files
 ![[Pasted image 20210707024051.png]]
+## Found another service running on 127.0.0.1:52846
+![[Pasted image 20210707031911.png]]
+
