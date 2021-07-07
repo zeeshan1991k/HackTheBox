@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Crossfit_Retired/15 - Web-Pages.md",
+            "file": "Writeup_Retired/15 - Webpages.md",
             "mode": "source"
           }
         }
@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Crossfit_Retired/15 - Web-Pages.md",
+                "file": "Writeup_Retired/15 - Webpages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,11 +88,11 @@
   },
   "active": "c270dd0b51a1c9db",
   "lastOpenFiles": [
+    "Writeup_Retired/15 - Webpages.md",
     "Crossfit_Retired/15 - Web-Pages.md",
     "OpenAdmin_Retired/10 - Common Enumeration.md",
     "Writeup_Retired/5 - Loot.md",
     "Writeup_Retired/10 - Common Enumeration.md",
-    "Writeup_Retired/15 - Webpages.md",
     "Writeup_Retired/Untitled.md",
     "Crossfit_Retired/35 - WWW-DATA  to  HANK.md",
     "Crossfit_Retired/30 - FTP.md",
