@@ -45,3 +45,5 @@ OS and Service detection performed. Please report any incorrect results at https
 Nmap done: 1 IP address (1 host up) scanned in 16.27 seconds
 ```
 
+## Gobuster
+Bruteforcing new directory /writeup got via /robo [[Writeup_Retired/15 - Webpages]]via gobuster.
