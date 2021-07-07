@@ -38,7 +38,7 @@ $ cat index.php | grep password
             <input type = "password" class = "form-control"
                name = "password" required>
 ```
-Cracked this hash and found password as Revealed
+Cracked this hash and found password as `Revealed` for webpage on 127.0.0.1:52846.
 ![[Pasted image 20210707033318.png]]
 Found ssh private key for joanna user after entering credentials jimmy:Revealed on login page.
 ```bash
