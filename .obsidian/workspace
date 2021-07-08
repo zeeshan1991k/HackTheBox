@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writeup_Retired/25 - Got user flag.md",
+            "file": "Writeup_Retired/30 - Privilege Escalation to root.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writeup_Retired/25 - Got user flag.md",
+                "file": "Writeup_Retired/30 - Privilege Escalation to root.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,14 +89,14 @@
   "active": "c270dd0b51a1c9db",
   "lastOpenFiles": [
     "Writeup_Retired/Untitled.md",
+    "Writeup_Retired/25 - Got user flag.md",
+    "Writeup_Retired/10 - Common Enumeration.md",
     "Writeup_Retired/20 - Getting shell as jkr user.md",
     "Writeup_Retired/5 - Loot.md",
     "Writeup_Retired/15 - Webpages.md",
     "Crossfit_Retired/15 - Web-Pages.md",
     "OpenAdmin_Retired/10 - Common Enumeration.md",
-    "Writeup_Retired/10 - Common Enumeration.md",
     "Crossfit_Retired/35 - WWW-DATA  to  HANK.md",
-    "Crossfit_Retired/30 - FTP.md",
-    "Crossfit_Retired/25 - Gym-Club XSS.md"
+    "Crossfit_Retired/30 - FTP.md"
   ]
 }
