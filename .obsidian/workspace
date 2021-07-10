@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Traverxec_Retired/25 - Privilege Escalation to David User.md",
+            "file": "Traverxec_Retired/35 - Privilege Escalation to root.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Traverxec_Retired/25 - Privilege Escalation to David User.md",
+                "file": "Traverxec_Retired/35 - Privilege Escalation to root.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
