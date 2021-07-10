@@ -16,3 +16,4 @@ echo "Last 5 journal log lines:"
 ```
 This script is running `journalctl` as sudo and printing first five lines of `unostromo.service` log . 
 
+
