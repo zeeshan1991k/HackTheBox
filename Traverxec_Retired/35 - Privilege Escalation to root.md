@@ -20,5 +20,6 @@ So executing `/usr/bin/sudo /usr/bin/journalctl -n5 -unostromo.service` command 
 Now  typing `!/bin/bash` in less mode will open bash as root like below.
 ![[Pasted image 20210710144230.png]]
 ![[Pasted image 20210710144300.png]]
+![[Pasted image 20210710144356.png]]
 
 
