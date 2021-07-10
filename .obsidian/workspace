@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Traverxec_Retired/20 - Getting initial shell as www-data.md",
-            "mode": "source"
+            "file": "OpenAdmin_Retired/25 - Privilege escalation to jimmy user.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Traverxec_Retired/20 - Getting initial shell as www-data.md",
+                "file": "OpenAdmin_Retired/25 - Privilege escalation to jimmy user.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "c270dd0b51a1c9db",
   "lastOpenFiles": [
+    "OpenAdmin_Retired/25 - Privilege escalation to jimmy user.md",
     "Traverxec_Retired/15 - Getting initial shell as www-data.md",
     "Traverxec_Retired/15 - Webpages.md",
     "Traverxec_Retired/10 - Common Enumeration.md",
@@ -96,7 +97,6 @@
     "Writeup_Retired/35 - Got root flag.md",
     "Writeup_Retired/30 - Privilege Escalation to root.md",
     "Writeup_Retired/Untitled.md",
-    "Writeup_Retired/25 - Got user flag.md",
-    "Writeup_Retired/20 - Getting shell as jkr user.md"
+    "Writeup_Retired/25 - Got user flag.md"
   ]
 }
