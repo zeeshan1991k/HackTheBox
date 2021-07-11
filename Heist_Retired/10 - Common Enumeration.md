@@ -64,7 +64,9 @@ Nmap done: 1 IP address (1 host up) scanned in 60.96 seconds
 ## Logging in as guest user
 Logging in as guest gives config.txt file.
 ![[Pasted image 20210711013543.png]]
+## Cracking hash obtained from config.txt
 This file contains hash `$1$pdQG$o8nrSzsGXeaduXrjlvKc91` which when cracked using hashcat gives `stealth1agent` using command `hashcat -m 500 hash.hash /content/drive/MyDrive/rockyou.txt`.
+## Accessing SMB shares of hazard user
 http://10.10.10.149/issues.php webpage has a user `Hazard` which can be used with cracked hash to access shares of user `Hazard`.
 ![[Pasted image 20210711055724.png]]
 `smbmap` can be used to know the shares of `Hazard` user.
@@ -77,7 +79,8 @@ http://10.10.10.149/issues.php webpage has a user `Hazard` which can be used wit
         C$                                                      NO ACCESS       Default share
         IPC$                                                    READ ONLY       Remote IPC
 ```
-Found some more users via Impacker module lookupsid.py.
+## Finding more users via Impacket module lookupsid.py
+Found some more users via Impacket module lookupsid.py.
 ```bash
 ❯ python3 /home/kali/.local/bin/lookupsid.py SUPPORTDESK/Hazard:stealth1agent@10.10.10.149
 Impacket v0.9.22 - Copyright 2020 SecureAuth Corporation
@@ -95,6 +98,13 @@ Impacket v0.9.22 - Copyright 2020 SecureAuth Corporation
 1012: SUPPORTDESK\Chase (SidTypeUser)
 1013: SUPPORTDESK\Jason (SidTypeUser)
 ```
-#
+## Decrypting CISCO type 7 passwords in config.txt file
+Decrypting CISCO type 7 passwords in config.txt file.
+![[Pasted image 20210711060556.png]]
+Decrypting these type 7 passwords via [this website](http://www.firewall.cx/cisco-technical-knowledgebase/cisco-routers/358-cisco-type7-password-crack.html) gives
+`$uperP@ssword` for username `rout3r` and `Q4)sJu\Y8qz*A3?d` for username `admin`. 
+
+
+
 
 
