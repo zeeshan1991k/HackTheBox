@@ -64,5 +64,16 @@ Nmap done: 1 IP address (1 host up) scanned in 60.96 seconds
 Logging in as guest gives config.txt file.
 ![[Pasted image 20210711013543.png]]
 This file contains hash `$1$pdQG$o8nrSzsGXeaduXrjlvKc91` which when cracked using hashcat gives `stealth1agent` using command `hashcat -m 500 hash.hash /content/drive/MyDrive/rockyou.txt`.
-http://10.10.10.149/issues.php webpage has a user `Hazard` which can used to access 
+http://10.10.10.149/issues.php webpage has a user `Hazard` which can be used with cracked hash to access shares of user `Hazard`.
+`smbmap` can be used to know the shares of `Hazard` user.
+```bash
+❯ smbmap -H 10.10.10.149 -u Hazard -p stealth1agent
+[+] IP: 10.10.10.149:445        Name: 10.10.10.149
+        Disk                                                    Permissions     Comment
+        ----                                                    -----------     -------
+        ADMIN$                                                  NO ACCESS       Remote Admin
+        C$                                                      NO ACCESS       Default share
+        IPC$                                                    READ ONLY       Remote IPC
+```
+
 
