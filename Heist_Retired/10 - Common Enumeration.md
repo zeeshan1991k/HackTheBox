@@ -61,4 +61,7 @@ HOP RTT       ADDRESS
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 60.96 seconds
 ```
+Logging in as guest gives config.txt file.
+![[Pasted image 20210711013543.png]]
+This file contains hash `$1$pdQG$o8nrSzsGXeaduXrjlvKc91` which when cracked using hashcat gives `stealth1agent` using command `hashcat -m 500 hash.hash /content/drive/MyDrive/rockyou.txt`.
 
