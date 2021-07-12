@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Heist_Retired/20 - Getting initial shell as chase user.md",
+            "file": "Heist_Retired/Untitled.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Heist_Retired/20 - Getting initial shell as chase user.md",
+                "file": "Heist_Retired/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "c270dd0b51a1c9db",
   "lastOpenFiles": [
-    "Heist_Retired/20 - Getting initial shell as chase user.md",
     "Heist_Retired/Untitled.md",
-    "Heist_Retired/15 - Webpages.md",
+    "Heist_Retired/5 - Loot.md",
+    "Heist_Retired/20 - Getting initial shell as chase user.md",
     "Heist_Retired/10 - Common Enumeration.md",
+    "Heist_Retired/15 - Webpages.md",
     "OpenAdmin_Retired/15 - Webpages.md",
     "OpenAdmin_Retired/10 - Common Enumeration.md",
     "Traverxec_Retired/40 - Got root flag.md",
     "Traverxec_Retired/10 - Common Enumeration.md",
-    "Traverxec_Retired/25 - Privilege Escalation to David User.md",
-    "Traverxec_Retired/30 - Got user flag.md"
+    "Traverxec_Retired/25 - Privilege Escalation to David User.md"
   ]
 }
