@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Heist_Retired/25 - Got user flag.md",
+            "file": "Heist_Retired/20 - Getting initial shell as chase user.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Heist_Retired/25 - Got user flag.md",
+                "file": "Heist_Retired/20 - Getting initial shell as chase user.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,8 +88,8 @@
   },
   "active": "c270dd0b51a1c9db",
   "lastOpenFiles": [
-    "Heist_Retired/Untitled.md",
     "Heist_Retired/20 - Getting initial shell as chase user.md",
+    "Heist_Retired/Untitled.md",
     "Heist_Retired/15 - Webpages.md",
     "Heist_Retired/10 - Common Enumeration.md",
     "OpenAdmin_Retired/15 - Webpages.md",
