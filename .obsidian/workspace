@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Heist_Retired/30 - Privilege escalation to Administrator.md",
-            "mode": "source"
+            "file": "Heist_Retired/35 - Got root flag.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Heist_Retired/30 - Privilege escalation to Administrator.md",
+                "file": "Heist_Retired/35 - Got root flag.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
