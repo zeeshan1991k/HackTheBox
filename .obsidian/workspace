@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Heist_Retired/5 - Loot.md",
+            "file": "Heist_Retired/35 - Got root flag.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Heist_Retired/5 - Loot.md",
+                "file": "Heist_Retired/35 - Got root flag.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "c270dd0b51a1c9db",
   "lastOpenFiles": [
-    "Heist_Retired/5 - Loot.md",
-    "Crossfit_Retired/05 - Loot.md",
-    "Crossfit_Retired/10 - Common Enumeration.md",
-    "2021-07-13.md",
-    "OpenAdmin_Retired/10 - Common Enumeration.md",
-    "OpenAdmin_Retired/5 - Loot.md",
     "Heist_Retired/35 - Got root flag.md",
     "Heist_Retired/30 - Privilege escalation to Administrator.md",
     "Heist_Retired/25 - Got user flag.md",
-    "Heist_Retired/20 - Getting initial shell as chase user.md"
+    "Heist_Retired/20 - Getting initial shell as chase user.md",
+    "Heist_Retired/15 - Webpages.md",
+    "Heist_Retired/10 - Common Enumeration.md",
+    "Heist_Retired/5 - Loot.md",
+    "Crossfit_Retired/05 - Loot.md",
+    "Crossfit_Retired/10 - Common Enumeration.md",
+    "2021-07-13.md"
   ]
 }
