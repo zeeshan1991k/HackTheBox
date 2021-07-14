@@ -7,8 +7,11 @@
         "id": "c270dd0b51a1c9db",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Heist_Retired/10 - Common Enumeration.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Heist_Retired/10 - Common Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,15 +88,15 @@
   },
   "active": "c270dd0b51a1c9db",
   "lastOpenFiles": [
+    "Heist_Retired/10 - Common Enumeration.md",
+    "Bastion/10 - Common Enumeration.md",
+    "Bastion/Untitled.md",
     "OpenAdmin_Retired/all.md",
     "OpenAdmin_Retired/5 - Loot.md",
     "OpenAdmin_Retired/15 - Webpages.md",
     "OpenAdmin_Retired/10 - Common Enumeration.md",
     "OpenAdmin_Retired/20 - Getting initial shell as www-data.md",
     "Heist_Retired/35 - Got root flag.md",
-    "Heist_Retired/30 - Privilege escalation to Administrator.md",
-    "Heist_Retired/25 - Got user flag.md",
-    "Heist_Retired/20 - Getting initial shell as chase user.md",
-    "Heist_Retired/15 - Webpages.md"
+    "Heist_Retired/30 - Privilege escalation to Administrator.md"
   ]
 }
