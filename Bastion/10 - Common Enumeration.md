@@ -103,4 +103,18 @@ Enter WORKGROUP\kali's password:
         IPC$            IPC       Remote IPC
 SMB1 disabled -- no workgroup available
 ```
-## 
+## Mounting SMB Shares on local kali VM
+Mounting SMB Shares on local kali VM.
+```bash
+❯ sudo mount -t cifs //10.10.10.134/Backups ~/Dropbox/Documents/htb/boxes/Bastion/mnt
+Password for root@//10.10.10.134/Backups:
+~/Dropbox/Documents/htb/boxes/Bastion ❯ cd  mnt
+~/Dropbox/Documents/htb/boxes/Bastion/mnt ❯ ls
+GRTAGDJWCY  note.txt  SDT65CB.tmp  WindowsImageBackup  WQEGCTIMNJ
+~/Dropbox/Documents/htb/boxes/Bastion/mnt ❯
+```
+![[Pasted image 20210714094653.png]]
+## Discovered .VHD files 
+Discovered .VHD files in `/home/kali/Dropbox/Documents/htb/boxes/Bastion/mnt/WindowsImageBackup/L4mpje-PC/Backup 2019-02-22 124351` location.
+
+
