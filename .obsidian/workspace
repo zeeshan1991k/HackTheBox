@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bastion/10 - Common Enumeration.md",
+            "file": "15 - Mounting VHD image.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bastion/10 - Common Enumeration.md",
+                "file": "15 - Mounting VHD image.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "c270dd0b51a1c9db",
   "lastOpenFiles": [
+    "Untitled.md",
     "Bastion/10 - Common Enumeration.md",
-    "Heist_Retired/10 - Common Enumeration.md",
     "Bastion/Untitled.md",
+    "Heist_Retired/10 - Common Enumeration.md",
     "OpenAdmin_Retired/all.md",
     "OpenAdmin_Retired/5 - Loot.md",
     "OpenAdmin_Retired/15 - Webpages.md",
     "OpenAdmin_Retired/10 - Common Enumeration.md",
     "OpenAdmin_Retired/20 - Getting initial shell as www-data.md",
-    "Heist_Retired/35 - Got root flag.md",
-    "Heist_Retired/30 - Privilege escalation to Administrator.md"
+    "Heist_Retired/35 - Got root flag.md"
   ]
 }
