@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bastion/20 - Got initial shell as L4mpje user.md",
+            "file": "Bastion/25 - Got user flag.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bastion/20 - Got initial shell as L4mpje user.md",
+                "file": "Bastion/25 - Got user flag.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
