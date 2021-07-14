@@ -4,3 +4,4 @@ Mounting VHD image on local kali VM via guestmount tool using command `guestmoun
 ## Copying SAM file to local kali VM
 Copying SAM and SYSTEM file to local kali VM found in `/Windows/System32/config` .
 ![[Pasted image 20210714111426.png]]
+## Using pwdump.py to dump hashes
