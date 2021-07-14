@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bastion/25 - Got user flag.md",
+            "file": "Bastion/30 - Privilege Escalation to Administrator.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bastion/25 - Got user flag.md",
+                "file": "Bastion/30 - Privilege Escalation to Administrator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
