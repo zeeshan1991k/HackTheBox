@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Heist_Retired/10 - Common Enumeration.md",
+            "file": "Bastion/10 - Common Enumeration.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Heist_Retired/10 - Common Enumeration.md",
+                "file": "Bastion/10 - Common Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,8 +88,8 @@
   },
   "active": "c270dd0b51a1c9db",
   "lastOpenFiles": [
-    "Heist_Retired/10 - Common Enumeration.md",
     "Bastion/10 - Common Enumeration.md",
+    "Heist_Retired/10 - Common Enumeration.md",
     "Bastion/Untitled.md",
     "OpenAdmin_Retired/all.md",
     "OpenAdmin_Retired/5 - Loot.md",

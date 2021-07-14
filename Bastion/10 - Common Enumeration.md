@@ -89,3 +89,18 @@ HOP RTT       ADDRESS
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 75.96 seconds
 ```
+## SMB Shares found
+Found some SMB shares with anonymous/guest access.
+```bash
+❯ smbclient  -L 10.10.10.134
+Enter WORKGROUP\kali's password:
+
+        Sharename       Type      Comment
+        ---------       ----      -------
+        ADMIN$          Disk      Remote Admin
+        Backups         Disk
+        C$              Disk      Default share
+        IPC$            IPC       Remote IPC
+SMB1 disabled -- no workgroup available
+```
+## 
