@@ -116,5 +116,6 @@ GRTAGDJWCY  note.txt  SDT65CB.tmp  WindowsImageBackup  WQEGCTIMNJ
 ![[Pasted image 20210714094653.png]]
 ## Discovered .VHD files 
 Discovered .VHD files in `/home/kali/Dropbox/Documents/htb/boxes/Bastion/mnt/WindowsImageBackup/L4mpje-PC/Backup 2019-02-22 124351` location.
+![[Pasted image 20210714095035.png]]
 
 
