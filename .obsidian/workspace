@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "15 - Mounting VHD image.md",
+            "file": "Bastion/20 - Got initial shell as L4mpje user.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "15 - Mounting VHD image.md",
+                "file": "Bastion/20 - Got initial shell as L4mpje user.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,9 @@
   },
   "active": "c270dd0b51a1c9db",
   "lastOpenFiles": [
+    "Bastion/Untitled.md",
     "Untitled.md",
     "Bastion/10 - Common Enumeration.md",
-    "Bastion/Untitled.md",
     "Heist_Retired/10 - Common Enumeration.md",
     "OpenAdmin_Retired/all.md",
     "OpenAdmin_Retired/5 - Loot.md",
