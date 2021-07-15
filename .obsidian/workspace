@@ -88,6 +88,8 @@
   },
   "active": "c270dd0b51a1c9db",
   "lastOpenFiles": [
+    "Active_Retired/10 - Common Enumeration.md",
+    "Bastion/10 - Common Enumeration.md",
     "Heist_Retired/10 - Common Enumeration 1.md",
     "Heist_Retired/10 - Common Enumeration.md",
     "Heist_Retired/5 - Loot.md",
@@ -95,8 +97,6 @@
     "Heist_Retired/5 - Loot 1.md",
     "Bastion/5 - Loot.md",
     "Bastion/30 - Privilege Escalation to Administrator.md",
-    "Bastion/25 - Got user flag.md",
-    "Bastion/15 - Mounting VHD image.md",
-    "Bastion/10 - Common Enumeration.md"
+    "Bastion/25 - Got user flag.md"
   ]
 }
