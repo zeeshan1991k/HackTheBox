@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bastion/30 - Privilege Escalation to Administrator.md",
+            "file": "Bastion/35 - Got Root flag.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bastion/30 - Privilege Escalation to Administrator.md",
+                "file": "Bastion/35 - Got Root flag.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "c270dd0b51a1c9db",
   "lastOpenFiles": [
+    "Bastion/35 - Got Root flag.md",
     "Bastion/Untitled.md",
     "Untitled.md",
     "Bastion/10 - Common Enumeration.md",
@@ -96,7 +97,6 @@
     "OpenAdmin_Retired/5 - Loot.md",
     "OpenAdmin_Retired/15 - Webpages.md",
     "OpenAdmin_Retired/10 - Common Enumeration.md",
-    "OpenAdmin_Retired/20 - Getting initial shell as www-data.md",
-    "Heist_Retired/35 - Got root flag.md"
+    "OpenAdmin_Retired/20 - Getting initial shell as www-data.md"
   ]
 }

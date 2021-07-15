@@ -16,5 +16,16 @@ Copy contents of confCons.xml using netcat reverse shell(not by ssh shell).
 # Downloading same version of MremoteNG on windows machine as on bastion machine
 Downloading same version of MremoteNG(determined from changelog.txt file) on windows machine as on bastion machine and replacing its `confCons.xml` file with `confCons.xml` file contents grabbed from bastion machine.
 ![[Pasted image 20210714150936.png]]
-Replaced contents of 
+Replaced contents of `confCons.xml` file.
 ![[Pasted image 20210714151015.png]]
+## Grabbing Administrator password
+Grabbing Administrator password from mRemoteNG using [method](http://dynamic-datacenter.be/?p=168).
+![[Pasted image 20210714151350.png]]
+Displaying administrator password.
+![[Pasted image 20210714151505.png]]
+## ssh logging in as Administrator
+ssh logged in as Administrator using grabbed password.
+![[Pasted image 20210714151648.png]]
+
+
+
