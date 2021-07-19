@@ -7,10 +7,9 @@
         "id": "c270dd0b51a1c9db",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "Active_Retired/10 - Common Enumeration.md",
-            "mode": "source"
+            "file": "Pasted image 20210710151059.png"
           }
         }
       }
@@ -68,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Active_Retired/10 - Common Enumeration.md",
+                "file": "Pasted image 20210710151059.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +87,15 @@
   },
   "active": "c270dd0b51a1c9db",
   "lastOpenFiles": [
-    "Active_Retired/10 - Common Enumeration.md",
-    "Bastion/10 - Common Enumeration.md",
-    "Heist_Retired/10 - Common Enumeration 1.md",
-    "Heist_Retired/10 - Common Enumeration.md",
-    "Heist_Retired/5 - Loot.md",
+    "Pasted image 20210710151059.png",
     "Heist_Retired/15 - Webpages.md",
-    "Heist_Retired/5 - Loot 1.md",
+    "Heist_Retired/10 - Common Enumeration.md",
+    "Pasted image 20210401014952.png",
+    "Pasted image 20210401012503.png",
+    "Pasted image 20210401013825.png",
+    "Pasted image 20210402044024.png",
+    "Bastion/10 - Common Enumeration.md",
     "Bastion/5 - Loot.md",
-    "Bastion/30 - Privilege Escalation to Administrator.md",
-    "Bastion/25 - Got user flag.md"
+    "Active_Retired/10 - Common Enumeration.md"
   ]
 }
