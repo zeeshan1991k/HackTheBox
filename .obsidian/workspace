@@ -7,9 +7,10 @@
         "id": "c270dd0b51a1c9db",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "Pasted image 20210710151059.png"
+            "file": "Active_Retired/10 - Common Enumeration.md",
+            "mode": "source"
           }
         }
       }
@@ -67,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20210710151059.png",
+                "file": "Active_Retired/10 - Common Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,6 +88,8 @@
   },
   "active": "c270dd0b51a1c9db",
   "lastOpenFiles": [
+    "Active_Retired/10 - Common Enumeration.md",
+    "Active_Retired/5 - Loot.md",
     "Pasted image 20210710151059.png",
     "Heist_Retired/15 - Webpages.md",
     "Heist_Retired/10 - Common Enumeration.md",
@@ -94,8 +97,6 @@
     "Pasted image 20210401012503.png",
     "Pasted image 20210401013825.png",
     "Pasted image 20210402044024.png",
-    "Bastion/10 - Common Enumeration.md",
-    "Bastion/5 - Loot.md",
-    "Active_Retired/10 - Common Enumeration.md"
+    "Bastion/10 - Common Enumeration.md"
   ]
 }
