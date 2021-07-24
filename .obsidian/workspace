@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Active_Retired/25 - Got root flag.md",
-            "mode": "source"
+            "file": "Forest_Retired/10 - Common Enumeration.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Active_Retired/25 - Got root flag.md",
+                "file": "Forest_Retired/10 - Common Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "c270dd0b51a1c9db",
   "lastOpenFiles": [
+    "Forest_Retired/10 - Common Enumeration.md",
+    "Active_Retired/10 - Common Enumeration.md",
+    "Bastion/10 - Common Enumeration.md",
+    "Bastion/5 - Loot.md",
+    "Forest_Retired/Untitled.md",
     "Active_Retired/25 - Got root flag.md",
     "Active_Retired/Untitled.md",
     "Active_Retired/15 - Getting shell as Administrator.md",
-    "Active_Retired/10 - Common Enumeration.md",
     "Active_Retired/5 - Loot.md",
-    "Untitled.md",
-    "Pasted image 20210710151059.png",
-    "Heist_Retired/15 - Webpages.md",
-    "Heist_Retired/10 - Common Enumeration.md",
-    "Pasted image 20210401014952.png"
+    "Untitled.md"
   ]
 }
