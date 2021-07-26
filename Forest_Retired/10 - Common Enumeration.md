@@ -131,4 +131,30 @@ Address: 10.10.10.161#53
 >
 ```
 ## LDAP search
+This would give us the DN(Domain Name).
+![[Pasted image 20210726124952.png]]
+```bash
+ ❯ ldapsearch -h 10.10.10.161 -x -s base namingcontexts
+# extended LDIF
+#
+# LDAPv3
+# base <> (default) with scope baseObject
+# filter: (objectclass=*)
+# requesting: namingcontexts
+#
 
+#
+dn:
+namingContexts: DC=htb,DC=local
+namingContexts: CN=Configuration,DC=htb,DC=local
+namingContexts: CN=Schema,CN=Configuration,DC=htb,DC=local
+namingContexts: DC=DomainDnsZones,DC=htb,DC=local
+namingContexts: DC=ForestDnsZones,DC=htb,DC=local
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 2
+# numEntries: 1
+```
