@@ -1,4 +1,8 @@
 # Common Enumeration
+## Note -> Windows TTL
+* Windows' default TTL is 128. Everytime packet traverses a router this decrements by one because TTL stands for Time To LIve.
+* Linux Default TTL is 64 
+
 ## NMAP
 All ports scan without service version and os detection.
 ```bash
@@ -105,3 +109,5 @@ HOP RTT       ADDRESS
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 75.28 seconds
 ```
+## SMB
+Anonymous success but no shares
