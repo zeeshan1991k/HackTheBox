@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Forest_Retired/15 - Generating a worldlist for Password Spraying.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -88,6 +88,7 @@
   },
   "active": "c270dd0b51a1c9db",
   "lastOpenFiles": [
+    "Forest_Retired/15 - Generating a worldlist for Password Spraying.md",
     "Forest_Retired/Untitled.md",
     "Forest_Retired/10 - Common Enumeration.md",
     "Writeup_Retired/5 - Loot.md",
@@ -96,7 +97,6 @@
     "Heist_Retired/10 - Common Enumeration.md",
     "Heist_Retired/5 - Loot.md",
     "Forest_Retired/5 - Loot.md",
-    "Active_Retired/25 - Got root flag.md",
-    "Active_Retired/20 - Got user flag.md"
+    "Active_Retired/25 - Got root flag.md"
   ]
 }
