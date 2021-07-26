@@ -159,4 +159,48 @@ result: 0 Success
 # numEntries: 1
 ```
 This command `ldapsearch -h 10.10.10.161 -x -b "DC=htb,DC=local"` will give all the LDAP information of what we can query. Its output has been saved to `ldap-anonymous.out`.
-This `ldapsearch -h 10.10.10.161 -x -b "DC=htb,DC=local" '(objectClass=Person)'` will only dump things that have object class of People
+This  command `ldapsearch -h 10.10.10.161 -x -b "DC=htb,DC=local" '(objectClass=Person)'` will only dump things that have `object class` of `People`.
+```bash
+# Santi Rodriguez, Developers, Information Technology, Employees, htb.local
+dn: CN=Santi Rodriguez,OU=Developers,OU=Information Technology,OU=Employees,DC
+ =htb,DC=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Santi Rodriguez
+sn: Rodriguez
+givenName: Santi
+distinguishedName: CN=Santi Rodriguez,OU=Developers,OU=Information Technology,
+ OU=Employees,DC=htb,DC=local
+instanceType: 4
+whenCreated: 20190920230255.0Z
+whenChanged: 20210725070807.0Z
+displayName: Santi Rodriguez
+uSNCreated: 28837
+uSNChanged: 10837300
+name: Santi Rodriguez
+objectGUID:: VSlmUT29FkGHUAJ12EnggA==
+userAccountControl: 66048
+badPwdCount: 3089
+codePage: 0
+countryCode: 0
+badPasswordTime: 132715236307421854
+lastLogoff: 0
+lastLogon: 0
+pwdLastSet: 132134941751348277
+primaryGroupID: 513
+objectSid:: AQUAAAAAAAUVAAAALB4ltxV1shXFsPNPgAQAAA==
+accountExpires: 9223372036854775807
+logonCount: 0
+sAMAccountName: santi
+sAMAccountType: 805306368
+userPrincipalName: santi@htb.local
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=htb,DC=local
+dSCorePropagationData: 20210726052755.0Z
+dSCorePropagationData: 20210726052755.0Z
+dSCorePropagationData: 20210726052755.0Z
+dSCorePropagationData: 20210726052755.0Z
+dSCorePropagationData: 16010101000000.0Z
+```
+From above info of 
