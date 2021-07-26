@@ -207,4 +207,39 @@ From above info of `Santi Rodriguez`, `whenCreated: 20190920230255.0Z` is import
 ![[Pasted image 20210726132516.png]]
 All this information is useful when doing password sprays.
 `sAMAccountName` is the username of windows login prompt when we enter username and password to login to windows.
-
+`ldapsearch -h 10.10.10.161 -x -b "DC=htb,DC=local" '(objectClass=Person)' sAMAccountName | grep sAMAccountName`
+Above command 
+```bash
+❯ ldapsearch -h 10.10.10.161 -x -b "DC=htb,DC=local" '(objectClass=Person)' sAMAccountName | grep sAMAccountName
+# requesting: sAMAccountName
+sAMAccountName: Guest
+sAMAccountName: DefaultAccount
+sAMAccountName: FOREST$
+sAMAccountName: EXCH01$
+sAMAccountName: $331000-VK4ADACQNUCA
+sAMAccountName: SM_2c8eef0a09b545acb
+sAMAccountName: SM_ca8c2ed5bdab4dc9b
+sAMAccountName: SM_75a538d3025e4db9a
+sAMAccountName: SM_681f53d4942840e18
+sAMAccountName: SM_1b41c9286325456bb
+sAMAccountName: SM_9b69f1b9d2cc45549
+sAMAccountName: SM_7c96b981967141ebb
+sAMAccountName: SM_c75ee099d0a64c91b
+sAMAccountName: SM_1ffab36a2f5f479cb
+sAMAccountName: HealthMailboxc3d7722
+sAMAccountName: HealthMailboxfc9daad
+sAMAccountName: HealthMailboxc0a90c9
+sAMAccountName: HealthMailbox670628e
+sAMAccountName: HealthMailbox968e74d
+sAMAccountName: HealthMailbox6ded678
+sAMAccountName: HealthMailbox83d6781
+sAMAccountName: HealthMailboxfd87238
+sAMAccountName: HealthMailboxb01ac64
+sAMAccountName: HealthMailbox7108a4e
+sAMAccountName: HealthMailbox0659cc1
+sAMAccountName: sebastien
+sAMAccountName: lucinda
+sAMAccountName: andy
+sAMAccountName: mark
+sAMAccountName: santi
+```
