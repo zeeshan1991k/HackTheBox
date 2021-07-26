@@ -203,4 +203,8 @@ dSCorePropagationData: 20210726052755.0Z
 dSCorePropagationData: 20210726052755.0Z
 dSCorePropagationData: 16010101000000.0Z
 ```
-From above info of 
+From above info of `Santi Rodriguez`, `whenCreated: 20190920230255.0Z` is important which can be interpreted as `2019-09-20-23:02:55` , we can also see `logonCount`, `userPrincipalName` (potential email address), `badPwdCount`, `pwdLastSet: 132134941751348277`. We can convert LDAP timestamp `132134941751348277` to human readable time/date via this [website](https://www.epochconverter.com/ldap) which gave the following output.
+![[Pasted image 20210726132516.png]]
+All this information is useful when doing password sprays.
+`sAMAccountName` is the username of windows login prompt when we enter username and password to login to windows.
+
