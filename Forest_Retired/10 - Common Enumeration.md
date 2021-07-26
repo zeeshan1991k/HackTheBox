@@ -158,3 +158,5 @@ result: 0 Success
 # numResponses: 2
 # numEntries: 1
 ```
+This command `ldapsearch -h 10.10.10.161 -x -b "DC=htb,DC=local"` will give all the LDAP information of what we can query. Its output has been saved to `ldap-anonymous.out`.
+This `ldapsearch -h 10.10.10.161 -x -b "DC=htb,DC=local" '(objectClass=Person)'` will only dump things that have object class of People
