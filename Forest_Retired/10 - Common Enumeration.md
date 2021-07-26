@@ -1,7 +1,9 @@
 # Common Enumeration
-## Note -> Windows TTL
-* Windows' default TTL is 128. Everytime packet traverses a router this decrements by one because TTL stands for Time To LIve.
-* Linux Default TTL is 64 
+## Note -> Windows/Linux TTL
+*  Windows default TTL is 128. Everytime packet traverses a router this decrements by one because TTL stands for Time To LIve.
+*  Linux Default TTL is 64.
+*  If TTL is greater is than 128, chances are it is some type of network infrastructure.
+
 
 ## NMAP
 All ports scan without service version and os detection.
@@ -111,3 +113,22 @@ Nmap done: 1 IP address (1 host up) scanned in 75.28 seconds
 ```
 ## SMB
 Anonymous success but no shares
+## DNS
+Could not leak host name.
+```bash
+❯ nslookup
+> server 10.10.10.161
+Default server: 10.10.10.161
+Address: 10.10.10.161#53
+> 127.0.0.1
+1.0.0.127.in-addr.arpa  name = localhost.
+> 127.0.0.2
+** server can't find 2.0.0.127.in-addr.arpa: NXDOMAIN
+> 10.10.10.161
+
+;; connection timed out; no servers could be reached
+
+>
+```
+## LDAP search
+
