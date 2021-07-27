@@ -1,5 +1,6 @@
 # Using sharphound to collect data from domain controllers and domain-joined Windows systems
 ```powershell
+
 *Evil-WinRM* PS clark:\> ls
 
 
@@ -47,3 +48,4 @@ Mode                LastWriteTime         Length Name
 
 *Evil-WinRM* PS clark:\>
 ```
+![[Pasted image 20210727174005.png]]
