@@ -88,6 +88,7 @@
   },
   "active": "c270dd0b51a1c9db",
   "lastOpenFiles": [
+    "Forest_Retired/70 - Got root flag.md",
     "Forest_Retired/Untitled.md",
     "Forest_Retired/65 - Finding Shortest Paths to Domain Admins from Owned Principals(svc-alfreso user).md",
     "Forest_Retired/50 - Uploading files to forest machine via smbserver.md",
@@ -96,7 +97,6 @@
     "Forest_Retired/40 - Using evil-winrm to get shell as svc-alfreso user.md",
     "Forest_Retired/10 - Common Enumeration.md",
     "Forest_Retired/5 - Loot.md",
-    "Forest_Retired/30 - Getting TGT hash of `svc-alfresco` user and cracking the hash via hashcat.md",
-    "Forest_Retired/25 - Enumeration using RPCCLIENT.md"
+    "Forest_Retired/30 - Getting TGT hash of `svc-alfresco` user and cracking the hash via hashcat.md"
   ]
 }
