@@ -97,5 +97,5 @@ Summer2020
 Note: In`cat t > t` , file `t` will be empty , so be careful.
 # Using Hashcat to make different variations in above wordlist
 `hashcat --force --stdout pwlist.txt -r /usr/share/hashcat/rules/best64.rule`
-does not have exclamation point, so adding exclamation point.
+does not have exclamation point, so adding exclamation point via this command `for i in $(cat pwlist.txt); do echo $i; echo ${i}\!; done > t`. We can also chain wordlists so we can use `hashcat --force --stdout pwlist.txt -r /usr/share/hashcat/rules/best64.rule -r /usr/share/hashcat/rules/toggles1.rule` which toggle various uppercases. But this is going to have alot of duplicates, so using `sort -u` to exclude duplicates via command ` hashcat --force --stdout pwlist.txt -r /usr/share/hashcat/rules/best64.rule -r /usr/share/hashcat/rules/toggles1.rule | sort -u`.  These will be alot of passwords, so only including passwords of characters great
 
