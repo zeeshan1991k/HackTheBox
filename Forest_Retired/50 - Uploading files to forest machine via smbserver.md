@@ -33,7 +33,7 @@ clark                                  FileSystem    \\10.10.14.105\clarkey
 
 *Evil-WinRM* PS C:\Users\svc-alfresco\Desktop>
 ```
-We have `smb` folder as `clark` folder in victim(forest)
+We have `smb` folder as `clark` folder in victim(forest) machine.
 ```powershell
 *Evil-WinRM* PS clark:\>ls
 
@@ -45,4 +45,6 @@ Mode                LastWriteTime         Length Name
 ----                -------------         ------ ----
 -a----        7/27/2021   4:08 AM         441856 winPEASany.exe
 ```
+## winPEAS results
+Did not find anything interesting.
 
