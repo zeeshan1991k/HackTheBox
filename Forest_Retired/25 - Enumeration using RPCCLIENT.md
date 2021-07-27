@@ -39,7 +39,60 @@ user:[mark] rid:[0x47f]
 user:[santi] rid:[0x480]
 ```
 `user:[svc-alfresco] rid:[0x47b]` user is new . so it can be added it to our users' list. 
-Using command `queryusergroups 0x47b`
+
+Using command `queryusergroups 0x47b(rid of user svc-alfresco)` , it is known that `svc-alfresco` user belongs to two groups.
+```bash
+rpcclient $> queryusergroups 0x47b
+        group rid:[0x201] attr:[0x7]
+        group rid:[0x47c] attr:[0x7]
+rpcclient $>
+```
+We can query the groups in which user `svc-alfresco` is in via following commands.
+```bash
+rpcclient $> querygroup 0x201
+        Group Name:     Domain Users
+        Description:    All domain users
+        Group Attribute:7
+        Num Members:30
+rpcclient $> querygroup 0x47c
+        Group Name:     Service Accounts
+        Description:
+        Group Attribute:7
+        Num Members:1
+rpcclient $>
+```
+We can also query specific user like `svc-alfresco` by giving its rid with `queryuser`.
+```bash
+rpcclient $> queryuser 0x47b(rid of svc-alfresco user)
+        User Name   :   svc-alfresco
+        Full Name   :   svc-alfresco
+        Home Drive  :
+        Dir Drive   :
+        Profile Path:
+        Logon Script:
+        Description :
+        Workstations:
+        Comment     :
+        Remote Dial :
+        Logon Time               :      Mon, 23 Sep 2019 16:09:48 PKT
+        Logoff Time              :      Thu, 01 Jan 1970 05:00:00 +05
+        Kickoff Time             :      Thu, 01 Jan 1970 05:00:00 +05
+        Password last set Time   :      Tue, 27 Jul 2021 13:08:27 PKT
+        Password can change Time :      Wed, 28 Jul 2021 13:08:27 PKT
+        Password must change Time:      Thu, 14 Sep 30828 07:48:05 PKT
+        unknown_2[0..31]...
+        user_rid :      0x47b
+        group_rid:      0x201
+        acb_info :      0x00010210
+        fields_present: 0x00ffffff
+        logon_divs:     168
+        bad_password_count:     0x00000000
+        logon_count:    0x00000006
+        padding1[0..7]...
+        logon_hrs[0..21]...
+rpcclient $>
+```
+
 
 
 
