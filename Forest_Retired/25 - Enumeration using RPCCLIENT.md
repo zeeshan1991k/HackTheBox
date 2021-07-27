@@ -92,6 +92,7 @@ rpcclient $> queryuser 0x47b(rid of svc-alfresco user)
         logon_hrs[0..21]...
 rpcclient $>
 ```
+`ldapsearch` anonymous  login(that fetched alot of results) probably does not have access to OU in which the service account `svc-alfresco` is present. 
 
 
 
