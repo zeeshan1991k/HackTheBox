@@ -5,3 +5,4 @@ So to know if there is lockout policy for target account , we perform `null auth
 Which tells that `null authentication` is enabled and allows for domain enumeration and we can get bunch of information. 
 
 
+

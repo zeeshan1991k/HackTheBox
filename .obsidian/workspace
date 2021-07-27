@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Forest_Retired/20 - Bruteforcing with generated wordlist.md",
+            "file": "Forest_Retired/25 - Enumeration using RPCCLIENT.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Forest_Retired/20 - Bruteforcing with generated wordlist.md",
+                "file": "Forest_Retired/25 - Enumeration using RPCCLIENT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
