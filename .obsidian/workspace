@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Forest_Retired/15 - Generating a worldlist for Password Spraying.md",
+            "file": "Forest_Retired/20 - Bruteforcing with generated wordlist.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Forest_Retired/15 - Generating a worldlist for Password Spraying.md",
+                "file": "Forest_Retired/20 - Bruteforcing with generated wordlist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,8 +88,8 @@
   },
   "active": "c270dd0b51a1c9db",
   "lastOpenFiles": [
-    "Forest_Retired/15 - Generating a worldlist for Password Spraying.md",
     "Forest_Retired/Untitled.md",
+    "Forest_Retired/15 - Generating a worldlist for Password Spraying.md",
     "Forest_Retired/10 - Common Enumeration.md",
     "Writeup_Retired/5 - Loot.md",
     "Crossfit_Retired/35 - WWW-DATA  to  HANK.md",
