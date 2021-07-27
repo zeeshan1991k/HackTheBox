@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Forest_Retired/60 - Uploading zip file got via sharphound to Bloodhound.md",
+            "file": "65 -.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Forest_Retired/60 - Uploading zip file got via sharphound to Bloodhound.md",
+                "file": "65 -.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "c270dd0b51a1c9db",
   "lastOpenFiles": [
+    "Untitled.md",
     "Forest_Retired/Untitled.md",
     "Forest_Retired/40 - Using evil-winrm to get shell as svc-alfreso user.md",
     "Forest_Retired/10 - Common Enumeration.md",
@@ -96,7 +97,6 @@
     "Forest_Retired/25 - Enumeration using RPCCLIENT.md",
     "Forest_Retired/20 - Bruteforcing with generated wordlist.md",
     "Forest_Retired/15 - Generating a worldlist for Password Spraying.md",
-    "Writeup_Retired/5 - Loot.md",
-    "Crossfit_Retired/35 - WWW-DATA  to  HANK.md"
+    "Writeup_Retired/5 - Loot.md"
   ]
 }
