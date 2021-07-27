@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Forest_Retired/5 - Loot.md",
+            "file": "Forest_Retired/40 - Using evil-winrm to get shell as svc-alfreso user.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Forest_Retired/5 - Loot.md",
+                "file": "Forest_Retired/40 - Using evil-winrm to get shell as svc-alfreso user.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,9 @@
   },
   "active": "c270dd0b51a1c9db",
   "lastOpenFiles": [
-    "Forest_Retired/5 - Loot.md",
-    "Forest_Retired/30 - Getting TGT hash of `svc-alfresco` user and cracking the hash via hashcat.md",
     "Forest_Retired/Untitled.md",
+    "Forest_Retired/30 - Getting TGT hash of `svc-alfresco` user and cracking the hash via hashcat.md",
+    "Forest_Retired/5 - Loot.md",
     "Forest_Retired/25 - Enumeration using RPCCLIENT.md",
     "Forest_Retired/20 - Bruteforcing with generated wordlist.md",
     "Forest_Retired/15 - Generating a worldlist for Password Spraying.md",
