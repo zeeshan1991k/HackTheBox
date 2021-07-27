@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Forest_Retired/50 - Uploading files to forest machine via smbserver.md",
+            "file": "Forest_Retired/55 - Using sharphound to collect data from domain controllers and domain-joined Windows systems.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Forest_Retired/50 - Uploading files to forest machine via smbserver.md",
+                "file": "Forest_Retired/55 - Using sharphound to collect data from domain controllers and domain-joined Windows systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
