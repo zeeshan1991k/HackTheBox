@@ -94,4 +94,46 @@ Did not find anything.
 ## SQL Injection
 Checked for SQL Injection via `a',a'-- -,a"-- -,a-- -,then a`on http://10.10.10.228/php/books.php  in `title` and `author` field but found nothing interesting.
 ## Gobuster
+```bash
+~/Dropbox/Documents/htb/boxes/RETIRED_BOXES/breadcrumbs_retired ❯ gobuster dir -w /usr/share/seclists/Discovery/Web-Content/raft-small-words-lowercase.txt -x php -u http://10.10.10.228 -o root.gobuster -t 100
+/.html                (Status: 403) [Size: 301]
+/js                   (Status: 301) [Size: 333] [--> http://10.10.10.228/js/]
+/includes             (Status: 301) [Size: 339] [--> http://10.10.10.228/includes/]
+/css                  (Status: 301) [Size: 334] [--> http://10.10.10.228/css/]
+/.htm                 (Status: 403) [Size: 301]
+/.html.php            (Status: 403) [Size: 301]
+/index.php            (Status: 200) [Size: 2368]
+/.htm.php             (Status: 403) [Size: 301]
+/db                   (Status: 301) [Size: 333] [--> http://10.10.10.228/db/]
+/php                  (Status: 301) [Size: 334] [--> http://10.10.10.228/php/]
+/webalizer            (Status: 403) [Size: 301]
+/.                    (Status: 200) [Size: 2368]
+/portal               (Status: 301) [Size: 337] [--> http://10.10.10.228/portal/]
+/phpmyadmin           (Status: 403) [Size: 301]
+/.htaccess            (Status: 403) [Size: 301]
+/.htaccess.php        (Status: 403) [Size: 301]
+/books                (Status: 301) [Size: 336] [--> http://10.10.10.228/books/]
+/examples             (Status: 503) [Size: 401]
+/.htc                 (Status: 403) [Size: 301]
+/.htc.php             (Status: 403) [Size: 301]
+/.html_var_de         (Status: 403) [Size: 301]
+/.html_var_de.php     (Status: 403) [Size: 301]
+/licenses             (Status: 403) [Size: 420]
+/server-status        (Status: 403) [Size: 420]
+/.htpasswd            (Status: 403) [Size: 301]
+/.htpasswd.php        (Status: 403) [Size: 301]
+/con.php              (Status: 403) [Size: 301]
+/con                  (Status: 403) [Size: 301]
+/.html.               (Status: 403) [Size: 301]
+/.html..php           (Status: 403) [Size: 301]
+/.html.html           (Status: 403) [Size: 301]
+/.html.html.php       (Status: 403) [Size: 301]
+/.htpasswds           (Status: 403) [Size: 301]
+/.htpasswds.php       (Status: 403) [Size: 301]
+/.htm.                (Status: 403) [Size: 301]
+/.htm..php            (Status: 403) [Size: 301]
+/.htmll               (Status: 403) [Size: 301]
+/.htmll.php           (Status: 403) [Size: 301]
+```
+
 
