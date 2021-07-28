@@ -91,3 +91,5 @@ OS and Service detection performed. Please report any incorrect results
 ```
 ## SMB	
 Did not find anything.
+## Gobuster
+
