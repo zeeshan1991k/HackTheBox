@@ -140,5 +140,6 @@ Gobuster had following results.
 Checked `/db`,`/includes`,`/php` directories but found nothing interesting.
 But `/portal`  directory gave following page, which looks interesting.
 ![[Pasted image 20210728183027.png]]
-
+## 
+![[Pasted image 20210728185027.png]]
 
