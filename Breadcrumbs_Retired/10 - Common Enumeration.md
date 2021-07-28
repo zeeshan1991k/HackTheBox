@@ -154,4 +154,8 @@ Olivia
 Paul
 William
 ```
+## No csrf token found on http://10.10.10.228/portal/php/admins.php request
+No csrf token found on http://10.10.10.228/portal/php/admins.php request when given useername->`admin`:password->`admin` . So we can easily build a bruteforcer to bruteforce way in or spray passwords on bunch of `users` got above.
+![[Pasted image 20210728193147.png]]
+
 
