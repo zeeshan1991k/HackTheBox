@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "c270dd0b51a1c9db",
+        "id": "7bdfc6dcc15d7db4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Forest_Retired/70 - Got root flag.md",
+            "file": "Forest_Retired/5 - Loot.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Forest_Retired/70 - Got root flag.md",
+                "file": "Forest_Retired/5 - Loot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,8 +86,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c270dd0b51a1c9db",
+  "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "Forest_Retired/5 - Loot.md",
     "Forest_Retired/70 - Got root flag.md",
     "Forest_Retired/Untitled.md",
     "Forest_Retired/65 - Finding Shortest Paths to Domain Admins from Owned Principals(svc-alfreso user).md",
@@ -96,7 +97,6 @@
     "Untitled.md",
     "Forest_Retired/40 - Using evil-winrm to get shell as svc-alfreso user.md",
     "Forest_Retired/10 - Common Enumeration.md",
-    "Forest_Retired/5 - Loot.md",
     "Forest_Retired/30 - Getting TGT hash of `svc-alfresco` user and cracking the hash via hashcat.md"
   ]
 }
