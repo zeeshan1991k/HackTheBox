@@ -94,6 +94,7 @@ Did not find anything.
 ## SQL Injection
 Checked for SQL Injection via `a',a'-- -,a"-- -,a-- -,then a`on http://10.10.10.228/php/books.php  in `title` and `author` field but found nothing interesting.
 ## Gobuster
+Gobuster had following results.
 ```bash
 ~/Dropbox/Documents/htb/boxes/RETIRED_BOXES/breadcrumbs_retired ❯ gobuster dir -w /usr/share/seclists/Discovery/Web-Content/raft-small-words-lowercase.txt -x php -u http://10.10.10.228 -o root.gobuster -t 100
 /.html                (Status: 403) [Size: 301]
@@ -135,5 +136,8 @@ Checked for SQL Injection via `a',a'-- -,a"-- -,a-- -,then a`on http://10.10.10.
 /.htmll               (Status: 403) [Size: 301]
 /.htmll.php           (Status: 403) [Size: 301]
 ```
-
+#
+Checked `/db`,`/includes`,`/php` directories but found nothing interesting.
+But `/portal`  directory gave following page, which looks interesting.
+![[Pasted image 20210728183027.png]]
 
