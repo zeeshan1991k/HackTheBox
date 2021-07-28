@@ -91,5 +91,7 @@ OS and Service detection performed. Please report any incorrect results
 ```
 ## SMB	
 Did not find anything.
+## SQL Injection
+Checked for SQL Injection via `a',a'-- -,a"-- -,a-- -,then a`on http://10.10.10.228/php/books.php  in `title` and `author` field but found nothing interesting.
 ## Gobuster
 
