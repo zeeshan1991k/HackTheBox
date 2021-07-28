@@ -140,6 +140,18 @@ Gobuster had following results.
 Checked `/db`,`/includes`,`/php` directories but found nothing interesting.
 But `/portal`  directory gave following page, which looks interesting.
 ![[Pasted image 20210728183027.png]]
-## 
+## Finding potential users on http://10.10.10.228/portal/php/admins.php
 ![[Pasted image 20210728185027.png]]
+Saving users to file named `users`.
+```bash
+❯ cat users
+Alex
+Emma
+Jack
+John
+Lucas
+Olivia
+Paul
+William
+```
 
