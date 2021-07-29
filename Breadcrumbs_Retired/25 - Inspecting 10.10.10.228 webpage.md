@@ -6,5 +6,7 @@ Searching and clicking on book button pops up following page.
 ![[Pasted image 20210729153020.png]]
 Trying file on server that does not exist gives error in response that file is not present on server and also discloses the whole path.
 ![[Pasted image 20210729153748.png]]
+So we can do Local File Inclusion example of which is given in screenshot below.
+![[Pasted image 20210729154539.png]]
 
  
