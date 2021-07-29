@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Breadcrumbs_Retired/25 - Inspecting 10.10.10.228 webpage.md",
+            "file": "Breadcrumbs_Retired/30 - Writing a python script to get source code of php files.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Breadcrumbs_Retired/25 - Inspecting 10.10.10.228 webpage.md",
+                "file": "Breadcrumbs_Retired/30 - Writing a python script to get source code of php files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
