@@ -15,3 +15,6 @@ As md5 hash has 32 characters so it confirms that portion after username in `PHP
 ❯ echo -n 403ad0fb70435e8159bd13e237210369 | wc -c
 32
 ```
+## Capturing tokens via burp sequencer and analyzing
+Capturing tokens via burp sequencer and analyzing to know that `PHPSESSID` has different tokens corresponding to number of characters in username for example, for username `clarkey`, there will be 7 number of different tokens as clarkey has 7 characters.
+![[Pasted image 20210729151806.png]]
