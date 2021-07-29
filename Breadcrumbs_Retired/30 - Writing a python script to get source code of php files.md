@@ -246,7 +246,7 @@ function makesession($username){
     return $session_cookie;
 }
 ```
-Also of /portal/php/files.php/portal/php/files.php/portal/php/files.php which 
+Also of /portal/php/files.php/portal/php/files.php/portal/php/files.php which tells that username should be `paul` (who is admin)to upload files   
 ```bash
 ~/Dropbox/Documents/htb/boxes/RETIRED_BOXES/breadcrumbs_retired ❯ python3 lfi.py book5.html/../../portal/php/files.php
 ```
