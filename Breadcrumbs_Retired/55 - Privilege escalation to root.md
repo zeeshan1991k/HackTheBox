@@ -3151,3 +3151,12 @@ selectarray(2) {
 ```
 ![[Pasted image 20210730213620.png]]
 ## Using [cyberchef](https://gchq.github.io/CyberChef/) to decrypt password for administrator
+![[Pasted image 20210730214225.png]]
+Password for `administrator` was decrypted as `p@ssw0rd!@#$9890./`.
+## Using above creds to login as administrator via ssh or `impacket-wmiexec`
+### Using `impacket-wmiexec`
+![[Pasted image 20210730214726.png]]
+### Using ssh
+Using command `` to login as administrator
+![[Pasted image 20210730215018.png]]
+

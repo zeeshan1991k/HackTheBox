@@ -8,4 +8,7 @@ dbname="bread"
  "password" : "jUli901./())!"
  # creds for Development user
  development: fN3)sN5Ee@g
+ # creds for administrator
+ Password for `administrator` was decrypted as `p@ssw0rd!@#$9890./`.
+ 
  
