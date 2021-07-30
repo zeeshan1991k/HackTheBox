@@ -182,7 +182,8 @@ sqlite> select * from Note;
 sqlite>
 ```
 ![[Pasted image 20210730145925.png]]
-
+# SSH logging in as `development` user
+![[Pasted image 20210730150145.png]]
 
 
 
