@@ -6,4 +6,6 @@ dbname="bread"
 # Creds for juliette user
 "username" : "juliette"
  "password" : "jUli901./())!"
+ # creds for Development user
+ development: fN3)sN5Ee@g
  

