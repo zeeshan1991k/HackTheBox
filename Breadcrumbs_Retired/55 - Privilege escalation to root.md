@@ -78,5 +78,13 @@ undefined8 main(int param_1,long param_2)
 }
 ```
 ![[Pasted image 20210730210555.png]]
-This pogram needs two arguments one is file itself and other is key. The program adds bytes of key together , if they does not equal `0x641` (1601 in decimal) , then it gives error `Incorrect master key`. This program also makes curl requests to `http://passmanager.htb:1234/index.php?method=select&username=administrator&table=passwords`, which indicates it is some type of password manager
+This pogram needs two arguments one is file itself and other is key. The program adds bytes of key together , if they does not equal `0x641` (1601 in decimal) , then it gives error `Incorrect master key`. This program also makes curl requests to `http://passmanager.htb:1234/index.php?method=select&username=administrator&table=passwords`, which indicates it is some type of password manager.
+## Found port 1234 open on 127.0.0.1 on breadcrumbs machine
+![[Pasted image 20210730211311.png]]
+## Forwarding this port 1234 open on 127.0.0.1 to kali via chisel
+![[Pasted image 20210730211556.png]]
+## Adding passmanager.htb to /etc/hosts file
+![[Pasted image 20210730211834.png]]
+## Making curl request to service on port 1234 gives AES key
+
 
