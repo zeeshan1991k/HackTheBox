@@ -321,7 +321,7 @@ else{
 
 <\/html>
 ```
-Also
+Also portal/includes/filecontroller.php which tells that we need paul as admin to upload files
 ```bash
 ❯ python3 lfi.py book5.html/../../portal/includes/filecontroller.php
 ```
