@@ -3157,6 +3157,7 @@ Password for `administrator` was decrypted as `p@ssw0rd!@#$9890./`.
 ### Using `impacket-wmiexec`
 ![[Pasted image 20210730214726.png]]
 ### Using ssh
-Using command `` to login as administrator
+Using command ` sshpass -p 'p@ssw0rd!@#$9890./' ssh administrator@10.10.10.228` to login as administrator
 ![[Pasted image 20210730215018.png]]
+
 
