@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TheNotebook/20 - Getting www-data shell.md",
+            "file": "TheNotebook/30 - Noah user to Root.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheNotebook/20 - Getting www-data shell.md",
+                "file": "TheNotebook/30 - Noah user to Root.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,8 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "TheNotebook/30 - Noah user to Root.md",
+    "TheNotebook/25 - www-data to Noah User.md",
     "TheNotebook/20 - Getting www-data shell.md",
     "TheNotebook/15 - Websites.md",
     "TheNotebook/10 - Common Enumeration.md",
@@ -95,8 +97,6 @@
     "Pasted image 20210403104829.png",
     "Breadcrumbs_Retired/55 - Privilege escalation to root.md",
     "Pasted image 20210730215511.png",
-    "Pasted image 20210401014952.png",
-    "Pasted image 20210401013825.png",
-    "Pasted image 20210401012503.png"
+    "Pasted image 20210401014952.png"
   ]
 }
