@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TheNotebook/10 - Common Enumeration.md",
+            "file": "Breadcrumbs_Retired/55 - Privilege escalation to root.md",
             "mode": "source"
           }
         }
@@ -68,13 +68,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheNotebook/10 - Common Enumeration.md",
+                "file": "Breadcrumbs_Retired/55 - Privilege escalation to root.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -88,12 +88,12 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "Breadcrumbs_Retired/55 - Privilege escalation to root.md",
     "TheNotebook/10 - Common Enumeration.md",
     "Pasted image 20210730215511.png",
     "Pasted image 20210401014952.png",
     "Pasted image 20210401013825.png",
     "Pasted image 20210401012503.png",
-    "Breadcrumbs_Retired/55 - Privilege escalation to root.md",
     "Breadcrumbs_Retired/40 - Shell as juliette.md",
     "Breadcrumbs_Retired/60 - Got root flag.md",
     "Breadcrumbs_Retired/Untitled.md",
