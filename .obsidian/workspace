@@ -7,11 +7,8 @@
         "id": "7bdfc6dcc15d7db4",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "TheNotebook/30 - Noah user to Root.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheNotebook/30 - Noah user to Root.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +84,7 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "2021-08-04.md",
     "TheNotebook/30 - Noah user to Root.md",
     "TheNotebook/25 - www-data to Noah User.md",
     "TheNotebook/20 - Getting www-data shell.md",
@@ -96,7 +93,6 @@
     "TheNotebook/5 - Loot.md",
     "Pasted image 20210403104829.png",
     "Breadcrumbs_Retired/55 - Privilege escalation to root.md",
-    "Pasted image 20210730215511.png",
-    "Pasted image 20210401014952.png"
+    "Pasted image 20210730215511.png"
   ]
 }
