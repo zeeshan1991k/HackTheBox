@@ -7,8 +7,11 @@
         "id": "7bdfc6dcc15d7db4",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Horizontall/10 - Common Enumeration.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Horizontall/10 - Common Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,15 +88,15 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "Horizontall/10 - Common Enumeration.md",
+    "Active_Retired/10 - Common Enumeration.md",
+    "Horizontall/Untitled.md",
+    "Active_Retired/5 - Loot.md",
     "2021-08-04.md",
     "TheNotebook/30 - Noah user to Root.md",
     "TheNotebook/25 - www-data to Noah User.md",
     "TheNotebook/20 - Getting www-data shell.md",
     "TheNotebook/15 - Websites.md",
-    "TheNotebook/10 - Common Enumeration.md",
-    "TheNotebook/5 - Loot.md",
-    "Pasted image 20210403104829.png",
-    "Breadcrumbs_Retired/55 - Privilege escalation to root.md",
-    "Pasted image 20210730215511.png"
+    "TheNotebook/10 - Common Enumeration.md"
   ]
 }
