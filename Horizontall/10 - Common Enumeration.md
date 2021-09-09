@@ -45,3 +45,8 @@ HOP RTT       ADDRESS
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 118.96 seconds
 ```
+## Adding horizontall.htb to /etc/hosts file
+The ip address `10.10.11.105` corresponds to `horizontall.htb` domain which is not present in our hosts file.
+![[Pasted image 20210909193152.png]]
+Adding `horizontall.htb` to `/etc/hosts` file.
+![[Pasted image 20210909193357.png]]
