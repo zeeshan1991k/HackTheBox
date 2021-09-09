@@ -50,4 +50,8 @@ The ip address `10.10.11.105` corresponds to `horizontall.htb` domain which is n
 ![[Pasted image 20210909193152.png]]
 Adding `horizontall.htb` to `/etc/hosts` file.
 ![[Pasted image 20210909193357.png]]
-## Found another domain in 
+## Found another subdomain in http://horizontall.htb/js/app.c68eb462.js
+Found new subdomain http://api-prod.horizontall.htb/reviews in http://horizontall.htb/js/app.c68eb462.js
+![[Pasted image 20210909215108.png]]
+## Added newly found subdomain in /etc/hosts file
+![[Pasted image 20210909215200.png]]
