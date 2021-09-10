@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Horizontall/20 - Getting initial shell as strapi user.md",
+            "file": "Horizontall/20 - Got user flag.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Horizontall/20 - Getting initial shell as strapi user.md",
+                "file": "Horizontall/20 - Got user flag.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "Horizontall/20 - Got user flag.md",
     "Horizontall/Untitled.md",
+    "Horizontall/20 - Getting initial shell as strapi user.md",
     "Horizontall/15 - Webpages.md",
     "Horizontall/10 - Common Enumeration.md",
     "Active_Retired/10 - Common Enumeration.md",
     "Active_Retired/5 - Loot.md",
     "2021-08-04.md",
     "TheNotebook/30 - Noah user to Root.md",
-    "TheNotebook/25 - www-data to Noah User.md",
-    "TheNotebook/20 - Getting www-data shell.md",
-    "TheNotebook/15 - Websites.md"
+    "TheNotebook/25 - www-data to Noah User.md"
   ]
 }
