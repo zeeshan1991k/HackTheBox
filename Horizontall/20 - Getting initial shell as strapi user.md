@@ -7,7 +7,7 @@ Found exploit for strapi version 3.0.0-beta.17.4 on [exploit-db](https://www.exp
 ## Executed above exploit to get Remote code execution on target system and getting reverse shell
 ![[Pasted image 20210910154320.png]]
 ## Other ways to get initial shell
-### 1) Set password for user exploit and getting JWT token via burp and then getting reverse shell via CURL command 
+### 1) Set password for user 'admin' and getting JWT token via burp and then getting reverse shell via CURL command 
 * In this [exploit](https://www.exploit-db.com/exploits/50237), password for `admin`
 user can be set and can be logged in as admin user on http://api-prod.horizontall.htb/admin via command `python exploit_password_reset.py`
 * Then we can get JWT token while uploading file in 'Files Upload' section by intercepting request in burp.
