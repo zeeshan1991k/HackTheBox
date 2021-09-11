@@ -4,6 +4,7 @@ Found a port running locally on port 8000 via `linpeas.sh`.
 ![[Pasted image 20210911154613.png]]
 ## Forwarded this port to kali VM via chisel 
  Forwarded this port to kali VM via chisel to see what service was running on this port. 
+ Used ``
  ## Found that PHP Laravel version 8 was running on this port
  It turned out that PHP laravel version 8 was running on this port.
 ![[Pasted image 20210911155004.png]]
@@ -38,7 +39,14 @@ First made exploit.phar file via phpggc which contained our payload that will ex
 ~/Dropbox/Documents/htb/boxes/horizontall/phpggc master* ❯
 ```
 ![[Pasted image 20210911162312.png]]
-### Ran explot on Kali VM as port was forwarded on 
+Our payload/command consisted of copying Kali VM public key to authorized_keys in /root/.ssh/ directory.
+### Ran exploit on Kali VM as port was forwarded on kali VM 
+Ran exploit on Kali VM as port was forwarded on kali VM and command/payload will execute on victim machine. Execution of payload on victim machine was succeeded.
+![[Pasted image 20210911162631.png]]
+### Ssh logged in as root 
+![[Pasted image 20210911162934.png]]
+
+
 
 
 
