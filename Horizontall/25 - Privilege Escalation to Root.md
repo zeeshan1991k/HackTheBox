@@ -11,6 +11,10 @@ Found a port running locally on port 8000 via `linpeas.sh`.
 ## Found that PHP Laravel is running in DEBUG mode
 Found that PHP Laravel is running in DEBUG mode.
 ![[Pasted image 20210911160123.png]]
+## Found exploit for PHP Laravel Version 8 DEBUG mode
+Found exploit for PHP Laravel Version 8 DEBUG mode on [Github](https://github.com/ambionics/laravel-exploits) . This exploit was explained on [Ambionics security website](https://www.ambionics.io/blog/laravel-debug-rce).
+## Executing this exploit
+### phpggc 
 
 
 
