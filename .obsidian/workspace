@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Horizontall/20 - Got user flag.md",
+            "file": "Horizontall/25 - Privilege Escalation to Root.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Horizontall/20 - Got user flag.md",
+                "file": "Horizontall/25 - Privilege Escalation to Root.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,8 +88,8 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
-    "Horizontall/20 - Got user flag.md",
     "Horizontall/Untitled.md",
+    "Horizontall/20 - Got user flag.md",
     "Horizontall/20 - Getting initial shell as strapi user.md",
     "Horizontall/15 - Webpages.md",
     "Horizontall/10 - Common Enumeration.md",
