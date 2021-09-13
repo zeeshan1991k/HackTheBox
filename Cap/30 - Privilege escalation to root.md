@@ -162,3 +162,8 @@ if __name__ == "__main__":
         app.run("0.0.0.0", 80, debug=True)
 ```
 ## Injecting reverse shell in vulnerable section of code in app.py
+ Injecting reverse shell in vulnerable section of code in app.py.
+![[Pasted image 20210913113531.png]]
+## Getting reverse shell as root
+Flask app can be started and fetch http://127.0.0.1:5000/capture (url in which vulnerable code is present and reverse shell  as root will spawn) as shown in screenshot below.
+![[Pasted image 20210913114126.png]]
