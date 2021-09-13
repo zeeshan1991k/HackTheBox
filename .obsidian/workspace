@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cap/35 - Got root flag.md",
+            "file": "BountyHunter/10 - Common Enumeration.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cap/35 - Got root flag.md",
+                "file": "BountyHunter/10 - Common Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "BountyHunter/10 - Common Enumeration.md",
+    "Breadcrumbs_Retired/10 - Common Enumeration.md",
+    "Breadcrumbs_Retired/5 - Loot.md",
+    "Bastion/10 - Common Enumeration.md",
+    "BountyHunter/Untitled.md",
     "Cap/Untitled.md",
     "Cap/30 - Privilege escalation to root.md",
     "Cap/5 - Loot.md",
     "Cap/20 - Getting initial shell as Nathan.md",
-    "Cap/15 - Websites.md",
-    "Cap/10 - Common Enumeration.md",
-    "Forest_Retired/10 - Common Enumeration.md",
-    "Forest_Retired/5 - Loot.md",
-    "Horizontall/25 - Privilege Escalation to Root.md",
-    "Horizontall/20 - Getting initial shell as strapi user.md"
+    "Cap/15 - Websites.md"
   ]
 }
