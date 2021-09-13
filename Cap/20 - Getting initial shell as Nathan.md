@@ -11,5 +11,12 @@ PCAP files (packet analysis files) for net work traffic on url http://10.10.10.2
  ![[Pasted image 20210913105910.png]]
  ## Discovered FTP credentials for nathan user while doing packet analysis of `0.pcap` file
  Discovered FTP credentials for nathan user while doing packet analysis of `0.pcap` file.
+ ![[Pasted image 20210913110750.png]]
+ ## Logging in FTP as nathan user using credential got in 0.pcap file
+ Logging in FTP as nathan user using credential got in 0.pcap file.
+ ![[Pasted image 20210913111011.png]]
+ ## Reusing above credentials to ssh login as nathan user
+ Reusing above credentials to ssh login as nathan user.
+ ![[Pasted image 20210913111227.png]]
  
  
