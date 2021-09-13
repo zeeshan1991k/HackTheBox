@@ -45,3 +45,31 @@ OS and Service detection performed. Please report any incorrect results at https
 Nmap done: 1 IP address (1 host up) scanned in 15.62 seconds
 ~/Dropbox/Documents/htb/boxes/bountyhunter 16s ❯
 ```
+## Gobuster
+```bash
+ ❯ gobuster dir -w /usr/share/seclists/Discovery/Web-Content/raft-large-directories.txt -u  http://10.10.11.100 -o gobuster/http-root.gobuster
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.11.100
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/seclists/Discovery/Web-Content/raft-large-directories.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2021/09/13 12:03:38 Starting gobuster in directory enumeration mode
+===============================================================
+/js                   (Status: 301) [Size: 309] [--> http://10.10.11.100/js/]
+/css                  (Status: 301) [Size: 310] [--> http://10.10.11.100/css/]
+/assets               (Status: 301) [Size: 313] [--> http://10.10.11.100/assets/]
+/resources            (Status: 301) [Size: 316] [--> http://10.10.11.100/resources/]
+/server-status        (Status: 403) [Size: 277]
+Progress: 23994 / 62284 (38.52%)                                                   [ERROR] 2021/09/13 12:07:55 [!] parse "http://10.10.11.100/error\x1f_log": net/url: invalid control character in URL
+
+===============================================================
+2021/09/13 12:14:49 Finished
+===============================================================
+```
