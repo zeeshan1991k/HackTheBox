@@ -73,3 +73,44 @@ Progress: 23994 / 62284 (38.52%)                                                
 2021/09/13 12:14:49 Finished
 ===============================================================
 ```
+
+```bash
+❯ gobuster dir -w /usr/share/seclists/Discovery/Web-Content/raft-large-files.txt -u  http://10.10.11.100 -o gobuster/http-root_files.gobuster
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.11.100
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/seclists/Discovery/Web-Content/raft-large-files.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2021/09/13 12:19:15 Starting gobuster in directory enumeration mode
+===============================================================
+/index.php            (Status: 200) [Size: 25169]
+/.htaccess            (Status: 403) [Size: 277]
+/.                    (Status: 200) [Size: 25169]
+/db.php               (Status: 200) [Size: 0]
+/.html                (Status: 403) [Size: 277]
+/portal.php           (Status: 200) [Size: 125]
+/.php                 (Status: 403) [Size: 277]
+/.htpasswd            (Status: 403) [Size: 277]
+/.htm                 (Status: 403) [Size: 277]
+/.htpasswds           (Status: 403) [Size: 277]
+/.htgroup             (Status: 403) [Size: 277]
+/wp-forum.phps        (Status: 403) [Size: 277]
+/.htaccess.bak        (Status: 403) [Size: 277]
+/.htuser              (Status: 403) [Size: 277]
+/.ht                  (Status: 403) [Size: 277]
+/.htc                 (Status: 403) [Size: 277]
+/.htaccess.old        (Status: 403) [Size: 277]
+/.htacess             (Status: 403) [Size: 277]
+Progress: 25406 / 37051 (68.57%)                [ERROR] 2021/09/13 12:23:53 [!] parse "http://10.10.11.100/directory\t\te.g.": net/url: invalid control character in URL
+
+===============================================================
+2021/09/13 12:25:59 Finished
+===============================================================
+```
