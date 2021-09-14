@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "BountyHunter/10 - Common Enumeration.md",
+            "file": "Breadcrumbs_Retired/25 - Inspecting 10.10.10.228 webpage.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BountyHunter/10 - Common Enumeration.md",
+                "file": "Breadcrumbs_Retired/25 - Inspecting 10.10.10.228 webpage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "Breadcrumbs_Retired/25 - Inspecting 10.10.10.228 webpage.md",
     "BountyHunter/10 - Common Enumeration.md",
     "Breadcrumbs_Retired/10 - Common Enumeration.md",
     "Breadcrumbs_Retired/5 - Loot.md",
@@ -96,7 +97,6 @@
     "Cap/Untitled.md",
     "Cap/30 - Privilege escalation to root.md",
     "Cap/5 - Loot.md",
-    "Cap/20 - Getting initial shell as Nathan.md",
-    "Cap/15 - Websites.md"
+    "Cap/20 - Getting initial shell as Nathan.md"
   ]
 }
