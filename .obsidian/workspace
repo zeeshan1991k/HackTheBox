@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cap/10 - Common Enumeration.md",
+            "file": "BountyHunter/10 - Common Enumeration.md",
             "mode": "source"
           }
         }
@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cap/10 - Common Enumeration.md",
+                "file": "BountyHunter/10 - Common Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +88,7 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "BountyHunter/10 - Common Enumeration.md",
     "Cap/10 - Common Enumeration.md",
     "Crossfit_Retired/25 - Gym-Club XSS.md",
     "Crossfit_Retired/20 - Gym-Club.md",
@@ -97,7 +97,6 @@
     "Breadcrumbs_Retired/40 - Shell as juliette.md",
     "Breadcrumbs_Retired/35 - Getting initial reverse shell as www-data.md",
     "Breadcrumbs_Retired/30 - Writing a python script to get source code of php files.md",
-    "Breadcrumbs_Retired/25 - Inspecting 10.10.10.228 webpage.md",
-    "Breadcrumbs_Retired/20 - Making new account on portal login page.md"
+    "Breadcrumbs_Retired/25 - Inspecting 10.10.10.228 webpage.md"
   ]
 }
