@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "BountyHunter/20 - Initial shell as development user.md",
+            "file": "BountyHunter/5 - Loot.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BountyHunter/20 - Initial shell as development user.md",
+                "file": "BountyHunter/5 - Loot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,9 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "BountyHunter/5 - Loot.md",
     "BountyHunter/Untitled.md",
     "BountyHunter/15 - Websites.md",
-    "BountyHunter/5 - Loot.md",
     "BountyHunter/10 - Common Enumeration.md",
     "Cap/10 - Common Enumeration.md",
     "Crossfit_Retired/25 - Gym-Club XSS.md",
