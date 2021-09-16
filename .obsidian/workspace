@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "BountyHunter/10 - Common Enumeration.md",
+            "file": "BountyHunter/15 - Websites.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BountyHunter/10 - Common Enumeration.md",
+                "file": "BountyHunter/15 - Websites.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "BountyHunter/Untitled.md",
     "BountyHunter/10 - Common Enumeration.md",
     "BountyHunter/5 - Loot.md",
     "Cap/10 - Common Enumeration.md",
@@ -96,7 +97,6 @@
     "Crossfit_Retired/15 - Web-Pages.md",
     "Crossfit_Retired/10 - Common Enumeration.md",
     "Breadcrumbs_Retired/40 - Shell as juliette.md",
-    "Breadcrumbs_Retired/35 - Getting initial reverse shell as www-data.md",
-    "Breadcrumbs_Retired/30 - Writing a python script to get source code of php files.md"
+    "Breadcrumbs_Retired/35 - Getting initial reverse shell as www-data.md"
   ]
 }
