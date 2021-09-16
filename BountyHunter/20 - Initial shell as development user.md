@@ -13,4 +13,4 @@ Used XXE payload to read contents of db.php
 ![[Pasted image 20210916161018.png]]
 ![[Pasted image 20210916161151.png]]
 ## Used above credentials to get shell as development user
-
+![[Pasted image 20210916162607.png]]

@@ -1,12 +1,5 @@
 # Loot
-## db.php file contents
-```php
-<?php
-// TODO -> Implement login system with the database.
-$dbserver = "localhost";
-$dbname = "bounty";
-$dbusername = "admin";
-$dbpassword = "m19RoAU0hP41A1sTsq6K";
-$testuser = "test";
-?>
-```
+## development user password
+development user password got from db.php file contents.
+`development:m19RoAU0hP41A1sTsq6K`
+
