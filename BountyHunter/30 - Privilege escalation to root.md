@@ -73,5 +73,9 @@ main()
 	* `## Ticket to` on second line.
 	*  `__Ticket Code:__` on third line.
 	*  Fourth line starts with `**`.
-*  Then it checks if  
-	 
+*  Then it strips of all `**` on fourth line and checks if first digit before `+`
+sign gives remainder of `4` when divided by `7` to check if ticket code is valid.
+* Then it evaluates the expression after stripping of all `**` and see if its total is greater than 100 to check if ticket is valid.
+
+
+
