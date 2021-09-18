@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Previse/25 - Privilege escalation to m4lwhere user.md",
+            "file": "Previse/35 - Privilege Escalation to root.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Previse/25 - Privilege escalation to m4lwhere user.md",
+                "file": "Previse/35 - Privilege Escalation to root.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",

