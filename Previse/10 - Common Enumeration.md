@@ -49,3 +49,35 @@ HOP RTT       ADDRESS
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 16.19 seconds
 ```
+## Gobuster
+Gobuster 
+```bash
+~/Dropbox/Documents/htb/boxes/previse ❯ cat gobuster/http-root_files.gobuster
+/index.php            (Status: 302) [Size: 2801] [--> login.php]
+/config.php           (Status: 200) [Size: 0]
+/download.php         (Status: 302) [Size: 0] [--> login.php]
+/login.php            (Status: 200) [Size: 2224]
+/footer.php           (Status: 200) [Size: 217]
+/header.php           (Status: 200) [Size: 980]
+/favicon.ico          (Status: 200) [Size: 15406]
+/.htaccess            (Status: 403) [Size: 277]
+/logout.php           (Status: 302) [Size: 0] [--> login.php]
+/.                    (Status: 302) [Size: 2801] [--> login.php]
+/.html                (Status: 403) [Size: 277]
+/.php                 (Status: 403) [Size: 277]
+/status.php           (Status: 302) [Size: 2966] [--> login.php]
+/.htpasswd            (Status: 403) [Size: 277]
+/.htm                 (Status: 403) [Size: 277]
+/.htpasswds           (Status: 403) [Size: 277]
+/nav.php              (Status: 200) [Size: 1248]
+/accounts.php         (Status: 302) [Size: 3994] [--> login.php]
+/files.php            (Status: 302) [Size: 4914] [--> login.php]
+/.htgroup             (Status: 403) [Size: 277]
+/wp-forum.phps        (Status: 403) [Size: 277]
+/.htaccess.bak        (Status: 403) [Size: 277]
+/.htuser              (Status: 403) [Size: 277]
+/.ht                  (Status: 403) [Size: 277]
+/.htc                 (Status: 403) [Size: 277]
+/.htaccess.old        (Status: 403) [Size: 277]
+/.htacess             (Status: 403) [Size: 277]
+```
