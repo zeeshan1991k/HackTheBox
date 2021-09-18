@@ -16,4 +16,9 @@ User 'clarkey' was successfully added.
 ![[Pasted image 20210918112109.png]]
 ## Downloading SITEBACKUP.ZIP file
 ![[Pasted image 20210918112214.png]]
+## Inspecting contents of SITEBACKUP.ZIP, found vulnerable section where code code for reverse shell could be injected
+Inspecting contents of SITEBACKUP.ZIP, found vulnerable section where code code for reverse shell could be injected.
+![[Pasted image 20210918113156.png]]
+## Getting shell as www-data
+
 
