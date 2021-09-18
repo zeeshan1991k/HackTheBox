@@ -50,7 +50,8 @@ OS and Service detection performed. Please report any incorrect results at https
 Nmap done: 1 IP address (1 host up) scanned in 16.19 seconds
 ```
 ## Gobuster
-Gobuster 
+Gobuster output listing all files found which bruteforcing for files via command `gobuster dir -w /usr/share/seclists/Discovery/Web-Content/raft-large-files.txt -u  http://10.10.11.104 -o gobuster/http-root_files.gobuster`.
+
 ```bash
 ~/Dropbox/Documents/htb/boxes/previse ❯ cat gobuster/http-root_files.gobuster
 /index.php            (Status: 302) [Size: 2801] [--> login.php]
