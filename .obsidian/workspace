@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Explore/30 - Got root flag.md",
+            "file": "Intelligence/10 - Common Enumeration.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Explore/30 - Got root flag.md",
+                "file": "Intelligence/10 - Common Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "Intelligence/10 - Common Enumeration.md",
+    "Horizontall/10 - Common Enumeration.md",
+    "Cap/10 - Common Enumeration.md",
+    "Intelligence/Untitled.md",
     "Explore/Untitled.md",
     "Explore/25 - Privilege Escalation to root.md",
     "Explore/5 - Loot.md",
     "Explore/15 - Getting initial shell as u0_a76-kristi.md",
     "Explore/15 - Getting initial shell as.md",
-    "Explore/10 - Common Enumeration.md",
-    "Previse/5 - Loot.md",
-    "2021-09-18.md",
-    "Pasted image 20210412084736.png",
-    "Pasted image 20210412061453.png"
+    "Explore/10 - Common Enumeration.md"
   ]
 }
