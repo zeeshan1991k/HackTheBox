@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Intelligence/10 - Common Enumeration.md",
+            "file": "Forest_Retired/10 - Common Enumeration.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intelligence/10 - Common Enumeration.md",
+                "file": "Forest_Retired/10 - Common Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,8 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "Forest_Retired/10 - Common Enumeration.md",
+    "Forest_Retired/5 - Loot.md",
     "Intelligence/10 - Common Enumeration.md",
     "2021-09-18.md",
     "Horizontall/10 - Common Enumeration.md",
@@ -95,8 +97,6 @@
     "Intelligence/Untitled.md",
     "Explore/Untitled.md",
     "Explore/25 - Privilege Escalation to root.md",
-    "Explore/5 - Loot.md",
-    "Explore/15 - Getting initial shell as u0_a76-kristi.md",
-    "Explore/15 - Getting initial shell as.md"
+    "Explore/5 - Loot.md"
   ]
 }
