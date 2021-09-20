@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Forest_Retired/5 - Loot.md",
+            "file": "Intelligence/10 - Common Enumeration.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Forest_Retired/5 - Loot.md",
+                "file": "Intelligence/10 - Common Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "Intelligence/10 - Common Enumeration.md",
     "Forest_Retired/5 - Loot.md",
     "Forest_Retired/65 - Privilege  Escalation to root.md",
     "Forest_Retired/60 - Uploading zip file got via sharphound to Bloodhound.md",
@@ -96,7 +97,6 @@
     "Forest_Retired/35 - Using crackmapexec against cracked hash.md",
     "Forest_Retired/40 - Using evil-winrm to get shell as svc-alfreso user.md",
     "Forest_Retired/30 - Getting TGT hash of `svc-alfresco` user and cracking the hash via hashcat.md",
-    "Forest_Retired/20 - Bruteforcing with generated wordlist.md",
-    "Forest_Retired/25 - Enumeration using RPCCLIENT.md"
+    "Forest_Retired/20 - Bruteforcing with generated wordlist.md"
   ]
 }
