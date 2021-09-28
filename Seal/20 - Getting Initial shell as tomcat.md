@@ -13,3 +13,9 @@ http://10.10.10.250/manager/status is asking for password which is found in tomc
 Found password in commit history of tomcat-users.xml.
 ![[Pasted image 20210928101714.png]]
 ## Using above password to access http://10.10.10.250/manager/status
+![[Pasted image 20210928101940.png]]
+## [exploit](https://www.acunetix.com/vulnerabilities/web/tomcat-path-traversal-via-reverse-proxy-mapping/)  arises when both nginx and tomcat are used 
+[exploit] arisis (https://www.acunetix.com/vulnerabilities/web/tomcat-path-traversal-via-reverse-proxy-mapping/) when both nginx and tomcat are used as it is evident from issue in root/seal_market repository.
+![[Pasted image 20210928102322.png]]
+## Accessing http://10.10.10.250/manager/html using [exploit](https://www.acunetix.com/vulnerabilities/web/tomcat-path-traversal-via-reverse-proxy-mapping/)
+http://10.10.10.250/manager/html can be accessed using [exploit](https://www.acunetix.com/vulnerabilities/web/tomcat-path-traversal-via-reverse-proxy-mapping/). First we can access known url that works like 
