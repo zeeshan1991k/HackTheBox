@@ -27,6 +27,13 @@ backup-2021-09-28-06:12:33.gz
 tomcat@seal:/opt/backups/playbook$
 ```
 ## Seeing contents of /opt/backups/archives it is observerd that backups in .gz are made after every minute , so cronjob is scheduled to run every minute to make backups of `/var/lib/tomcat9/webapps/ROOT/admin/dashboard` directory every minute
-Seeing contents of /opt/backups/archives it is observerd that backups in .gz are made after every minute , so cronjob is scheduled to run every minute to make backups of `/var/lib/tomcat9/webapps/ROOT/admin/dashboard` directory every minute
+Seeing contents of /opt/backups/archives it is observerd that backups in .gz are made after every minute , so cronjob is scheduled to run every minute to make backups of `/var/lib/tomcat9/webapps/ROOT/admin/dashboard` directory using some cronjob.
+As it is evident from pspy64 program.
+![[Pasted image 20210928112316.png]]
+## seeing contents of run.yml reveals that `copy_links=yes` is there which means that when content is copied from `/var/lib/tomcat9/webapps/ROOT/admin/dashboard` , it also copies files/directories  that are linked with these directories like if `/home/luis/.ssh` is linked with  `/var/lib/tomcat9/webapps/ROOT/admin/dashboard/uploads`etc.
+seeing contents of run.yml reveals that `copy_links=yes` is there which means that when content is copied from `/var/lib/tomcat9/webapps/ROOT/admin/dashboard` , it also copies files/directories  that are linked with these directories like if `/home/luis/.ssh` is linked with  `/var/lib/tomcat9/webapps/ROOT/admin/dashboard/uploads`etc.
+
+
+
 
 
