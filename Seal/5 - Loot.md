@@ -1,7 +1,7 @@
 # Loot
 ## Tomcat credentials
 `username="tomcat" password="42MrHBf*z8{Z%"`
-## id_rsa privat key of luis user
+## id_rsa private key of luis user
 ```bash
 -----BEGIN OPENSSH PRIVATE KEY-----
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
