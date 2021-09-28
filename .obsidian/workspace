@@ -88,15 +88,15 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "Seal/25 - Privilege escalation to luis user.md",
+    "Seal/5 - Loot.md",
     "Seal/Untitled.md",
     "Seal/20 - Getting Initial shell as tomcat.md",
-    "Seal/5 - Loot.md",
     "Seal/10 - Common Enumeration.md",
     "Seal/15 - Websites.md",
     "Ready/10 - Common Enumeration.md",
     "Intelligence/10 - Common Enumeration.md",
     "Forest_Retired/5 - Loot.md",
-    "Forest_Retired/65 - Privilege  Escalation to root.md",
-    "Forest_Retired/60 - Uploading zip file got via sharphound to Bloodhound.md"
+    "Forest_Retired/65 - Privilege  Escalation to root.md"
   ]
 }
