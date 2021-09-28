@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Seal/25 - Privilege escalation to luis user.md",
+            "file": "Seal/40 - Got root flag.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seal/25 - Privilege escalation to luis user.md",
+                "file": "Seal/40 - Got root flag.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,9 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "Seal/Untitled.md",
     "Seal/25 - Privilege escalation to luis user.md",
     "Seal/5 - Loot.md",
-    "Seal/Untitled.md",
     "Seal/20 - Getting Initial shell as tomcat.md",
     "Seal/10 - Common Enumeration.md",
     "Seal/15 - Websites.md",

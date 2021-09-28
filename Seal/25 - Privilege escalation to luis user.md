@@ -150,5 +150,8 @@ u8KqOiDVrwmFJRAAAACWx1aXNAc2VhbAE=
 -----END OPENSSH PRIVATE KEY-----
 tomcat@seal:/tmp/dashboard/uploads/.ssh$
 ```
+![[Pasted image 20210928114814.png]]
+# SSH logging in as luis user using id_rsa private key of luis user
+![[Pasted image 20210928115027.png]]
 
 
