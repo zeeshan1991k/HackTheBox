@@ -30,10 +30,15 @@ tomcat@seal:/opt/backups/playbook$
 Seeing contents of /opt/backups/archives it is observerd that backups in .gz are made after every minute , so cronjob is scheduled to run every minute to make backups of `/var/lib/tomcat9/webapps/ROOT/admin/dashboard` directory using some cronjob.
 As it is evident from pspy64 program.
 ![[Pasted image 20210928112316.png]]
-## seeing contents of run.yml reveals that `copy_links=yes` is there which means that when content is copied from `/var/lib/tomcat9/webapps/ROOT/admin/dashboard` , it also copies files/directories  that are linked with these directories like if `/home/luis/.ssh` is linked with  `/var/lib/tomcat9/webapps/ROOT/admin/dashboard/uploads`etc.
-seeing contents of run.yml reveals that `copy_links=yes` is there which means that when content is copied from `/var/lib/tomcat9/webapps/ROOT/admin/dashboard` , it also copies files/directories  that are linked with these directories like if `/home/luis/.ssh` is linked with  `/var/lib/tomcat9/webapps/ROOT/admin/dashboard/uploads`etc.
-
-
+## Seeing contents of run.yml reveals that `copy_links=yes` is there which means that when content is copied from `/var/lib/tomcat9/webapps/ROOT/admin/dashboard` , it also copies files/directories  that are linked with these directories like if `/home/luis/.ssh` is linked with  `/var/lib/tomcat9/webapps/ROOT/admin/dashboard/uploads`etc.
+Seeing contents of run.yml reveals that `copy_links=yes` is there which means that when content is copied from `/var/lib/tomcat9/webapps/ROOT/admin/dashboard` , it also copies files/directories  that are linked with these directories like if `/home/luis/.ssh` is linked with  `/var/lib/tomcat9/webapps/ROOT/admin/dashboard/uploads`etc.
+![[Pasted image 20210928112811.png]]
+Note that `var/lib/tomcat9/webapps/ROOT/admin/dashboard` also contains `uploads` folder with in it.
+![[Pasted image 20210928113002.png]]
+## Linking `/home/luis/.ssh` with `/var/lib/tomcat9/webapps/ROOT/admin/dashboard/uploads`
+Linking `/home/luis/.ssh` with `/var/lib/tomcat9/webapps/ROOT/admin/dashboard/uploads` , so that when ` /bin/sh -c sleep 30 && sudo -u luis /usr/bin/ansible-playbook /opt/backups/playbook/run.yml` command is run and contents of `/var/lib/tomcat9/webapps/ROOT/admin/dashboard/uploads` are backed up in `.gz` format in `/opt/backups/archives`, files/directories linked with `/var/lib/tomcat9/webapps/ROOT/admin/dashboard/uploads` are also copied using command `ln -s /home/luis/.ssh /var/lib/tomcat9/webapps/ROOT/admin/dashboard/uploads`.
+![[Pasted image 20210928113657.png]]
+## Now waiting for cronjob to run so that we can grab private key of luis user
 
 
 
