@@ -137,3 +137,4 @@ Nmap done: 1 IP address (1 host up) scanned in 29.63 seconds
 ```
 ## Added seal.htb to /etc/hosts file
 ![[Pasted image 20210922182710.png]]
+## Gobuster
