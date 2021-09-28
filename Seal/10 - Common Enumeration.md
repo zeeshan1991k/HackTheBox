@@ -161,7 +161,7 @@ Directory bruteforcing for http://10.10.10.250/.
 /[2-9]                (Status: 400) [Size: 771]
 /options[]            (Status: 400) [Size: 771]
 ```
-Directory bruteforcing for http://10.10.10.250/manger
+Directory bruteforcing for http://10.10.10.250/manger.
 ```bash
 ❯ cat gobuster/http-manager_raft.gobuster
 /images               (Status: 302) [Size: 0] [--> http://seal.htb/manager/images/]
