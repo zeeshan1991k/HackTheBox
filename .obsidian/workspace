@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Forge/25 - Got user flag.md",
+            "file": "Forge/30 - Privilege Escalation to Root.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Forge/25 - Got user flag.md",
+                "file": "Forge/30 - Privilege Escalation to Root.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
