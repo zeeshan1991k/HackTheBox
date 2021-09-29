@@ -7,3 +7,8 @@ Accessing admin.forge.htb through `Upload from url` on http://forge.htb/upload g
 ![[Pasted image 20210929185612.png]]
 ## Seeing contents of link provided after accessing admin.forge.htb page
 ![[Pasted image 20210929190016.png]]
+Seeing contents of link provided after accessing admin.forge.htb page reveals other links like `/announcements` and `/upload`.
+## Seeing contents of admin.forge.htb/announcements
+![[Pasted image 20210929192820.png]]
+Seeing contents of admin.forge.htb/announcements gives internal ftp server credentials 
+also reveals that 
