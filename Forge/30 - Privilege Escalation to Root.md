@@ -52,4 +52,6 @@ except Exception as e:
 finally:
     quit()
 ```
-When this python program is run , it is listening at localhost on any random port from `1025-65535`, when someone connects to this address `localhost` with port `1025-65535`, ir asjks	
+When this python program is run , it is listening at localhost on any random port from `1025-65535`, when someone connects to this address `localhost` with port `1025-65535` via `nc localhost [port]`, it asks for password which should be `secretadminpassword`, if password is wrong it gives message `Wrong password!`, if password is correct then it gives message `What do you wanna do:` and gives 4 options asking `What do you wanna do:` ,if we press `1-3` , it will `View processes`,
+`View free memory`,`View listening sockets` respectively and if `4` is pressed , then program will close . On the other hand , if we give any string instead of `1-4` options then it will `python debugger`, in which execute python commands to get shell 
+as root like `os.system("/bin/bash"`.
