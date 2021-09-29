@@ -45,5 +45,30 @@ HOP RTT       ADDRESS
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 27.48 seconds
 ```
-# Added forge.htb to /etc/hosts file
+## Added forge.htb to /etc/hosts file
 ![[Pasted image 20210928125657.png]]
+## Finding another subdomain/vhost using wfuzz
+```bash
+❯ wfuzz -c -f gobuster/vhosts_forge_htb.gobuster -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt   -u "http://forge.htb" -H "Host: FUZZ.forge.htb" -t 42 |
+ grep -v "302"
+ ********************************************************
+* Wfuzz 3.1.0 - The Web Fuzzer                         *
+********************************************************
+
+Target: http://forge.htb/
+Total requests: 4989
+
+=====================================================================
+ID           Response   Lines    Word       Chars       Payload
+=====================================================================
+
+000000024:   200        1 L      4 W        27 Ch       "admin"
+
+Total time: 0
+Processed Requests: 4989
+Filtered Requests: 0
+Requests/sec.: 0
+```
+Found another subdomain `http://admin.forge.htb`  using wfuzz
+## Added admin.forge.htb to /etc/hosts file
+![[Pasted image 20210929181846.png]]
