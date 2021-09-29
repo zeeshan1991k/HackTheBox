@@ -6,4 +6,4 @@ Accessing admin.forge.htb through `Upload from url` on http://forge.htb/upload g
 `URL contains a blacklisted address!` can be bypassed by using all capital letters of `admin.forge.htb` like `ADMIN.FORGE.HTB`.
 ![[Pasted image 20210929185612.png]]
 ## Seeing contents of link provided after accessing admin.forge.htb page
-
+![[Pasted image 20210929190016.png]]
