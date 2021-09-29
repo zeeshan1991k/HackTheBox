@@ -7,8 +7,11 @@
         "id": "7bdfc6dcc15d7db4",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Forge/10 - Common Enumeration.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Forge/10 - Common Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,15 +88,15 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
-    "Seal/OSCP-exam-report-88503.md",
     "Forge/10 - Common Enumeration.md",
+    "Forge/5 - Loot.md",
+    "Seal/OSCP-exam-report-88503.md",
     "Heist_Retired/10 - Common Enumeration.md",
     "Forge/Untitled.md",
     "Seal/5 - Loot.md",
     "Seal/Untitled.md",
     "Seal/25 - Privilege escalation to luis user.md",
     "Seal/20 - Getting Initial shell as tomcat.md",
-    "Seal/10 - Common Enumeration.md",
-    "Seal/15 - Websites.md"
+    "Seal/10 - Common Enumeration.md"
   ]
 }
