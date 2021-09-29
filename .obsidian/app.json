@@ -6,6 +6,6 @@
     "downscalePercent": 100
   },
   "fileSortOrder": "byCreatedTimeReverse",
-  "attachmentFolderPath": "/",
+  "attachmentFolderPath": "./Screenshots",
   "alwaysUpdateLinks": true
 }
