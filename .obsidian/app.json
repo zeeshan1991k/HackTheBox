@@ -7,5 +7,6 @@
   },
   "fileSortOrder": "byCreatedTimeReverse",
   "attachmentFolderPath": "./Screenshots",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current"
 }
