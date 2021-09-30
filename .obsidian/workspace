@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Forge/35 - Got root flag.md",
+            "file": "Writer/10 - Common Enumeration.md",
             "mode": "source"
           }
         }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 378
   },
   "right": {
     "id": "fc126939635e0e87",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Forge/35 - Got root flag.md",
+                "file": "Writer/10 - Common Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "Writer/10 - Common Enumeration.md",
+    "Traverxec_Retired/10 - Common Enumeration.md",
+    "Writer/5 - Loot 1.md",
+    "Writer/Untitled.md",
+    "Untitled.md",
     "Forge/Untitled.md",
     "Forge/20 - Initial shell as 'user' user.md",
     "Forge/5 - Loot.md",
     "Forge/15 - Websites.md",
-    "Forge/10 - Common Enumeration.md",
-    "Seal/OSCP-exam-report-88503.md",
-    "Heist_Retired/10 - Common Enumeration.md",
-    "Seal/5 - Loot.md",
-    "Seal/Untitled.md",
-    "Seal/25 - Privilege escalation to luis user.md"
+    "Forge/10 - Common Enumeration.md"
   ]
 }
