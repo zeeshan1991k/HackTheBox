@@ -19,3 +19,94 @@ drwxr-xr-x 7 root   root   4096 May 18 16:54 ..
 kyle@writer:~$
 ````
 ![[Pasted image 20211004130545.png]]
+## User kyle can execute `/var/www/writer2_project/manage.py` and write and execute `/etc/postfix/disclaimer`
+User kyle can execute `/var/www/writer2_project/manage.py` and write and execute `/etc/postfix/disclaimer`
+Running `/var/www/writer2_project/manage.py` gives following usage output stating we can email using ` sendtestemail` command.
+```bash
+kyle@writer:~$ python3 /var/www/writer2_project/manage.py
+
+Type 'manage.py help <subcommand>' for help on a specific subcommand.
+
+Available subcommands:
+
+[auth]
+    changepassword
+    createsuperuser
+
+[contenttypes]
+    remove_stale_contenttypes
+
+[django]
+    check
+    compilemessages
+    createcachetable
+    dbshell
+    diffsettings
+    dumpdata
+    flush
+    inspectdb
+    loaddata
+    makemessages
+    makemigrations
+    migrate
+    sendtestemail
+    shell
+    showmigrations
+    sqlflush
+    sqlmigrate
+    sqlsequencereset
+    squashmigrations
+    startapp
+    startproject
+    test
+    testserver
+
+[sessions]
+    clearsessions
+
+[staticfiles]
+    collectstatic
+    findstatic
+    runserver
+```
+Contents of `/etc/postfix/disclaimer` are following.
+```bash
+kyle@writer:~$ cat /etc/postfix/disclaimer
+#!/bin/sh
+# Localize these.
+INSPECT_DIR=/var/spool/filter
+SENDMAIL=/usr/sbin/sendmail
+
+# Get disclaimer addresses
+DISCLAIMER_ADDRESSES=/etc/postfix/disclaimer_addresses
+
+# Exit codes from <sysexits.h>
+EX_TEMPFAIL=75
+EX_UNAVAILABLE=69
+
+# Clean up when done or when aborting.
+trap "rm -f in.$$" 0 1 2 3 15
+
+# Start processing.
+cd $INSPECT_DIR || { echo $INSPECT_DIR does not exist; exit
+$EX_TEMPFAIL; }
+
+cat >in.$$ || { echo Cannot save mail to file; exit $EX_TEMPFAIL; }
+
+# obtain From address
+from_address=`grep -m 1 "From:" in.$$ | cut -d "<" -f 2 | cut -d ">" -f 1`
+
+if [ `grep -wi ^${from_address}$ ${DISCLAIMER_ADDRESSES}` ]; then
+  /usr/bin/altermime --input=in.$$ \
+                   --disclaimer=/etc/postfix/disclaimer.txt \
+                   --disclaimer-html=/etc/postfix/disclaimer.txt \
+                   --xheader="X-Copyrighted-Material: Please visit http://www.company.com/privacy.htm" || \
+                    { echo Message content rejected; exit $EX_UNAVAILABLE; }
+fi
+
+$SENDMAIL "$@" <in.$$
+
+exit $?
+```
+## Sending email via `sendtestemail` to `kyle@writer.htb` and root@writer.htb triggers `/etc/postfix/disclaimer` script as explained in [link]() 
+
