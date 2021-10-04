@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writer/35 - Privilege esacalation to john user.md",
+            "file": "Writer/40 - Privilege escalation to root.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writer/35 - Privilege esacalation to john user.md",
+                "file": "Writer/40 - Privilege escalation to root.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,9 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "Writer/Untitled.md",
     "Writer/35 - Privilege esacalation to john user.md",
     "Writer/5 - Loot.md",
-    "Writer/Untitled.md",
     "Writer/25 - Privilege escalation to user kyle.md",
     "Writer/10 - Common Enumeration.md",
     "Writer/15 - Webpages.md",

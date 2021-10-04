@@ -110,6 +110,8 @@ exit $?
 ```
 Sending email via `sendtestemail` command in `/var/www/writer2_project/manage.py ` to `kyle@writer.htb` and `root@writer.htb` triggers `/etc/postfix/disclaimer` script which is running as john as explained in [link](https://www.howtoforge.com/add-disclaimers-to-outgoing-emails-with-altermime-postfix-debian-etch) So we can copy public key of kali vm in john's `.ssh`'s authorized_keys file so that when we send email via `sendtestemail` to trigger `/etc/postfix/disclaimer` script so that kali vm public is copied to `/home/john/.ssh/authorized_keys` and we can ssh log in as john user.
 ## Editing `/etc/postfix/disclaimer` and sending email via `sendtestemail` to trigger  `/etc/postfix/disclaimer` and copy kali vm public key and ssh log in as john user
+![[Pasted image 20211004132956.png]]
+
 
 
 
