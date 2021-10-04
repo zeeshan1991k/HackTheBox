@@ -345,7 +345,9 @@ Uploaded images are stored in url http://10.10.11.101/static/img/
 ![[Pasted image 20211004114531.png]]
 ## Images can also be uploaded from url which can trigger `mv` to get reverse shell
 ![[Pasted image 20211004114644.png]]
-## Now 
+## Now uploading the "uploaded image/file from computer" via url using file:/// protocol to get reverse shell via intercepting 
+
+
 
 
 
