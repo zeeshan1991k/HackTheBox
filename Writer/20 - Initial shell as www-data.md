@@ -7,4 +7,11 @@ Logged in as admin user after entering malicious sql queiry in username field of
 ## Using [MySQL LOAD_FILE() function](https://www.w3resource.com/mysql/string-functions/mysql-load_file-function.php) to read files on system 
 We can run combine commands via `UNION SELECT` keywords but `UNION SELECT` QUERY must have same number of columns . As table storing users (have only one user as admin) have 6 columns so we will have the `UNION SELECT` selecting 6 columns with command `admin' UNION SELECT 1,LOAD_FILE("/etc/passwd"),3,4,5,6#` . Output of this query in burpsuite is shown below.
 ![[Pasted image 20211004105357.png]]
-Reading 
+Reading apache server virual hosts files to know about directories containing website source code and other virtual hosts in `/etc/apache2/sites-available/000-default.conf`
+![[Pasted image 20211004110137.png]]
+Reading code in `/var/www/writer.htb/writer.wsgi`,it is referring to `__init__.py`
+in the app folder having all code related to `writer.htb` webapp.
+![[Pasted image 20211004110316.png]]
+Reading `__init__.py` in webapp directory  
+
+
