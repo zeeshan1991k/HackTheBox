@@ -2,7 +2,7 @@
 ## NMAP
 All ports scan without service version and os detection.
 ```bash
- ❯ sudo nmap -p- -sU -sS  --min-rate 10000 -oA nmap/driver 10.129.214.56
+ ❯ sudo nmap -p- -sU -sS  --min-rate 10000 -oA nmap/driver 10.10.11.106
  
 Starting Nmap 7.91 ( https://nmap.org ) at 2021-10-04 15:38 PKT
 Nmap scan report for 10.129.214.56
@@ -18,7 +18,7 @@ Nmap done: 1 IP address (1 host up) scanned in 27.97 seconds
 ```
 All ports scan with service version and os detection.
 ```bash
-❯ sudo nmap -p80,135,445,5985 -sC -sV -A -oA nmap/driver_all 10.129.214.56
+❯ sudo nmap -p80,135,445,5985 -sC -sV -A -oA nmap/driver_all 10.10.11.106
 Starting Nmap 7.91 ( https://nmap.org ) at 2021-10-04 15:41 PKT
 Nmap scan report for 10.129.214.56
 Host is up (0.21s latency).
@@ -56,8 +56,10 @@ Host script results:
 TRACEROUTE (using port 135/tcp)
 HOP RTT       ADDRESS
 1   213.88 ms 10.10.14.1
-2   213.94 ms 10.129.214.56
+2   213.94 ms 10.10.11.106
 
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 57.56 seconds
 ```
+## Added driver.htb to hosts file
+![[Pasted image 20211004184017.png]]
