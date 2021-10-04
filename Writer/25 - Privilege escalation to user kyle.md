@@ -164,3 +164,4 @@ Stopped: Sat Oct  2 18:13:39 2021
 ```
 cracked hash `pbkdf2_sha256$260000$wJO3ztk0fOlcbssnS1wJPD$bbTyCB8dYWMGYlz4dSArozTY7wcZCS7DV6l5dpuXM4A=:marcoantonio`.
 ## Using cracked hash to ssh login as kyle
+![[Pasted image 20211004125705.png]]
