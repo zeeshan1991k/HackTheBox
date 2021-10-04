@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Driver/5 - Common Enumeration.md",
+            "file": "Driver/10 - Common Enumeration.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Driver/5 - Common Enumeration.md",
+                "file": "Driver/10 - Common Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "Driver/10 - Common Enumeration.md",
+    "Explore/10 - Common Enumeration.md",
+    "Explore/5 - Loot.md",
     "Driver/Untitled.md",
     "Writer/Untitled.md",
     "Writer/35 - Privilege esacalation to john user.md",
     "Writer/5 - Loot.md",
     "Writer/25 - Privilege escalation to user kyle.md",
     "Writer/10 - Common Enumeration.md",
-    "Writer/15 - Webpages.md",
-    "Traverxec_Retired/10 - Common Enumeration.md",
-    "Writer/5 - Loot 1.md",
-    "Untitled.md"
+    "Writer/15 - Webpages.md"
   ]
 }
