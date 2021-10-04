@@ -58,3 +58,17 @@ HOP RTT       ADDRESS
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 21.56 seconds
 ```
+# Gobuster
+Found some directories on http://10.10.11.101/
+```bash
+❯ cat gobuster/http-root_raft.gobuster
+/contact              (Status: 200) [Size: 4905]
+/logout               (Status: 302) [Size: 208] [--> http://10.10.11.101/]
+/about                (Status: 200) [Size: 3522]
+/static               (Status: 301) [Size: 313] [--> http://10.10.11.101/static/]
+/dashboard            (Status: 302) [Size: 208] [--> http://10.10.11.101/]
+/server-status        (Status: 403) [Size: 277]
+/administrative       (Status: 200) [Size: 1443]
+```
+
+
