@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Driver/5 - Loot.md",
+            "file": "Driver/20 - Initial shell as 'tony' user.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Driver/5 - Loot.md",
+                "file": "Driver/20 - Initial shell as 'tony' user.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "Driver/20 - Initial shell as 'tony' user.md",
+    "Driver/10 - Common Enumeration.md",
+    "Driver/Screenshots/Untitled.md",
+    "Driver/15 - Websites.md",
     "Driver/5 - Loot.md",
     "Active_Retired/10 - Common Enumeration.md",
     "Bastion/10 - Common Enumeration.md",
-    "Driver/15 - Websites.md",
-    "Driver/10 - Common Enumeration.md",
     "Driver/Untitled.md",
     "Explore/10 - Common Enumeration.md",
-    "Explore/5 - Loot.md",
-    "Writer/Untitled.md",
-    "Writer/35 - Privilege esacalation to john user.md"
+    "Explore/5 - Loot.md"
   ]
 }
