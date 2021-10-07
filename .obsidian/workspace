@@ -88,15 +88,15 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "Driver/30 - Privilege Escalation to Administrator.md",
+    "Driver/10 - Common Enumeration.md",
     "Driver/Untitled.md",
     "Driver/20 - Initial shell as 'tony' user.md",
     "Driver/5 - Loot.md",
-    "Driver/10 - Common Enumeration.md",
     "Driver/Screenshots/Untitled.md",
     "Driver/15 - Websites.md",
     "Active_Retired/10 - Common Enumeration.md",
     "Bastion/10 - Common Enumeration.md",
-    "Explore/10 - Common Enumeration.md",
-    "Explore/5 - Loot.md"
+    "Explore/10 - Common Enumeration.md"
   ]
 }
