@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Driver/20 - Initial shell as 'tony' user.md",
+            "file": "Driver/30 - Privilege Escalation to Administrator.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Driver/20 - Initial shell as 'tony' user.md",
+                "file": "Driver/30 - Privilege Escalation to Administrator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,14 +88,14 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "Driver/Untitled.md",
     "Driver/20 - Initial shell as 'tony' user.md",
+    "Driver/5 - Loot.md",
     "Driver/10 - Common Enumeration.md",
     "Driver/Screenshots/Untitled.md",
     "Driver/15 - Websites.md",
-    "Driver/5 - Loot.md",
     "Active_Retired/10 - Common Enumeration.md",
     "Bastion/10 - Common Enumeration.md",
-    "Driver/Untitled.md",
     "Explore/10 - Common Enumeration.md",
     "Explore/5 - Loot.md"
   ]
