@@ -149,3 +149,5 @@ Stopped: Thu Oct  7 10:56:56 2021
 
 ## cracked NTLMv2 hash via hashcat
 `TONY::DRIVER:c61fbe0c35b5c167:03be8d54cb224656162cfdd067b82a04:010100000000000032b8dcee79bbd7019a63b0aca1ef19a100000000020000000000000000000000:liltony`
+## command used to find writeable directories by a specified user
+`Get-ChildItem C:\users\tony -Recurse | Get-Acl | findstr -i  "tony"`
