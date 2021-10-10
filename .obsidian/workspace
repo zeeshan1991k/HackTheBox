@@ -7,11 +7,8 @@
         "id": "7bdfc6dcc15d7db4",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Driver/35 - Got root flag.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -39,9 +36,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "smbclient",
-                "matchingCase": true,
-                "explainSearch": false,
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Driver/35 - Got root flag.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +84,15 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
-    "Driver/Untitled.md",
-    "Driver/30 - Privilege Escalation to Administrator.md",
-    "Driver/10 - Common Enumeration.md",
     "Driver/20 - Initial shell as 'tony' user.md",
     "Driver/5 - Loot.md",
+    "Forest_Retired/50 - Uploading files to forest machine via smbserver.md",
+    "Heist_Retired/30 - Privilege escalation to Administrator.md",
+    "Driver/30 - Privilege Escalation to Administrator.md",
+    "Driver/Untitled.md",
+    "Driver/10 - Common Enumeration.md",
     "Driver/Screenshots/Untitled.md",
     "Driver/15 - Websites.md",
-    "Active_Retired/10 - Common Enumeration.md",
-    "Bastion/10 - Common Enumeration.md",
-    "Explore/10 - Common Enumeration.md"
+    "Active_Retired/10 - Common Enumeration.md"
   ]
 }

