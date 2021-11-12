@@ -48,3 +48,34 @@ HOP RTT       ADDRESS
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 20.96 seconds
 ```
+## Gobuster
+```bash
+ ❯ gobuster dir -w /usr/share/seclists/Discovery/Web-Content/raft-large-directories.txt  -u http://10.10.11.120 -o gobuster/http-root_raft.gobuster
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.11.120
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/seclists/Discovery/Web-Content/raft-large-directories.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2021/11/12 13:31:41 Starting gobuster in directory enumeration mode
+===============================================================
+/download             (Status: 301) [Size: 183] [--> /download/]
+/docs                 (Status: 200) [Size: 20720]
+/api                  (Status: 200) [Size: 93]
+/assets               (Status: 301) [Size: 179] [--> /assets/]
+/API                  (Status: 200) [Size: 93]
+/Docs                 (Status: 200) [Size: 20720]
+/Api                  (Status: 200) [Size: 93]
+/DOCS                 (Status: 200) [Size: 20720]
+Progress: 24000 / 62284 (38.53%)                               [ERROR] 2021/11/12 13:36:28 [!] parse "http://10.10.11.120/error\x1f_log": net/url: invalid control character in URL
+
+===============================================================
+2021/11/12 13:43:47 Finished
+===============================================================
+```
