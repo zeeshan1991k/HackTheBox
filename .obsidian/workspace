@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Driver/20 - Initial shell as 'tony' user.md",
-            "mode": "preview"
+            "file": "Secret/10 - Common Enumeration.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Driver/20 - Initial shell as 'tony' user.md",
+                "file": "Secret/10 - Common Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "Secret/10 - Common Enumeration.md",
+    "Seal/10 - Common Enumeration.md",
+    "Secret/5 - Loot.md",
+    "Seal/5 - Loot.md",
     "Driver/20 - Initial shell as 'tony' user.md",
     "Driver/15 - Websites.md",
     "Driver/10 - Common Enumeration.md",
     "Breadcrumbs_Retired/50 - Shell as development user.md",
     "Active_Retired/5 - Loot.md",
-    "Driver/5 - Loot.md",
-    "Forest_Retired/50 - Uploading files to forest machine via smbserver.md",
-    "Heist_Retired/30 - Privilege escalation to Administrator.md",
-    "Driver/30 - Privilege Escalation to Administrator.md",
-    "Driver/Untitled.md"
+    "Driver/5 - Loot.md"
   ]
 }
