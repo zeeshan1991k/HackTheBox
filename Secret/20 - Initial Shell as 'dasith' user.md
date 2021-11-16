@@ -57,3 +57,5 @@ module.exports = router
 ## TOKEN_SECRET can be used to generate JWT web-token(`auth-token :`) which can be used to login as 'admin'
 ![[Pasted image 20211116215200.png]]
 ## Creating jwt web-token to login as `admin`
+![[Pasted image 20211116222014.png]]
+## 
