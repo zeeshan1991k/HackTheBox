@@ -273,5 +273,7 @@ r%oJJ2ohhAJTPD^XhEn             [
 dasith@secret:~$
 ```
 ![[Pasted image 20211116233257.png]]
-## using 
+## using id_rsa private key of root to get ssh shell as root
+![[Pasted image 20211116233549.png]]
+
   
