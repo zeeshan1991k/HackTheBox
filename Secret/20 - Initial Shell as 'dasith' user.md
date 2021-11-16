@@ -58,4 +58,9 @@ module.exports = router
 ![[Pasted image 20211116215200.png]]
 ## Creating jwt web-token to login as `admin`
 ![[Pasted image 20211116222014.png]]
-## 
+## There is another route '/api/logs' which executes git log command
+There is another route '/api/logs' which executes git log command taking `file` as query parameter.
+![[Pasted image 20211116222842.png]]
+## `/api/logs/` route/url can be used to execute code 
+![[Pasted image 20211116223133.png]]
+## Getting reverse shell via `/api/logs` route/url
