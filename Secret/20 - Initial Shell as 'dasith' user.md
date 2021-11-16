@@ -63,4 +63,5 @@ There is another route '/api/logs' which executes git log command taking `file` 
 ![[Pasted image 20211116222842.png]]
 ## `/api/logs/` route/url can be used to execute code 
 ![[Pasted image 20211116223133.png]]
-## Getting reverse shell via `/api/logs` route/url
+## Getting reverse shell as `dasith` user via `/api/logs` route/url
+![[Pasted image 20211116223626.png]]
