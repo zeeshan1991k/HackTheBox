@@ -157,5 +157,7 @@ int main()
 }
 ```
 ![[Pasted image 20211116225045.png]]
-Highlighted section of code means that 
- 
+Highlighted section of code enable coredump generation meaning coredump will be generated if program is crashed prematurely. As `count` is SUID binary so it allows users to execute the file with the permissions of its owner(which is root). So if `count` SUID binary is crashed , we can generate coredump which will contain contents of file read in memory like `/root/.ssh/id_rsa` (`count` SUID binary take file path as input from user run as root amd displays summary of characters,words,lines), so if we crash the `count` SUID binary after providing path of `/root/.ssh/id_rsa` , a core dump file will be generated in `/var/crash` directory containing contents of `/root/.ssh/id_rsa` in memory  and we can use `apport-unpack` tool to exract its contents and read content of `/root/.ssh/id_rsa`.
+We can use to ssh terminal as dasith user , in one terminal we will run program and in one terminal we wi
+
+  
