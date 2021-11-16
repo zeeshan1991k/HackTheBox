@@ -7,7 +7,7 @@
 ![[Pasted image 20211116182220.png]]
 ## So reverted to inital version of git repo that included TOKEN_SECRET
 ![[Pasted image 20211116182637.png]]
-## `private.js` file in source code showed that if name included 'the admin', then we can log in as 'admin' user
+## `private.js` file in source code showed that if name included 'theadmin', then we can log in as 'admin' user
 ```javascript
 const router = require('express').Router();
 const verifytoken = require('./verifytoken')
