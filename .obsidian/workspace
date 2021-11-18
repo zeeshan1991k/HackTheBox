@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Secret/35 - Got root flag.md",
-            "mode": "source"
+            "file": "Driver/30 - Privilege Escalation to Administrator.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Secret/35 - Got root flag.md",
+                "file": "Driver/30 - Privilege Escalation to Administrator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,8 @@
   },
   "active": "7bdfc6dcc15d7db4",
   "lastOpenFiles": [
+    "Driver/30 - Privilege Escalation to Administrator.md",
+    "Driver/20 - Initial shell as 'tony' user.md",
     "Secret/35 - Got root flag.md",
     "Secret/30 - Privilege Escalation to root.md",
     "Secret/25 - Got user flag.md",
@@ -95,8 +97,6 @@
     "Secret/15 - Websites.md",
     "Secret/10 - Common Enumeration.md",
     "Seal/10 - Common Enumeration.md",
-    "Secret/5 - Loot.md",
-    "Seal/5 - Loot.md",
-    "Driver/20 - Initial shell as 'tony' user.md"
+    "Secret/5 - Loot.md"
   ]
 }
