@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Forest_Retired/10 - Common Enumeration.md",
+            "file": "Horizontall/25 - Privilege Escalation to Root.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "smbserver",
+                "query": "phar",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Forest_Retired/10 - Common Enumeration.md",
+                "file": "Horizontall/25 - Privilege Escalation to Root.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "8e6f9ddfaf97addd",
   "lastOpenFiles": [
+    "Horizontall/25 - Privilege Escalation to Root.md",
     "Forest_Retired/10 - Common Enumeration.md",
     "Secret/15 - Websites.md",
     "Secret/5 - Loot.md",
@@ -96,7 +97,6 @@
     "Secret/35 - Got root flag.md",
     "Secret/30 - Privilege Escalation to root.md",
     "Secret/25 - Got user flag.md",
-    "Secret/20 - Initial Shell as 'dasith' user.md",
-    "Secret/10 - Common Enumeration.md"
+    "Secret/20 - Initial Shell as 'dasith' user.md"
   ]
 }
