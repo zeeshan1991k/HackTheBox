@@ -52,4 +52,30 @@ smb: \> ls
 smb: \>
 ```
 ![[Pasted image 20220225185321.png]]
+Found some usernames for password spray/
+
+Grabbing contents of `CertEnroll` share.
+```bash
+~/Dropbox/Documents/htb/boxes/search 2m 36s ❯ smbclient -H \\\\10.10.11.129\\'CertEnroll' -U 'hope.sharp'
+Enter WORKGROUP\hope.sharp's password:
+Try "help" to get a list of possible commands.
+smb: \> ls
+  .                                  Dc        0  Fri Feb 25 11:07:53 2022
+  ..                                 Dc        0  Fri Feb 25 11:07:53 2022
+  nsrev_search-RESEARCH-CA.asp       Ac      330  Tue Apr  7 12:29:31 2020
+  Research.search.htb_search-RESEARCH-CA.crt     Ac      883  Tue Apr  7 12:29:29 2020
+  search-RESEARCH-CA+.crl            Ac      735  Fri Feb 25 11:07:53 2022
+  search-RESEARCH-CA.crl             Ac     1047  Fri Feb 25 11:07:53 2022
+
+                3246079 blocks of size 4096. 595526 blocks available
+smb: \> get  nsrev_search-RESEARCH-CA.asp
+getting file \nsrev_search-RESEARCH-CA.asp of size 330 as nsrev_search-RESEARCH-CA.asp (0.7 KiloBytes/sec) (average 0.7 KiloBytes/sec)
+smb: \> get Research.search.htb_search-RESEARCH-CA.crt
+getting file \Research.search.htb_search-RESEARCH-CA.crt of size 883 as Research.search.htb_search-RESEARCH-CA.crt (1.9 KiloBytes/sec) (average 1.3 KiloBytes/sec)
+smb: \> get search-RESEARCH-CA+.crl
+getting file \search-RESEARCH-CA+.crl of size 735 as search-RESEARCH-CA+.crl (1.6 KiloBytes/sec) (average 1.4 KiloBytes/sec)
+smb: \> get  search-RESEARCH-CA.crl
+getting file \search-RESEARCH-CA.crl of size 1047 as search-RESEARCH-CA.crl (2.3 KiloBytes/sec) (average 1.6 KiloBytes/sec)
+smb: \>
+```
 

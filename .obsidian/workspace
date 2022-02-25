@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Search/10 - Common Enumeration/Using hope sharp credentials to access smb share/Using hope sharp credentials to access smb share.md",
+            "file": "Search/10 - Common Enumeration/20 - Using hope sharp credentials to access smb share/Using hope sharp credentials to access smb share.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Search/10 - Common Enumeration/Using hope sharp credentials to access smb share/Using hope sharp credentials to access smb share.md",
+                "file": "Search/10 - Common Enumeration/20 - Using hope sharp credentials to access smb share/Using hope sharp credentials to access smb share.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,7 @@
   },
   "active": "8e6f9ddfaf97addd",
   "lastOpenFiles": [
-    "Search/10 - Common Enumeration/Using hope sharp credentials to access smb share/Using hope sharp credentials to access smb share.md",
+    "Search/10 - Common Enumeration/20 - Using hope sharp credentials to access smb share/Using hope sharp credentials to access smb share.md",
     "Search/5 - Loot/5 - Loot.md",
     "Search/10 - Common Enumeration/10 - Webpage/Screenshots/Pasted image 20220225183929.png",
     "Search/10 - Common Enumeration/10 - Webpage/Webpage.md",
