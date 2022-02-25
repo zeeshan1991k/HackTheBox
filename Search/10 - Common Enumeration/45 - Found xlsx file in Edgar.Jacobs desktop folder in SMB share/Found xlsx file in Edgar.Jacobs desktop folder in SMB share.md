@@ -18,5 +18,11 @@ smb: \Edgar.Jacobs\desktop\> ls
 smb: \Edgar.Jacobs\desktop\>
 ```
 ![[Pasted image 20220225194809.png]]
-## Opening this xlsx file revealed that one of the sheets is locked 
+## Opening this xlsx file revealed that one of the sheets is locked /protected
+![[Pasted image 20220225195001.png]]
+xlsx file revealed that one of the sheets `Passwords 01082020` is locked /protected
+SO this protection has to be removed.
+## Removing `Passwords 01082020` protection to reveal hidden columns
+Removing `Passwords 01082020` protection to reveal hidden columns via using method on [link](https://andreafortuna.org/2018/02/14/how-to-unprotect-excel-worksheet-in-5-simple-steps/) 
+
 
