@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Search/15 - Getting shell as Sierra.Frye user/5 - Enumerating Sierra.Frye folder in SMB share/Enumerating Sierra.Frye folder in SMB share.md",
+            "file": "Search/15 - Getting shell as Sierra.Frye user/5 - Enumerating Sierra.Frye folder in SMB share and downloading interesting files/Enumerating Sierra.Frye folder in SMB share and downloading interesting files.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Search/15 - Getting shell as Sierra.Frye user/5 - Enumerating Sierra.Frye folder in SMB share/Enumerating Sierra.Frye folder in SMB share.md",
+                "file": "Search/15 - Getting shell as Sierra.Frye user/5 - Enumerating Sierra.Frye folder in SMB share and downloading interesting files/Enumerating Sierra.Frye folder in SMB share and downloading interesting files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,7 @@
   },
   "active": "8e6f9ddfaf97addd",
   "lastOpenFiles": [
-    "Search/15 - Getting shell as Sierra.Frye user/5 - Enumerating Sierra.Frye folder in SMB share/Enumerating Sierra.Frye folder in SMB share.md",
+    "Search/15 - Getting shell as Sierra.Frye user/5 - Enumerating Sierra.Frye folder in SMB share and downloading interesting files/Enumerating Sierra.Frye folder in SMB share and downloading interesting files.md",
     "Search/15 - Getting shell as Sierra.Frye user/5.md",
     "Search/10 - Common Enumeration/50 - Spraying passwords discovered in xlsx file/Spraying passwords discovered in xlsx file.md",
     "Search/5 - Loot/5 - Loot.md",
