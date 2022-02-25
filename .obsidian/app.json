@@ -5,7 +5,7 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "fileSortOrder": "byCreatedTimeReverse",
+  "fileSortOrder": "byModifiedTimeReverse",
   "attachmentFolderPath": "./Screenshots",
   "alwaysUpdateLinks": true,
   "newFileLocation": "root",
