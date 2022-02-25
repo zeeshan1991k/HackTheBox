@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Search/10 - Common Enumeration/30 - Getting service ticket(TGS) for web_svc/Getting service ticket(TGS) for web_svc.md",
+            "file": "Search/5 - Loot/5 - Loot.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Search/10 - Common Enumeration/30 - Getting service ticket(TGS) for web_svc/Getting service ticket(TGS) for web_svc.md",
+                "file": "Search/5 - Loot/5 - Loot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,10 +88,10 @@
   },
   "active": "8e6f9ddfaf97addd",
   "lastOpenFiles": [
+    "Search/5 - Loot/5 - Loot.md",
     "Search/10 - Common Enumeration/30 - Getting service ticket(TGS) for web_svc/Getting service ticket(TGS) for web_svc.md",
     "Search/10 - Common Enumeration/25 - Using  windapsearch  to get more users/Using windapsearch to get more users.md",
     "Search/10 - Common Enumeration/20 - Using hope sharp credentials to access smb share/Using hope sharp credentials to access smb share.md",
-    "Search/5 - Loot/5 - Loot.md",
     "Search/10 - Common Enumeration/10 - Webpage/Screenshots/Pasted image 20220225183929.png",
     "Search/10 - Common Enumeration/10 - Webpage/Webpage.md",
     "Search/10 - Common Enumeration/15 - Directory Bruteforcing/Directory Bruteforcing.md",
