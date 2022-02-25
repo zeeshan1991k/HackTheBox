@@ -85,4 +85,7 @@ getting file \sierra.frye\Downloads\BAckups\staff.pfx of size 4326 as staff.pfx 
 smb: \sierra.frye\Downloads\BAckups\>
 ```
 ![[Pasted image 20220225235327.png]]
-Found backups folder in `Sierra.Frye` directory which had `search-RESEARCH-CA.p12` and `staff.pfx`  and was download
+Found backups folder in `Sierra.Frye` directory which had `search-RESEARCH-CA.p12` and `staff.pfx`  and was downloaded to kali VM.
+These `search-RESEARCH-CA.p12` and `staff.pfx` are actually certificates for browser to access `/staff` directory on http:1010.11.129/
+ 
+
