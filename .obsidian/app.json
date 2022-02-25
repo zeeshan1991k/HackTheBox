@@ -8,5 +8,6 @@
   "fileSortOrder": "byCreatedTimeReverse",
   "attachmentFolderPath": "./Screenshots",
   "alwaysUpdateLinks": true,
-  "newFileLocation": "root"
+  "newFileLocation": "root",
+  "communityPluginSortOrder": "download"
 }
