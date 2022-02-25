@@ -23,6 +23,6 @@ smb: \Edgar.Jacobs\desktop\>
 xlsx file revealed that one of the sheets `Passwords 01082020` is locked /protected
 SO this protection has to be removed.
 ## Removing `Passwords 01082020` protection to reveal hidden columns
-Removing `Passwords 01082020` protection to reveal hidden columns via using method on [link](https://andreafortuna.org/2018/02/14/how-to-unprotect-excel-worksheet-in-5-simple-steps/) 
-
+Removing `Passwords 01082020` protection to reveal hidden columns via using method on [link](https://andreafortuna.org/2018/02/14/how-to-unprotect-excel-worksheet-in-5-simple-steps/) to reveal passwords.
+![[Pasted image 20220225195621.png]]
 
