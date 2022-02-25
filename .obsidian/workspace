@@ -7,11 +7,8 @@
         "id": "8e6f9ddfaf97addd",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Driver/10 - Common Enumeration.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Driver/10 - Common Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +84,7 @@
   },
   "active": "8e6f9ddfaf97addd",
   "lastOpenFiles": [
+    "Search/5 - Loot.md",
     "Driver/10 - Common Enumeration.md",
     "Active_Retired/5 - Loot.md",
     "Forest_Retired/50 - Uploading files to forest machine via smbserver.md",
@@ -96,7 +93,6 @@
     "Crossfit_Retired/25 - Gym-Club XSS.md",
     "Crossfit_Retired/20 - Gym-Club.md",
     "Crossfit_Retired/15 - Web-Pages.md",
-    "Crossfit_Retired/45 - Issac.md",
-    "Crossfit_Retired/10 - Common Enumeration.md"
+    "Crossfit_Retired/45 - Issac.md"
   ]
 }
