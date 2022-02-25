@@ -54,3 +54,4 @@
 200      GET      373l     1419w    19559c https://10.10.11.129/Single.html
 301      GET        2l       10w      147c https://10.10.11.129/jS => https://10.10.11.129/jS/
 ```
+Found interesting directories like `/staff`.
