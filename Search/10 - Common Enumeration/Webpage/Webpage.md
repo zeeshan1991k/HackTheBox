@@ -5,3 +5,4 @@
 ![[Pasted image 20220225183121.png]]
 ## Found an slider image with username and password
 ![[Pasted image 20220225183720.png]]
+![[Pasted image 20220225183929.png]]

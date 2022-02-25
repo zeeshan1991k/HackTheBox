@@ -7,10 +7,9 @@
         "id": "8e6f9ddfaf97addd",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "Search/10 - Common Enumeration/Webpage/Webpage.md",
-            "mode": "source"
+            "file": "Search/10 - Common Enumeration/Webpage/Screenshots/Pasted image 20220225183929.png"
           }
         }
       }
@@ -68,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Search/10 - Common Enumeration/Webpage/Webpage.md",
+                "file": "Search/10 - Common Enumeration/Webpage/Screenshots/Pasted image 20220225183929.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +87,15 @@
   },
   "active": "8e6f9ddfaf97addd",
   "lastOpenFiles": [
+    "Search/10 - Common Enumeration/Webpage/Screenshots/Pasted image 20220225183929.png",
+    "Search/5 - Loot/5 - Loot.md",
     "Search/10 - Common Enumeration/Webpage/Webpage.md",
     "Search/10 - Common Enumeration/Directory Bruteforcing/Directory Bruteforcing.md",
     "Search/10 - Common Enumeration/NMAP SCAN/NMAP SCAN.md",
-    "Search/5 - Loot/5 - Loot.md",
     "Search/5 - Loot.md",
     "Driver/10 - Common Enumeration.md",
     "Active_Retired/5 - Loot.md",
     "Forest_Retired/50 - Uploading files to forest machine via smbserver.md",
-    "Forest_Retired/10 - Common Enumeration.md",
-    "Ready/5 - Loot.md"
+    "Forest_Retired/10 - Common Enumeration.md"
   ]
 }
