@@ -12,5 +12,6 @@ Web_svc password cracked from web_svc TGS hash as in [[Cracking the service tick
 `web_svc:@3ONEmillionbaby`
 ## Credentials for Edgar.Jacobs
 `Edgar.Jacobs:@3ONEmillionbaby` as discovered in [[Spraying web_svc password on users list]]
-
+## Credentials for Sierra.Frye
+`Sierra.Frye:$$49=wide=STRAIGHT=jordan=28$$18` as discovered in [[Spraying passwords discovered in xlsx file]]
 

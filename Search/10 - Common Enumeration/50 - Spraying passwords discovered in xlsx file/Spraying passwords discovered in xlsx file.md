@@ -118,4 +118,5 @@ SMB         10.10.11.129    445    RESEARCH         [-] search.htb\Sierra.Frye:~
 SMB         10.10.11.129    445    RESEARCH         [+] search.htb\Sierra.Frye:$$49=wide=STRAIGHT=jordan=28$$18
 ```
 ![[Pasted image 20220225200257.png]]
-Password spraying was successful on `Sierra.Frye` 
+Password spraying was successful on `Sierra.Frye` , as in `SMB         10.10.11.129    445    RESEARCH         [+] search.htb\Sierra.Frye:$$49=wide=STRAIGHT=jordan=28$$18`.
+
