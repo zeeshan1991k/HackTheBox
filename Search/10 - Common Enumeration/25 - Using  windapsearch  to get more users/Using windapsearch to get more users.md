@@ -107,5 +107,12 @@ Tristan.Davies
 Claudia.Pugh
 Jordan.Gregory
 ```
-Found web_svc account , can be used to get ticket
+Found web_svc account , can be used to get service ticket(TGS) as it is registered with SPN(Service Principal Name) as shown below.
+```bash
+~/Dropbox/Documents/htb/boxes/search ❯ windapsearch -d 'search.htb' -u 'hope.sharp' -p 'IsolationIsKey?' -m user-spns
+dn: CN=Web Service,OU=Users,OU=Sheffield,OU=Sites,DC=search,DC=htb
+cn: Web Service
+sAMAccountName: web_svc
+servicePrincipalName: RESEARCH/web_svc.search.htb:60001
+```
 
