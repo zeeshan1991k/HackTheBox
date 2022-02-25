@@ -10,5 +10,7 @@ $krb5tgs$23$*web_svc$SEARCH.HTB$search.htb/web_svc*$8f24d3bc07ddbcfcc240a41525c1
 ## Web_svc password cracked from web_svc TGS hash
 Web_svc password cracked from web_svc TGS hash as in [[Cracking the service ticket(TGS) to get web_svc Password]]
 `web_svc:@3ONEmillionbaby`
+## Credentials for Edgar.Jacobs
+`Edgar.Jacobs:@3ONEmillionbaby` as discovered in [[Spraying web_svc password on users list]]
 
 

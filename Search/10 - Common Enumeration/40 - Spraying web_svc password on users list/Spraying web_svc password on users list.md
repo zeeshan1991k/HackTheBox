@@ -106,4 +106,4 @@ SMB         10.10.11.129    445    RESEARCH         [+] search.htb\web_svc:@3ONE
 SMB         10.10.11.129    445    RESEARCH         [-] search.htb\Tristan.Davies:@3ONEmillionbaby STATUS_LOGON_FAILURE
 ```
 ![[Pasted image 20220225193631.png]]
-This password was successful on user `Edgar.jacobs`,`` SMB         10.10.11.129    445    RESEARCH         [+] search.htb\Edgar.Jacobs:@3ONEmillionbaby`
+This password was successful on user `Edgar.jacobs`, as in output`SMB         10.10.11.129    445    RESEARCH         [+] search.htb\Edgar.Jacobs:@3ONEmillionbaby`
